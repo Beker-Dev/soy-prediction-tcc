@@ -44,11 +44,11 @@ def set_attr_from_dataframe(df: Any, obj: dict, key: str, ):
                 key: row_value
             }
         else:
-            for ano, dados in city_data.items():
-                if ano in obj[city]:
-                    obj[city][ano].update(dados)
+            for year, c_data in city_data.items():
+                if year in obj[city]:
+                    obj[city][year].update(c_data)
                 else:
-                    obj[city][ano] = dados
+                    obj[city][year] = c_data
 
 
 set_area()
