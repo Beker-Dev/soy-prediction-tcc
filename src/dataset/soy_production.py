@@ -6,6 +6,13 @@ import json
 
 
 class SoyProductionDataset:
+    # The dataset current structure is grouped as:
+    # ----- City Name
+    # ---------- Year
+    # --------------- Area
+    # --------------- Production
+    # e.g: df[city][year] = {area: x, production: y}
+
     def __init__(self, xlsx_file: str = 'assets/tabela1612_mod.xlsx', range_years: range = range(2008, 2022 + 1)):
         self.xlsx_file = xlsx_file
         self.range_years = range_years
