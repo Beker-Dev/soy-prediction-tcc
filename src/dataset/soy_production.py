@@ -86,7 +86,7 @@ class SoyProductionDataset:
         self.dataframe = pd.DataFrame(data=self.data)
         self.dataframe = self.dataframe.map(self._treat_empty_values)
 
-    def get_dataset(self) -> pd.DataFrame:
+    def get_dataframe(self) -> pd.DataFrame:
         self._set_area()
         self._set_production()
         self._handle_dataset_values()
