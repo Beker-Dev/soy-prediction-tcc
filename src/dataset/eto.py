@@ -19,7 +19,3 @@ class ETo:
             radiation_s=9
         )
         print("ETo for this day is", day.eto())
-
-
-eto = ETo(pd.DataFrame())
-eto.include_eto_to_df()
