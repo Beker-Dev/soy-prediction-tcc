@@ -45,3 +45,7 @@ class NasaPower:
 
         with open(save_file, "w") as file:
             json.dump(results, file, indent=4)
+
+    @staticmethod
+    def clean_data(read_file: str = "assets/agromet_data_2008_2024.json"):
+        ...
