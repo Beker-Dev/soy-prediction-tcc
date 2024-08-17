@@ -74,15 +74,33 @@ class NasaPower:
                         daily_values[date].append(value)
 
                     processed_daily_values = {}
+                    if param_name == Parameters.T2M.name:
+                        processed_max_values = {}
+                        processed_min_values = {}
+
                     for date, values in daily_values.items():
                         avg_value = round(sum(values) / len(values), 2)
+
                         formatted_date = f"{date[:4]}-{date[4:6]}-{date[6:]}"  # "YYYY-MM-DD"
                         processed_daily_values[formatted_date] = avg_value
 
+                        if param_name == Parameters.T2M.name:
+                            max_value = round(max(values), 2)
+                            min_value = round(min(values), 2)
+                            processed_max_values[formatted_date] = max_value
+                            processed_min_values[formatted_date] = min_value
+
                     processed_data[city][year]["properties"]["parameter"][param_name] = processed_daily_values
+                    if param_name == Parameters.T2M.name:
+                        processed_data[city][year]["properties"]["parameter"][Parameters.T2M_MAX.name] = (
+                            processed_max_values
+                        )
+                        processed_data[city][year]["properties"]["parameter"][Parameters.T2M_MIN.name] = (
+                            processed_min_values
+                        )
 
         with open("assets/agromet_data_2008_2024_processed.json", 'w') as file:
-            json.dump(processed_data, file, indent=4)
+            json.dump(processed_data, file, indent=4, ensure_ascii=False)
 
     @staticmethod
     def get_dataframe(path: str = "assets/agromet_data_2008_2024_processed.json") -> pd.DataFrame:
