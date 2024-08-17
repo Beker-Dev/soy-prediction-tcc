@@ -27,7 +27,7 @@ from src.dataset.nasa_power import NasaPower
 # NasaPower.save_agrometeorological_data()
 
 # [3] - It handles nasa power dataset, by replacing hourly data to daily data with its average
-NasaPower.clean_data()
+# NasaPower.clean_data()
 
 # [4] - It joins SoyProduction and NasaPower datasets
 # todo: implements a new class and a new method to join soy_production and nasa_power dataset
