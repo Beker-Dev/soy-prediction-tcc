@@ -1,4 +1,4 @@
-from src.evapotranspiration.parameters import ParametersRequest
+from src.evapotranspiration.parameters import ParametersRequest, Parameters
 
 import json
 import time
@@ -83,3 +83,10 @@ class NasaPower:
 
         with open("assets/agromet_data_2008_2024_processed.json", 'w') as file:
             json.dump(processed_data, file, indent=4)
+
+    @staticmethod
+    def get_dataframe(path: str = "assets/agromet_data_2008_2024_processed.json") -> pd.DataFrame:
+        with open(path, 'r') as file:
+            data = json.load(file)
+
+        return pd.DataFrame(data)

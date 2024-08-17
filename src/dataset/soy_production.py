@@ -5,7 +5,7 @@ import numpy as np
 import json
 
 
-class SoyProductionDataset:
+class SoyProduction:
     def __init__(self, xlsx_file: str = 'assets/tabela1612_mod.xlsx', range_years: range = range(2008, 2022 + 1)):
         self.xlsx_file = xlsx_file
         self.range_years = range_years
@@ -79,9 +79,17 @@ class SoyProductionDataset:
         self.dataframe = pd.DataFrame(data=self.data)
         self.dataframe = self.dataframe.map(self._treat_empty_values)
 
-    def get_dataframe(self) -> pd.DataFrame:
+    def set_dataframe(self, path: str = "assets/soy_production.json") -> pd.DataFrame:
         self._set_area()
         self._set_production()
         self._handle_dataset_values()
+        self.dataframe.to_json(path, indent=4, force_ascii=False)
+
         return self.dataframe
 
+    @staticmethod
+    def get_dataframe(path: str = "assets/soy_production.json") -> pd.DataFrame:
+        with open(path, 'r', encoding='utf-8') as file:
+            data = json.load(file)
+
+        return pd.DataFrame(data)

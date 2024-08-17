@@ -1,7 +1,7 @@
-from src.dataset.soy_production import SoyProductionDataset
+from src.dataset.soy_production import SoyProduction
 from src.dataset.eto import ETo
 from src.dataset.nasa_power import NasaPower
-
+from src.dataset.union import DatasetUnion
 
 # -----------------------------------------------------------------------
 # How to use it?
@@ -19,23 +19,23 @@ from src.dataset.nasa_power import NasaPower
 #
 # -----------------------------------------------------------------------
 
-# [1] - It gets soy production dataframe
-# soy_production_dataset = SoyProductionDataset()
-# df = soy_production_dataset.get_dataframe()
+# [1] - It saves soy production data to a .json file
+# soy_production = SoyProduction()
+# soy_production.set_dataframe()
 
 # [2] - It saves nasa power data to a .json file
 # NasaPower.save_agrometeorological_data()
 
-# [3] - It handles nasa power dataset, by replacing hourly data to daily data with its average
+# [3] - It handles nasa power dataset, by replacing hourly data to daily data with its average and adding max, min temp
 # NasaPower.clean_data()
 
-# [4] - It joins SoyProduction and NasaPower datasets
-# todo: implements a new class and a new method to join soy_production and nasa_power dataset
-
-# [5] - It gets evapotranspiration (ETo) and set them to dataframe
+# [4] - It gets evapotranspiration (ETo) and set them to dataframe
 # todo: finish implementing this method
 # eto = ETo(df)
 # df = eto.include_eto_to_df()
 
+# [5] - It joins SoyProduction and NasaPower datasets
+# DatasetUnion.unite_datasets()
+
 # [6] - It saves the complete dataset to a .json file
-# todo: use the same class of index 4 to save the complete dataset in a new file to use it at ML Models
+# todo: use the same class of index 5 to save the complete dataset in a new file to use it at ML Models
