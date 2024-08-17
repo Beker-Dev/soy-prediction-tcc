@@ -7,15 +7,19 @@ class ETo:
     def __init__(self, df: pd.DataFrame):
         self.df = df
 
-    def include_eto_to_df(self, ):
+    def include_eto_to_df(self):
         station = pm.Station(latitude=41.42, altitude=109)
 
-        day = station.day_entry(238,
-                                temp_min=19.5,
-                                temp_max=25.6,
-                                wind_speed=2.5,
-                                humidity_mean=65,
-                                radiation_s=25.6
-                                )
+        day = station.day_entry(
+            day_number=station.day_entry("2020-05-01").day_number,
+            temp_min=19.5,
+            temp_max=45.6,
+            wind_speed=20.5,
+            humidity_mean=15,
+            radiation_s=9
+        )
         print("ETo for this day is", day.eto())
 
+
+eto = ETo(pd.DataFrame())
+eto.include_eto_to_df()
