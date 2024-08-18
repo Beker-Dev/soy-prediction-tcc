@@ -1,6 +1,8 @@
 from src.dataset.soy_production import SoyProduction
 from src.dataset.nasa_power import NasaPower
+from src.dataset.cities_lat_long import excel_to_json
 from src.dataset.union import DatasetUnion
+
 
 # -----------------------------------------------------------------------
 # How to use it?
@@ -18,6 +20,9 @@ from src.dataset.union import DatasetUnion
 #
 # -----------------------------------------------------------------------
 
+# Chama a função para converter o arquivo Excel em JSON
+# excel_to_json()
+
 # [1] - It saves soy production data to a .json file
 # soy_production = SoyProduction()
 # soy_production.set_dataframe()
@@ -33,6 +38,3 @@ from src.dataset.union import DatasetUnion
 
 # [5] - It joins SoyProduction and NasaPower datasets
 # DatasetUnion.unite_datasets()
-
-# [6] - It saves the complete dataset to a .json file
-# todo: use the same class of index 5 to save the complete dataset in a new file to use it at ML Models

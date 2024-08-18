@@ -619,6 +619,68 @@
             "production":121937
         }
     },
+    "Diamante D´Oeste":{
+        "2008":{
+            "area":"4400",
+            "production":14181
+        },
+        "2009":{
+            "area":4400,
+            "production":7634
+        },
+        "2010":{
+            "area":4990,
+            "production":14838
+        },
+        "2011":{
+            "area":4000,
+            "production":12000
+        },
+        "2012":{
+            "area":3640,
+            "production":6552
+        },
+        "2013":{
+            "area":4500,
+            "production":15570
+        },
+        "2014":{
+            "area":5475,
+            "production":18856
+        },
+        "2015":{
+            "area":5625,
+            "production":19425
+        },
+        "2016":{
+            "area":5753,
+            "production":19215
+        },
+        "2017":{
+            "area":6100,
+            "production":18666
+        },
+        "2018":{
+            "area":6200,
+            "production":20460
+        },
+        "2019":{
+            "area":3940,
+            "production":13676
+        },
+        "2020":{
+            "area":3915,
+            "production":14559
+        },
+        "2021":{
+            "area":3950,
+            "production":12250
+        },
+        "2022":{
+            "area":4415,
+            "production":4503
+        }
+    },
     "Entre Rios do Oeste":{
         "2008":{
             "area":"4830",
