@@ -23,9 +23,6 @@ class DatasetUnion:
 
                     if year in nasa_power_df[municipality]:
                         nasa_power_df[municipality][year]["properties"]["soy_production"] = production_data
-                        print(f"{municipality}: union ok")
-            else:
-                print(f"{municipality}: not found")
 
         with open(output_file, "w") as outfile:
             json.dump(nasa_power_df, outfile, indent=4)
@@ -36,6 +33,3 @@ class DatasetUnion:
             data = json.load(file)
 
         return pd.DataFrame(data)
-
-
-DatasetUnion.unite_datasets()

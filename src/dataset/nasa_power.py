@@ -25,11 +25,11 @@ class NasaPower:
         return response.json()
 
     @staticmethod
-    def _remove_data_by_year(data: dict, year_to_remove: int) -> None:
+    def _remove_data_by_year(data: dict, years_to_remove: list[int]) -> None:
         processed_data = deepcopy(data)
         for city, years in processed_data.items():
             for year in years:
-                if int(year) == year_to_remove:
+                if int(year) in years_to_remove:
                     del data[city][year]
 
 
@@ -115,7 +115,7 @@ class NasaPower:
                         )
 
         # It removes 2024 data from dataset to avoid keep inaccurate data
-        NasaPower._remove_data_by_year(processed_data, 2024)
+        NasaPower._remove_data_by_year(processed_data, [2023, 2024])
 
         with open(save_file, 'w') as file:
             json.dump(processed_data, file, indent=4, ensure_ascii=False)
