@@ -1,3 +1,5 @@
+from src.dataset.nasa_power import NasaPower
+
 from typing import Any
 
 import pandas as pd
@@ -27,6 +29,8 @@ class SoyProduction:
         self._set_attr_from_dataframe(production_df, self.data, 'production')
 
     def _set_attr_from_dataframe(self, df: Any, obj: dict, key: str) -> None:
+        available_towns = NasaPower.get_dataframe().columns
+
         for index, row in df.iterrows():
             city = row['Município']
             city_data = {}
@@ -36,6 +40,9 @@ class SoyProduction:
                 continue
 
             city = city.replace(' (PR)', '')
+
+            if city not in available_towns:
+                continue
 
             if not obj.get(city):
                 obj[city] = {}
