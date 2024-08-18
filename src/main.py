@@ -13,7 +13,7 @@ from src.dataset.union import DatasetUnion
 # ---------- Year
 # --------------- Area
 # --------------- Production
-# --------------- Evapotranspiration [todo: add this field to dataframe]
+# --------------- Evapotranspiration
 # e.g: df[city][year] = {area: x, production: y, evapotranspiration: z}
 #
 # -----------------------------------------------------------------------

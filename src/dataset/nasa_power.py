@@ -4,6 +4,7 @@ from src.evapotranspiration.eto import ETo
 import json
 import time
 from collections import defaultdict
+from copy import deepcopy
 
 import pandas as pd
 import requests
@@ -22,6 +23,15 @@ class NasaPower:
         )
         response = requests.get(url)
         return response.json()
+
+    @staticmethod
+    def _remove_data_by_year(data: dict, year_to_remove: int) -> None:
+        processed_data = deepcopy(data)
+        for city, years in processed_data.items():
+            for year in years:
+                if int(year) == year_to_remove:
+                    del data[city][year]
+
 
     @staticmethod
     def save_agrometeorological_data(
@@ -104,6 +114,9 @@ class NasaPower:
                             processed_min_values
                         )
 
+        # It removes 2024 data from dataset to avoid keep inaccurate data
+        NasaPower._remove_data_by_year(processed_data, 2024)
+
         with open(save_file, 'w') as file:
             json.dump(processed_data, file, indent=4, ensure_ascii=False)
 
@@ -129,7 +142,7 @@ class NasaPower:
                     len(parameters[Parameters.WS2M.name])
                 ):
                     # check if all parameters have the same length to use one of them to get same date
-                    for date, value in parameters[Parameters.T2M.name].items():
+                    for date, _ in parameters[Parameters.T2M.name].items():
                         processed_data[date] = ETo.calculate_eto(
                             latitude=data[city][year]["geometry"]["coordinates"][0],
                             altitude=int(data[city][year]["geometry"]["coordinates"][2]),
