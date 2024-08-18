@@ -1,4 +1,5 @@
 from src.evapotranspiration.parameters import ParametersRequest, Parameters
+from src.evapotranspiration.eto import ETo
 
 import json
 import time
@@ -6,6 +7,7 @@ from collections import defaultdict
 
 import pandas as pd
 import requests
+
 
 class NasaPower:
     def __init__(self):
@@ -48,7 +50,10 @@ class NasaPower:
             json.dump(results, file, indent=4)
 
     @staticmethod
-    def clean_data(read_file: str = "assets/agromet_data_2008_2024.json"):
+    def clean_data(
+            read_file: str = "assets/agromet_data_2008_2024.json",
+            save_file: str = "assets/agromet_data_2008_2024_processed.json"
+    ):
         with open(read_file, 'r') as file:
             data = json.load(file)
 
@@ -99,8 +104,47 @@ class NasaPower:
                             processed_min_values
                         )
 
-        with open("assets/agromet_data_2008_2024_processed.json", 'w') as file:
+        with open(save_file, 'w') as file:
             json.dump(processed_data, file, indent=4, ensure_ascii=False)
+
+    @staticmethod
+    def set_eto(
+            read_file: str = "assets/agromet_data_2008_2024_processed.json",
+            save_file: str = "assets/agromet_data_2008_2024_processed_eto.json"
+    ):
+        with open(read_file, 'r') as file:
+            data = json.load(file)
+
+        processed_data = {}
+
+        for city, years in data.items():
+            for year, details in years.items():
+                parameters = details.get("properties", {}).get("parameter", {})
+                if (
+                    len(parameters[Parameters.T2M.name]) ==
+                    len(parameters[Parameters.T2M_MAX.name]) ==
+                    len(parameters[Parameters.T2M_MIN.name]) ==
+                    len(parameters[Parameters.ALLSKY_SFC_SW_DWN.name]) ==
+                    len(parameters[Parameters.RH2M.name]) ==
+                    len(parameters[Parameters.WS2M.name])
+                ):
+                    # check if all parameters have the same length to use one of them to get same date
+                    for date, value in parameters[Parameters.T2M.name].items():
+                        processed_data[date] = ETo.calculate_eto(
+                            latitude=data[city][year]["geometry"]["coordinates"][0],
+                            altitude=int(data[city][year]["geometry"]["coordinates"][2]),
+                            date=date,
+                            temp_min=data[city][year]["properties"]["parameter"][Parameters.T2M_MIN.name][date],
+                            temp_max=data[city][year]["properties"]["parameter"][Parameters.T2M_MAX.name][date],
+                            temp_avg=data[city][year]["properties"]["parameter"][Parameters.T2M.name][date],
+                            wind_speed=data[city][year]["properties"]["parameter"][Parameters.WS2M.name][date],
+                            humidity=data[city][year]["properties"]["parameter"][Parameters.RH2M.name][date],
+                            radiation=data[city][year]["properties"]["parameter"][Parameters.ALLSKY_SFC_SW_DWN.name][date]
+                        )
+                    data[city][year]["properties"]["parameter"][Parameters.ETO.name] = processed_data
+
+        with open(save_file, 'w') as file:
+            json.dump(data, file, indent=4, ensure_ascii=False)
 
     @staticmethod
     def get_dataframe(path: str = "assets/agromet_data_2008_2024_processed.json") -> pd.DataFrame:
