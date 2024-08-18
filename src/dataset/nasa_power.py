@@ -151,7 +151,7 @@ class NasaPower:
                             temp_max=data[city][year]["properties"]["parameter"][Parameters.T2M_MAX.name][date],
                             temp_avg=data[city][year]["properties"]["parameter"][Parameters.T2M.name][date],
                             wind_speed=data[city][year]["properties"]["parameter"][Parameters.WS2M.name][date],
-                            humidity=data[city][year]["properties"]["parameter"][Parameters.RH2M.name][date],
+                            humidity=1,#data[city][year]["properties"]["parameter"][Parameters.RH2M.name][date],
                             radiation=data[city][year]["properties"]["parameter"][Parameters.ALLSKY_SFC_SW_DWN.name][date]
                         )
                     data[city][year]["properties"]["parameter"][Parameters.ETO.name] = processed_data
@@ -160,7 +160,7 @@ class NasaPower:
             json.dump(data, file, indent=4, ensure_ascii=False)
 
     @staticmethod
-    def get_dataframe(path: str = "assets/agromet_data_2008_2024_processed.json") -> pd.DataFrame:
+    def get_dataframe(path: str = "assets/agromet_data_2008_2024_processed_eto.json") -> pd.DataFrame:
         with open(path, 'r') as file:
             data = json.load(file)
 
