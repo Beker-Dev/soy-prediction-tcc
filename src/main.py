@@ -29,7 +29,7 @@ from src.dataset.union import DatasetUnion
 # NasaPower.clean_data()
 
 # [4] - It saves evapotranspiration data to NasaPower .json file
-NasaPower.set_eto()
+# NasaPower.set_eto()
 
 # [5] - It joins SoyProduction and NasaPower datasets
 # DatasetUnion.unite_datasets()

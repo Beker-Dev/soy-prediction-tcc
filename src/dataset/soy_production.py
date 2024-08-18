@@ -35,6 +35,8 @@ class SoyProduction:
                 # this avoids to add a 'NaN' city
                 continue
 
+            city = city.replace(' (PR)', '')
+
             if not obj.get(city):
                 obj[city] = {}
 
