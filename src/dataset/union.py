@@ -1,7 +1,9 @@
-import json
 from src.dataset.nasa_power import NasaPower
 from src.dataset.soy_production import SoyProduction
-from pprint import pprint
+
+import json
+
+import pandas as pd
 
 
 class DatasetUnion:
@@ -27,6 +29,13 @@ class DatasetUnion:
 
         with open(output_file, "w") as outfile:
             json.dump(nasa_power_df, outfile, indent=4)
+
+    @staticmethod
+    def get_dataframe(path: str = "assets/union_dataset.json") -> pd.DataFrame:
+        with open(path, 'r', encoding='utf-8') as file:
+            data = json.load(file)
+
+        return pd.DataFrame(data)
 
 
 DatasetUnion.unite_datasets()
