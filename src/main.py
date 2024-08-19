@@ -11,12 +11,11 @@ from src.models.linear_regression import LinearRegressionModel
 # -> Also all the run lines have an index, pointing their run order
 #
 # The complete dataset structure is organized as:
-# ----- City Name
-# ---------- Year
-# --------------- Area
-# --------------- Production
-# --------------- Evapotranspiration
-# e.g: df[city][year] = {area: x, production: y, evapotranspiration: z}
+# {
+#     "parameters": dict,
+#     "area": int,
+#     "production": int,
+# }
 #
 # -----------------------------------------------------------------------
 
@@ -33,7 +32,10 @@ from src.models.linear_regression import LinearRegressionModel
 # soy_production = SoyProduction()
 # soy_production.set_dataframe()
 
-# [5] - It joins SoyProduction and NasaPower datasets
+# [5] - It joins SoyProduction and NasaPower datasets and save its data to a .json file
 # DatasetUnion.unite_datasets()
 
-LinearRegressionModel.test()
+# [6] - It prepares united dataset to train models and save it to a .json file
+# DatasetUnion.prepare_dataset_to_models()
+
+# LinearRegressionModel.test()
