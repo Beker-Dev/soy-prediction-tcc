@@ -67,7 +67,7 @@ class DatasetUnion:
 
     @staticmethod
     def get_complete_dataframe(path: str = "assets/complete_dataset.json") -> pd.DataFrame:
-        with open(path, 'r', encoding='utf-8') as file:
+        with open(path, 'r') as file:
             data = json.load(file)
 
         return pd.DataFrame(data)
