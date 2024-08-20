@@ -36,7 +36,6 @@ class DatasetUnion:
         for city, years in data.items():
             processed_data[city] = {}
             for year, details in years.items():
-                year_values = []
                 processed_data[city]["coordinates"] = details["geometry"]["coordinates"]
                 city_year_data = {
                     "parameters": {},
@@ -48,6 +47,7 @@ class DatasetUnion:
                 soy_production = properties["soy_production"]
 
                 for param_name, parameter in parameters.items():
+                    year_values = []
                     for _, value in parameter.items():
                         year_values.append(value)
 

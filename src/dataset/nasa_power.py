@@ -128,10 +128,9 @@ class NasaPower:
         with open(read_file, 'r') as file:
             data = json.load(file)
 
-        processed_data = {}
-
         for city, years in data.items():
             for year, details in years.items():
+                processed_data = {}
                 parameters = details.get("properties", {}).get("parameter", {})
                 if (
                     len(parameters[Parameters.T2M.name]) ==
