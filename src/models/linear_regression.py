@@ -23,7 +23,7 @@ class LinearRegressionModel:
         prediction = self.model.predict(new_data)
         return round(prediction[0], 2)
 
-    def train_model(self) -> tuple[float, float]:
+    def train_model(self, seed: int = 49) -> tuple[float, float]:
         data = DatasetUnion.get_complete_dataframe().to_dict()
 
         rows = []
@@ -42,7 +42,7 @@ class LinearRegressionModel:
         X = self.df[["ETO", "area"]]
         y = self.df["production"]
 
-        X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+        X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=seed)
 
         self.model.fit(X_train, y_train)
 
