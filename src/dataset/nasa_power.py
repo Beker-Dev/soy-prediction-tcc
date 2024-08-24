@@ -64,7 +64,7 @@ class NasaPower:
             read_file: str = "assets/agromet_data_2008_2024.json",
             save_file: str = "assets/agromet_data_2008_2024_processed.json"
     ):
-        with open(read_file, 'r') as file:
+        with open(read_file, 'r', encoding='utf-8') as file:
             data = json.load(file)
 
         processed_data = {}
@@ -117,7 +117,7 @@ class NasaPower:
         # It removes 2024 data from dataset to avoid keep inaccurate data
         NasaPower._remove_data_by_year(processed_data, [2023, 2024])
 
-        with open(save_file, 'w') as file:
+        with open(save_file, 'w', encoding='utf-8') as file:
             json.dump(processed_data, file, indent=4, ensure_ascii=False)
 
     @staticmethod
@@ -125,7 +125,7 @@ class NasaPower:
             read_file: str = "assets/agromet_data_2008_2024_processed.json",
             save_file: str = "assets/agromet_data_2008_2024_processed_eto.json"
     ):
-        with open(read_file, 'r') as file:
+        with open(read_file, 'r', encoding='utf-8') as file:
             data = json.load(file)
 
         for city, years in data.items():
@@ -155,12 +155,12 @@ class NasaPower:
                         )
                     data[city][year]["properties"]["parameter"][Parameters.ETO.name] = processed_data
 
-        with open(save_file, 'w') as file:
+        with open(save_file, 'w', encoding='utf-8') as file:
             json.dump(data, file, indent=4, ensure_ascii=False)
 
     @staticmethod
     def get_dataframe(path: str = "assets/agromet_data_2008_2024_processed_eto.json") -> pd.DataFrame:
-        with open(path, 'r') as file:
+        with open(path, 'r', encoding='utf-8') as file:
             data = json.load(file)
 
         return pd.DataFrame(data)

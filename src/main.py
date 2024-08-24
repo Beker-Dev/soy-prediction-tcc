@@ -29,8 +29,8 @@ from src.models.linear_regression import LinearRegressionModel
 # NasaPower.set_eto()
 
 # [4] - It saves soy production data to a .json file
-soy_production = SoyProduction()
-soy_production.set_dataframe()
+# soy_production = SoyProduction()
+# soy_production.set_dataframe()
 
 # [5] - It joins SoyProduction and NasaPower datasets and save its data to a .json file
 # DatasetUnion.unite_datasets()
