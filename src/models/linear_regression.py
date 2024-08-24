@@ -19,29 +19,44 @@ class LinearRegressionModel:
     def get_correlation(self):
         return self.df.corr()
 
-    def predict(self, eto: float, area: int) -> float:
-        new_data = pd.DataFrame({"ETO": [eto], "area": [area]})
+    def predict(self, eto: float, planted_area: int) -> float:
+        new_data = pd.DataFrame({
+            Parameters.ETO.name: [eto],
+            SoyProductionEnum.PLANTED_AREA.value: [planted_area]
+        })
         prediction = self.model.predict(new_data)
         return round(prediction[0], 2)
 
     def train_model(self, seed: int = 49) -> tuple[float, float]:
         data = DatasetUnion.get_complete_dataframe().to_dict()
+        parameters_key = "parameters"
 
         rows = []
         for city, city_data in data.items():
             for year, year_data in city_data.items():
                 if year.isdigit():  # avoid year being "coordinates"
                     row = {
-                        "ETO": year_data["parameters"]["ETO"],
-                        "area": year_data["area"],
-                        "production": year_data["production"]
+                        Parameters.ETO.name: year_data[parameters_key][Parameters.ETO.name],
+                        Parameters.T2M.name: year_data[parameters_key][Parameters.T2M.name],
+                        Parameters.T2M_MIN.name: year_data[parameters_key][Parameters.T2M_MIN.name],
+                        Parameters.T2M_MAX.name: year_data[parameters_key][Parameters.T2M_MAX.name],
+                        Parameters.WS2M.name: year_data[parameters_key][Parameters.WS2M.name],
+                        Parameters.RH2M.name: year_data[parameters_key][Parameters.RH2M.name],
+                        Parameters.ALLSKY_SFC_SW_DWN.name: year_data[parameters_key][Parameters.ALLSKY_SFC_SW_DWN.name],
+                        SoyProductionEnum.HARVESTED_AREA.value: year_data[SoyProductionEnum.HARVESTED_AREA.value],
+                        SoyProductionEnum.PLANTED_AREA.value: year_data[SoyProductionEnum.PLANTED_AREA.value],
+                        SoyProductionEnum.PRODUCTION.value: year_data[SoyProductionEnum.PRODUCTION.value],
+                        SoyProductionEnum.PRODUCTIVITY.value: year_data[SoyProductionEnum.PRODUCTIVITY.value]
                     }
                     rows.append(row)
 
         self.df = pd.DataFrame(rows)
 
-        X = self.df[["ETO", "area"]]
-        y = self.df["production"]
+        X = self.df[[
+            Parameters.ETO.name,
+            SoyProductionEnum.PLANTED_AREA.value,
+        ]]
+        y = self.df[SoyProductionEnum.PRODUCTIVITY.value]
 
         X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=seed)
 
