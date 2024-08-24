@@ -1,3 +1,5 @@
+from datetime import datetime
+
 from src.dataset.enums.parameters import ParametersRequest, Parameters
 from src.evapotranspiration.eto import ETo
 
