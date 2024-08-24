@@ -1,3 +1,5 @@
+from datetime import datetime
+
 from src.evapotranspiration.parameters import ParametersRequest, Parameters
 from src.evapotranspiration.eto import ETo
 
@@ -31,7 +33,6 @@ class NasaPower:
             for year in years:
                 if int(year) in years_to_remove:
                     del data[city][year]
-
 
     @staticmethod
     def save_agrometeorological_data(
@@ -84,9 +85,11 @@ class NasaPower:
 
                 for param_name, parameter in parameters.items():
                     daily_values = defaultdict(list)
-                    for datetime, value in parameter.items():
-                        date = datetime[:8]  # "YYYYMMDD"
-                        daily_values[date].append(value)
+                    for datetime_str, value in parameter.items():
+                        date = datetime.strptime(datetime_str[:8], "%Y%m%d")
+
+                        if date.month in {1, 9, 10, 11, 12}:
+                            daily_values[date.strftime("%Y-%m-%d")].append(value)
 
                     processed_daily_values = {}
                     if param_name == Parameters.T2M.name:
@@ -95,15 +98,13 @@ class NasaPower:
 
                     for date, values in daily_values.items():
                         avg_value = round(sum(values) / len(values), 2)
-
-                        formatted_date = f"{date[:4]}-{date[4:6]}-{date[6:]}"  # "YYYY-MM-DD"
-                        processed_daily_values[formatted_date] = avg_value
+                        processed_daily_values[date] = avg_value
 
                         if param_name == Parameters.T2M.name:
                             max_value = round(max(values), 2)
                             min_value = round(min(values), 2)
-                            processed_max_values[formatted_date] = max_value
-                            processed_min_values[formatted_date] = min_value
+                            processed_max_values[date] = max_value
+                            processed_min_values[date] = min_value
 
                     processed_data[city][year]["properties"]["parameter"][param_name] = processed_daily_values
                     if param_name == Parameters.T2M.name:
@@ -114,53 +115,7 @@ class NasaPower:
                             processed_min_values
                         )
 
-        # It removes 2024 data from dataset to avoid keep inaccurate data
         NasaPower._remove_data_by_year(processed_data, [2023, 2024])
 
         with open(save_file, 'w') as file:
             json.dump(processed_data, file, indent=4, ensure_ascii=False)
-
-    @staticmethod
-    def set_eto(
-            read_file: str = "assets/agromet_data_2008_2024_processed.json",
-            save_file: str = "assets/agromet_data_2008_2024_processed_eto.json"
-    ):
-        with open(read_file, 'r') as file:
-            data = json.load(file)
-
-        for city, years in data.items():
-            for year, details in years.items():
-                processed_data = {}
-                parameters = details.get("properties", {}).get("parameter", {})
-                if (
-                    len(parameters[Parameters.T2M.name]) ==
-                    len(parameters[Parameters.T2M_MAX.name]) ==
-                    len(parameters[Parameters.T2M_MIN.name]) ==
-                    len(parameters[Parameters.ALLSKY_SFC_SW_DWN.name]) ==
-                    len(parameters[Parameters.RH2M.name]) ==
-                    len(parameters[Parameters.WS2M.name])
-                ):
-                    # check if all parameters have the same length to use one of them to get same date
-                    for date, _ in parameters[Parameters.T2M.name].items():
-                        processed_data[date] = ETo.calculate_eto(
-                            latitude=data[city][year]["geometry"]["coordinates"][0],
-                            altitude=int(data[city][year]["geometry"]["coordinates"][2]),
-                            date=date,
-                            temp_min=data[city][year]["properties"]["parameter"][Parameters.T2M_MIN.name][date],
-                            temp_max=data[city][year]["properties"]["parameter"][Parameters.T2M_MAX.name][date],
-                            temp_avg=data[city][year]["properties"]["parameter"][Parameters.T2M.name][date],
-                            wind_speed=data[city][year]["properties"]["parameter"][Parameters.WS2M.name][date],
-                            humidity=1,#data[city][year]["properties"]["parameter"][Parameters.RH2M.name][date],
-                            radiation=data[city][year]["properties"]["parameter"][Parameters.ALLSKY_SFC_SW_DWN.name][date]
-                        )
-                    data[city][year]["properties"]["parameter"][Parameters.ETO.name] = processed_data
-
-        with open(save_file, 'w') as file:
-            json.dump(data, file, indent=4, ensure_ascii=False)
-
-    @staticmethod
-    def get_dataframe(path: str = "assets/agromet_data_2008_2024_processed_eto.json") -> pd.DataFrame:
-        with open(path, 'r') as file:
-            data = json.load(file)
-
-        return pd.DataFrame(data)
