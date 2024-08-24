@@ -29,8 +29,8 @@ from src.models.linear_regression import LinearRegressionModel
 # NasaPower.set_eto()
 
 # [4] - It saves soy production data to a .json file
-# soy_production = SoyProduction()
-# soy_production.set_dataframe()
+soy_production = SoyProduction()
+soy_production.set_dataframe()
 
 # [5] - It joins SoyProduction and NasaPower datasets and save its data to a .json file
 # DatasetUnion.unite_datasets()
@@ -39,8 +39,8 @@ from src.models.linear_regression import LinearRegressionModel
 # DatasetUnion.prepare_dataset_to_models()
 
 # [7] - Linear Regression Model
-linear_regression_model = LinearRegressionModel()
-mse, r2 = linear_regression_model.train_model()
-model_correlation = linear_regression_model.get_correlation()
-predicted_production = linear_regression_model.predict(8.6, 6200)
-print(f'mse={mse} / r2={r2} / production={predicted_production}', model_correlation, sep='\n')
+# linear_regression_model = LinearRegressionModel()
+# mse, r2 = linear_regression_model.train_model()
+# model_correlation = linear_regression_model.get_correlation()
+# predicted_production = linear_regression_model.predict(2.91, 5414)
+# print(f'mse={mse} / r2={r2} / production={predicted_production}', model_correlation, sep='\n')

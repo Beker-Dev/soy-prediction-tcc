@@ -1,4 +1,4 @@
-from src.evapotranspiration.parameters import ParametersRequest, Parameters
+from src.dataset.enums.parameters import ParametersRequest, Parameters
 from src.evapotranspiration.eto import ETo
 
 import json

@@ -1,5 +1,5 @@
 from src.dataset.nasa_power import NasaPower
-from src.dataset.soy_production import SoyProduction
+from src.dataset.soy_production import SoyProductionEnum
 
 import json
 
@@ -13,7 +13,7 @@ class DatasetUnion:
     @staticmethod
     def unite_datasets(output_file="assets/union_dataset.json"):
         nasa_power_df = NasaPower.get_dataframe().to_dict()
-        soy_production_df = SoyProduction.get_dataframe().to_dict()
+        soy_production_df = SoyProductionEnum.get_dataframe().to_dict()
 
         for municipality, yearly_data in soy_production_df.items():
             if municipality in nasa_power_df:

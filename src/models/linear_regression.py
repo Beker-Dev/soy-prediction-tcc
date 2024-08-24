@@ -1,7 +1,7 @@
 import random
 
 from src.dataset.union import DatasetUnion
-from src.evapotranspiration.parameters import Parameters
+from src.dataset.enums.parameters import Parameters
 
 import numpy as np
 import pandas as pd
