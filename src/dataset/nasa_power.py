@@ -58,7 +58,7 @@ class NasaPower:
                 # Wait 1 second to avoid server overload
                 time.sleep(1)
 
-        with open(save_file, "w") as file:
+        with open(save_file, "w", encoding='utf-8') as file:
             json.dump(results, file, indent=4)
 
     @staticmethod
@@ -127,7 +127,7 @@ class NasaPower:
             read_file: str = "assets/agromet_data_2008_2024_processed.json",
             save_file: str = "assets/agromet_data_2008_2024_processed_eto.json"
     ):
-        with open(read_file, 'r') as file:
+        with open(read_file, 'r', encoding='utf-8') as file:
             data = json.load(file)
 
         for city, years in data.items():
@@ -157,12 +157,12 @@ class NasaPower:
                         )
                     data[city][year]["properties"]["parameter"][Parameters.ETO.name] = processed_data
 
-        with open(save_file, 'w') as file:
+        with open(save_file, 'w', encoding='utf-8') as file:
             json.dump(data, file, indent=4, ensure_ascii=False)
 
     @staticmethod
     def get_dataframe(path: str = "assets/agromet_data_2008_2024_processed_eto.json") -> pd.DataFrame:
-        with open(path, 'r') as file:
+        with open(path, 'r', encoding='utf-8') as file:
             data = json.load(file)
 
         return pd.DataFrame(data)
