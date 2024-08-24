@@ -1,7 +1,8 @@
 import random
 
 from src.dataset.union import DatasetUnion
-from src.evapotranspiration.parameters import Parameters
+from src.dataset.enums.parameters import Parameters
+from src.dataset.enums.soy_production import SoyProductionEnum
 
 import numpy as np
 import pandas as pd

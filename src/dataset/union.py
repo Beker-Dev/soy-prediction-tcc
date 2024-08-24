@@ -1,6 +1,6 @@
 from src.dataset.nasa_power import NasaPower
 from src.dataset.soy_production import SoyProduction
-
+from src.dataset.enums.soy_production import SoyProductionEnum
 import json
 
 import pandas as pd
@@ -24,7 +24,7 @@ class DatasetUnion:
                     if year in nasa_power_df[municipality]:
                         nasa_power_df[municipality][year]["properties"]["soy_production"] = production_data
 
-        with open(output_file, "w") as outfile:
+        with open(output_file, "w", encoding='utf-8') as outfile:
             json.dump(nasa_power_df, outfile, indent=4)
 
     @staticmethod
@@ -39,8 +39,10 @@ class DatasetUnion:
                 processed_data[city]["coordinates"] = details["geometry"]["coordinates"]
                 city_year_data = {
                     "parameters": {},
-                    "area": None,
-                    "production": None,
+                    SoyProductionEnum.PLANTED_AREA.value: None,
+                    SoyProductionEnum.HARVESTED_AREA.value: None,
+                    SoyProductionEnum.PRODUCTION.value: None,
+                    SoyProductionEnum.PRODUCTIVITY.value: None,
                 }
                 properties = details["properties"]
                 parameters = properties["parameter"]
@@ -60,14 +62,14 @@ class DatasetUnion:
 
                 processed_data[city][year] = city_year_data
 
-        with open(save_file, 'w') as file:
+        with open(save_file, 'w', encoding='utf-8') as file:
             json.dump(processed_data, file, indent=4, ensure_ascii=False)
 
         return pd.DataFrame(processed_data)
 
     @staticmethod
     def get_complete_dataframe(path: str = "assets/complete_dataset.json") -> pd.DataFrame:
-        with open(path, 'r') as file:
+        with open(path, 'r', encoding='utf-8') as file:
             data = json.load(file)
 
         return pd.DataFrame(data)

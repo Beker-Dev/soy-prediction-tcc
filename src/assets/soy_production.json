@@ -1,2916 +1,4326 @@
 {
     "Anahy":{
         "2008":{
-            "area":"5200",
-            "production":16380
+            "planted_area":5200,
+            "harvested_area":5200,
+            "production":16380,
+            "productivity":3150
         },
         "2009":{
-            "area":5295,
-            "production":16407
+            "planted_area":5295,
+            "harvested_area":5295,
+            "production":16407,
+            "productivity":3098
         },
         "2010":{
-            "area":5500,
-            "production":17620
+            "planted_area":5500,
+            "harvested_area":5500,
+            "production":17620,
+            "productivity":3203
         },
         "2011":{
-            "area":5000,
-            "production":18595
+            "planted_area":5000,
+            "harvested_area":5000,
+            "production":18595,
+            "productivity":3719
         },
         "2012":{
-            "area":4770,
-            "production":12902
+            "planted_area":4770,
+            "harvested_area":4770,
+            "production":12902,
+            "productivity":2705
         },
         "2013":{
-            "area":4630,
-            "production":15742
+            "planted_area":4630,
+            "harvested_area":4630,
+            "production":15742,
+            "productivity":3400
         },
         "2014":{
-            "area":5050,
-            "production":18675
+            "planted_area":5050,
+            "harvested_area":5050,
+            "production":18675,
+            "productivity":3698
         },
         "2015":{
-            "area":5025,
-            "production":18640
+            "planted_area":5025,
+            "harvested_area":5025,
+            "production":18640,
+            "productivity":3709
         },
         "2016":{
-            "area":6350,
-            "production":25976
+            "planted_area":6350,
+            "harvested_area":6350,
+            "production":25976,
+            "productivity":4091
         },
         "2017":{
-            "area":5200,
-            "production":18950
+            "planted_area":5200,
+            "harvested_area":5200,
+            "production":18950,
+            "productivity":3644
         },
         "2018":{
-            "area":5088,
-            "production":18541
+            "planted_area":5088,
+            "harvested_area":5088,
+            "production":18541,
+            "productivity":3644
         },
         "2019":{
-            "area":5414,
-            "production":18792
+            "planted_area":5414,
+            "harvested_area":5414,
+            "production":18792,
+            "productivity":3471
         },
         "2020":{
-            "area":7380,
-            "production":26708
+            "planted_area":7380,
+            "harvested_area":7380,
+            "production":26708,
+            "productivity":3619
         },
         "2021":{
-            "area":5284,
-            "production":17000
+            "planted_area":5284,
+            "harvested_area":5284,
+            "production":17000,
+            "productivity":3217
         },
         "2022":{
-            "area":5284,
-            "production":10000
+            "planted_area":5284,
+            "harvested_area":5284,
+            "production":10000,
+            "productivity":1893
         }
     },
     "Assis Chateaubriand":{
         "2008":{
-            "area":"69300",
-            "production":214847
+            "planted_area":69300,
+            "harvested_area":69300,
+            "production":214847,
+            "productivity":3100
         },
         "2009":{
-            "area":68900,
-            "production":68740
+            "planted_area":68900,
+            "harvested_area":68900,
+            "production":68740,
+            "productivity":997
         },
         "2010":{
-            "area":70000,
-            "production":257000
+            "planted_area":70000,
+            "harvested_area":70000,
+            "production":257000,
+            "productivity":3671
         },
         "2011":{
-            "area":70400,
-            "production":231670
+            "planted_area":70400,
+            "harvested_area":70400,
+            "production":231670,
+            "productivity":3291
         },
         "2012":{
-            "area":69900,
-            "production":97900
+            "planted_area":69900,
+            "harvested_area":69900,
+            "production":97900,
+            "productivity":1401
         },
         "2013":{
-            "area":68200,
-            "production":238240
+            "planted_area":68200,
+            "harvested_area":68200,
+            "production":238240,
+            "productivity":3493
         },
         "2014":{
-            "area":69100,
-            "production":221314
+            "planted_area":69100,
+            "harvested_area":69100,
+            "production":221314,
+            "productivity":3203
         },
         "2015":{
-            "area":69700,
-            "production":229684
+            "planted_area":69700,
+            "harvested_area":69700,
+            "production":229684,
+            "productivity":3295
         },
         "2016":{
-            "area":69750,
-            "production":238519
+            "planted_area":69750,
+            "harvested_area":69750,
+            "production":238519,
+            "productivity":3420
         },
         "2017":{
-            "area":69700,
-            "production":276500
+            "planted_area":69700,
+            "harvested_area":69700,
+            "production":276500,
+            "productivity":3967
         },
         "2018":{
-            "area":70100,
-            "production":243948
+            "planted_area":70100,
+            "harvested_area":70100,
+            "production":243948,
+            "productivity":3480
         },
         "2019":{
-            "area":70850,
-            "production":155870
+            "planted_area":70850,
+            "harvested_area":70850,
+            "production":155870,
+            "productivity":2200
         },
         "2020":{
-            "area":71130,
-            "production":263181
+            "planted_area":71130,
+            "harvested_area":71130,
+            "production":263181,
+            "productivity":3700
         },
         "2021":{
-            "area":71905,
-            "production":233691
+            "planted_area":71905,
+            "harvested_area":71905,
+            "production":233691,
+            "productivity":3250
         },
         "2022":{
-            "area":71088,
-            "production":42511
+            "planted_area":71088,
+            "harvested_area":65401,
+            "production":42511,
+            "productivity":650
         }
     },
     "Boa Vista da Aparecida":{
         "2008":{
-            "area":"2500",
-            "production":8250
+            "planted_area":2500,
+            "harvested_area":2500,
+            "production":8250,
+            "productivity":3300
         },
         "2009":{
-            "area":2600,
-            "production":9025
+            "planted_area":2600,
+            "harvested_area":2600,
+            "production":9025,
+            "productivity":3471
         },
         "2010":{
-            "area":2620,
-            "production":9055
+            "planted_area":2620,
+            "harvested_area":2620,
+            "production":9055,
+            "productivity":3456
         },
         "2011":{
-            "area":3000,
-            "production":11150
+            "planted_area":3000,
+            "harvested_area":3000,
+            "production":11150,
+            "productivity":3717
         },
         "2012":{
-            "area":3200,
-            "production":8000
+            "planted_area":3200,
+            "harvested_area":3200,
+            "production":8000,
+            "productivity":2500
         },
         "2013":{
-            "area":3660,
-            "production":14392
+            "planted_area":3660,
+            "harvested_area":3660,
+            "production":14392,
+            "productivity":3932
         },
         "2014":{
-            "area":5360,
-            "production":18486
+            "planted_area":5360,
+            "harvested_area":5360,
+            "production":18486,
+            "productivity":3449
         },
         "2015":{
-            "area":5390,
-            "production":19278
+            "planted_area":5390,
+            "harvested_area":5390,
+            "production":19278,
+            "productivity":3577
         },
         "2016":{
-            "area":5430,
-            "production":20020
+            "planted_area":5430,
+            "harvested_area":5430,
+            "production":20020,
+            "productivity":3687
         },
         "2017":{
-            "area":5370,
-            "production":19869
+            "planted_area":5370,
+            "harvested_area":5370,
+            "production":19869,
+            "productivity":3700
         },
         "2018":{
-            "area":6000,
-            "production":22000
+            "planted_area":6000,
+            "harvested_area":6000,
+            "production":22000,
+            "productivity":3667
         },
         "2019":{
-            "area":4930,
-            "production":17255
+            "planted_area":4930,
+            "harvested_area":4930,
+            "production":17255,
+            "productivity":3500
         },
         "2020":{
-            "area":5020,
-            "production":22350
+            "planted_area":5020,
+            "harvested_area":5020,
+            "production":22350,
+            "productivity":4452
         },
         "2021":{
-            "area":4200,
-            "production":15000
+            "planted_area":4200,
+            "harvested_area":4200,
+            "production":15000,
+            "productivity":3571
         },
         "2022":{
-            "area":4200,
-            "production":10000
+            "planted_area":4200,
+            "harvested_area":4200,
+            "production":10000,
+            "productivity":2381
         }
     },
     "Braganey":{
         "2008":{
-            "area":"16600",
-            "production":53362
+            "planted_area":16600,
+            "harvested_area":16600,
+            "production":53362,
+            "productivity":3214
         },
         "2009":{
-            "area":16750,
-            "production":45371
+            "planted_area":16750,
+            "harvested_area":16750,
+            "production":45371,
+            "productivity":2708
         },
         "2010":{
-            "area":17950,
-            "production":57077
+            "planted_area":17950,
+            "harvested_area":17950,
+            "production":57077,
+            "productivity":3179
         },
         "2011":{
-            "area":18650,
-            "production":67640
+            "planted_area":18650,
+            "harvested_area":18650,
+            "production":67640,
+            "productivity":3627
         },
         "2012":{
-            "area":16840,
-            "production":48946
+            "planted_area":16840,
+            "harvested_area":16840,
+            "production":48946,
+            "productivity":2907
         },
         "2013":{
-            "area":17170,
-            "production":58093
+            "planted_area":17170,
+            "harvested_area":17170,
+            "production":58093,
+            "productivity":3383
         },
         "2014":{
-            "area":19010,
-            "production":70422
+            "planted_area":19010,
+            "harvested_area":19010,
+            "production":70422,
+            "productivity":3704
         },
         "2015":{
-            "area":19010,
-            "production":70423
+            "planted_area":19010,
+            "harvested_area":19010,
+            "production":70423,
+            "productivity":3705
         },
         "2016":{
-            "area":19300,
-            "production":73838
+            "planted_area":19300,
+            "harvested_area":19300,
+            "production":73838,
+            "productivity":3826
         },
         "2017":{
-            "area":17500,
-            "production":67375
+            "planted_area":17500,
+            "harvested_area":17500,
+            "production":67375,
+            "productivity":3850
         },
         "2018":{
-            "area":17285,
-            "production":57853
+            "planted_area":17285,
+            "harvested_area":17285,
+            "production":57853,
+            "productivity":3347
         },
         "2019":{
-            "area":19230,
-            "production":69228
+            "planted_area":19230,
+            "harvested_area":19230,
+            "production":69228,
+            "productivity":3600
         },
         "2020":{
-            "area":19250,
-            "production":71591
+            "planted_area":19250,
+            "harvested_area":19250,
+            "production":71591,
+            "productivity":3719
         },
         "2021":{
-            "area":17700,
-            "production":60000
+            "planted_area":17700,
+            "harvested_area":17700,
+            "production":60000,
+            "productivity":3390
         },
         "2022":{
-            "area":17700,
-            "production":50000
+            "planted_area":17700,
+            "harvested_area":17700,
+            "production":50000,
+            "productivity":2825
         }
     },
     "Brasilândia do Sul":{
         "2008":{
-            "area":"18000",
-            "production":45900
+            "planted_area":18000,
+            "harvested_area":18000,
+            "production":45900,
+            "productivity":2550
         },
         "2009":{
-            "area":18010,
-            "production":36546
+            "planted_area":18010,
+            "harvested_area":18010,
+            "production":36546,
+            "productivity":2029
         },
         "2010":{
-            "area":20940,
-            "production":64518
+            "planted_area":20940,
+            "harvested_area":20940,
+            "production":64518,
+            "productivity":3081
         },
         "2011":{
-            "area":18730,
-            "production":56112
+            "planted_area":18730,
+            "harvested_area":18730,
+            "production":56112,
+            "productivity":2996
         },
         "2012":{
-            "area":18715,
-            "production":37423
+            "planted_area":18715,
+            "harvested_area":18715,
+            "production":37423,
+            "productivity":2000
         },
         "2013":{
-            "area":19030,
-            "production":57060
+            "planted_area":19030,
+            "harvested_area":19030,
+            "production":57060,
+            "productivity":2998
         },
         "2014":{
-            "area":19250,
-            "production":61270
+            "planted_area":19250,
+            "harvested_area":19250,
+            "production":61270,
+            "productivity":3183
         },
         "2015":{
-            "area":19320,
-            "production":64560
+            "planted_area":19320,
+            "harvested_area":19320,
+            "production":64560,
+            "productivity":3342
         },
         "2016":{
-            "area":19600,
-            "production":68350
+            "planted_area":19600,
+            "harvested_area":19600,
+            "production":68350,
+            "productivity":3487
         },
         "2017":{
-            "area":19800,
-            "production":65340
+            "planted_area":19800,
+            "harvested_area":19800,
+            "production":65340,
+            "productivity":3300
         },
         "2018":{
-            "area":20000,
-            "production":72000
+            "planted_area":20000,
+            "harvested_area":20000,
+            "production":72000,
+            "productivity":3600
         },
         "2019":{
-            "area":21290,
-            "production":53180
+            "planted_area":21290,
+            "harvested_area":21290,
+            "production":53180,
+            "productivity":2498
         },
         "2020":{
-            "area":22800,
-            "production":68400
+            "planted_area":22800,
+            "harvested_area":22800,
+            "production":68400,
+            "productivity":3000
         },
         "2021":{
-            "area":22800,
-            "production":68400
+            "planted_area":22800,
+            "harvested_area":22800,
+            "production":68400,
+            "productivity":3000
         },
         "2022":{
-            "area":22800,
-            "production":27360
+            "planted_area":22800,
+            "harvested_area":22800,
+            "production":27360,
+            "productivity":1200
         }
     },
     "Cafelândia":{
         "2008":{
-            "area":"20552",
-            "production":71292
+            "planted_area":20552,
+            "harvested_area":20552,
+            "production":71292,
+            "productivity":3468
         },
         "2009":{
-            "area":21770,
-            "production":59812
+            "planted_area":21770,
+            "harvested_area":21770,
+            "production":59812,
+            "productivity":2747
         },
         "2010":{
-            "area":24440,
-            "production":80450
+            "planted_area":24440,
+            "harvested_area":24440,
+            "production":80450,
+            "productivity":3291
         },
         "2011":{
-            "area":23820,
-            "production":82420
+            "planted_area":23820,
+            "harvested_area":23820,
+            "production":82420,
+            "productivity":3460
         },
         "2012":{
-            "area":21920,
-            "production":65175
+            "planted_area":21920,
+            "harvested_area":21920,
+            "production":65175,
+            "productivity":2973
         },
         "2013":{
-            "area":20820,
-            "production":80215
+            "planted_area":20820,
+            "harvested_area":20820,
+            "production":80215,
+            "productivity":3853
         },
         "2014":{
-            "area":22570,
-            "production":86343
+            "planted_area":22570,
+            "harvested_area":22570,
+            "production":86343,
+            "productivity":3826
         },
         "2015":{
-            "area":23000,
-            "production":92189
+            "planted_area":23000,
+            "harvested_area":23000,
+            "production":92189,
+            "productivity":4008
         },
         "2016":{
-            "area":23310,
-            "production":80041
+            "planted_area":23310,
+            "harvested_area":23310,
+            "production":80041,
+            "productivity":3434
         },
         "2017":{
-            "area":22810,
-            "production":102987
+            "planted_area":22810,
+            "harvested_area":22810,
+            "production":102987,
+            "productivity":4515
         },
         "2018":{
-            "area":23110,
-            "production":85507
+            "planted_area":23110,
+            "harvested_area":23110,
+            "production":85507,
+            "productivity":3700
         },
         "2019":{
-            "area":23550,
-            "production":80565
+            "planted_area":23550,
+            "harvested_area":23550,
+            "production":80565,
+            "productivity":3421
         },
         "2020":{
-            "area":23480,
-            "production":98968
+            "planted_area":23480,
+            "harvested_area":23480,
+            "production":98968,
+            "productivity":4215
         },
         "2021":{
-            "area":23520,
-            "production":81379
+            "planted_area":23520,
+            "harvested_area":23520,
+            "production":81379,
+            "productivity":3460
         },
         "2022":{
-            "area":23635,
-            "production":34271
+            "planted_area":23635,
+            "harvested_area":23635,
+            "production":34271,
+            "productivity":1450
         }
     },
     "Capitão Leônidas Marques":{
         "2008":{
-            "area":"6000",
-            "production":19800
+            "planted_area":6000,
+            "harvested_area":6000,
+            "production":19800,
+            "productivity":3300
         },
         "2009":{
-            "area":9600,
-            "production":32131
+            "planted_area":9600,
+            "harvested_area":9600,
+            "production":32131,
+            "productivity":3346
         },
         "2010":{
-            "area":10000,
-            "production":32825
+            "planted_area":10000,
+            "harvested_area":10000,
+            "production":32825,
+            "productivity":3282
         },
         "2011":{
-            "area":9900,
-            "production":36630
+            "planted_area":9900,
+            "harvested_area":9900,
+            "production":36630,
+            "productivity":3700
         },
         "2012":{
-            "area":9400,
-            "production":31020
+            "planted_area":9400,
+            "harvested_area":9400,
+            "production":31020,
+            "productivity":3300
         },
         "2013":{
-            "area":10100,
-            "production":33150
+            "planted_area":10100,
+            "harvested_area":10100,
+            "production":33150,
+            "productivity":3282
         },
         "2014":{
-            "area":10450,
-            "production":35806
+            "planted_area":10450,
+            "harvested_area":10450,
+            "production":35806,
+            "productivity":3426
         },
         "2015":{
-            "area":10450,
-            "production":35806
+            "planted_area":10450,
+            "harvested_area":10450,
+            "production":35806,
+            "productivity":3426
         },
         "2016":{
-            "area":8445,
-            "production":28720
+            "planted_area":8445,
+            "harvested_area":8445,
+            "production":28720,
+            "productivity":3401
         },
         "2017":{
-            "area":7100,
-            "production":25550
+            "planted_area":7100,
+            "harvested_area":7100,
+            "production":25550,
+            "productivity":3599
         },
         "2018":{
-            "area":8064,
-            "production":30643
+            "planted_area":8064,
+            "harvested_area":8064,
+            "production":30643,
+            "productivity":3800
         },
         "2019":{
-            "area":7576,
-            "production":28031
+            "planted_area":7576,
+            "harvested_area":7576,
+            "production":28031,
+            "productivity":3700
         },
         "2020":{
-            "area":7980,
-            "production":33516
+            "planted_area":7980,
+            "harvested_area":7980,
+            "production":33516,
+            "productivity":4200
         },
         "2021":{
-            "area":7400,
-            "production":23000
+            "planted_area":7400,
+            "harvested_area":7400,
+            "production":23000,
+            "productivity":3108
         },
         "2022":{
-            "area":7400,
-            "production":18000
+            "planted_area":7400,
+            "harvested_area":7400,
+            "production":18000,
+            "productivity":2432
         }
     },
     "Cascavel":{
         "2008":{
-            "area":"82850",
-            "production":268129
+            "planted_area":82850,
+            "harvested_area":82850,
+            "production":268129,
+            "productivity":3236
         },
         "2009":{
-            "area":84000,
-            "production":214190
+            "planted_area":84000,
+            "harvested_area":84000,
+            "production":214190,
+            "productivity":2549
         },
         "2010":{
-            "area":89800,
-            "production":297939
+            "planted_area":89800,
+            "harvested_area":89800,
+            "production":297939,
+            "productivity":3317
         },
         "2011":{
-            "area":86100,
-            "production":298853
+            "planted_area":86100,
+            "harvested_area":86100,
+            "production":298853,
+            "productivity":3471
         },
         "2012":{
-            "area":85700,
-            "production":225160
+            "planted_area":85700,
+            "harvested_area":85700,
+            "production":225160,
+            "productivity":2627
         },
         "2013":{
-            "area":91984,
-            "production":324068
+            "planted_area":91984,
+            "harvested_area":91984,
+            "production":324068,
+            "productivity":3523
         },
         "2014":{
-            "area":104870,
-            "production":383318
+            "planted_area":104870,
+            "harvested_area":104870,
+            "production":383318,
+            "productivity":3655
         },
         "2015":{
-            "area":104870,
-            "production":383318
+            "planted_area":104870,
+            "harvested_area":104870,
+            "production":383318,
+            "productivity":3655
         },
         "2016":{
-            "area":109400,
-            "production":390850
+            "planted_area":109400,
+            "harvested_area":109400,
+            "production":390850,
+            "productivity":3573
         },
         "2017":{
-            "area":92000,
-            "production":358800
+            "planted_area":92000,
+            "harvested_area":92000,
+            "production":358800,
+            "productivity":3900
         },
         "2018":{
-            "area":94560,
-            "production":324329
+            "planted_area":94560,
+            "harvested_area":94560,
+            "production":324329,
+            "productivity":3430
         },
         "2019":{
-            "area":102855,
-            "production":328925
+            "planted_area":102855,
+            "harvested_area":102855,
+            "production":328925,
+            "productivity":3198
         },
         "2020":{
-            "area":102830,
-            "production":423599
+            "planted_area":102830,
+            "harvested_area":102830,
+            "production":423599,
+            "productivity":4119
         },
         "2021":{
-            "area":86600,
-            "production":300000
+            "planted_area":86600,
+            "harvested_area":86600,
+            "production":300000,
+            "productivity":3464
         },
         "2022":{
-            "area":86600,
-            "production":260000
+            "planted_area":86600,
+            "harvested_area":86600,
+            "production":260000,
+            "productivity":3002
         }
     },
     "Céu Azul":{
         "2008":{
-            "area":"22500",
-            "production":80888
+            "planted_area":22500,
+            "harvested_area":22500,
+            "production":80888,
+            "productivity":3595
         },
         "2009":{
-            "area":22930,
-            "production":65206
+            "planted_area":22930,
+            "harvested_area":22930,
+            "production":65206,
+            "productivity":2843
         },
         "2010":{
-            "area":26410,
-            "production":92305
+            "planted_area":26410,
+            "harvested_area":26410,
+            "production":92305,
+            "productivity":3495
         },
         "2011":{
-            "area":27040,
-            "production":97101
+            "planted_area":27040,
+            "harvested_area":27040,
+            "production":97101,
+            "productivity":3591
         },
         "2012":{
-            "area":23890,
-            "production":41449
+            "planted_area":23890,
+            "harvested_area":23890,
+            "production":41449,
+            "productivity":1735
         },
         "2013":{
-            "area":24000,
-            "production":95779
+            "planted_area":24000,
+            "harvested_area":24000,
+            "production":95779,
+            "productivity":3991
         },
         "2014":{
-            "area":25500,
-            "production":95273
+            "planted_area":25500,
+            "harvested_area":25500,
+            "production":95273,
+            "productivity":3736
         },
         "2015":{
-            "area":26500,
-            "production":100481
+            "planted_area":26500,
+            "harvested_area":26500,
+            "production":100481,
+            "productivity":3792
         },
         "2016":{
-            "area":26990,
-            "production":100326
+            "planted_area":26990,
+            "harvested_area":26990,
+            "production":100326,
+            "productivity":3717
         },
         "2017":{
-            "area":27455,
-            "production":108866
+            "planted_area":27455,
+            "harvested_area":27455,
+            "production":108866,
+            "productivity":3965
         },
         "2018":{
-            "area":27555,
-            "production":95643
+            "planted_area":27555,
+            "harvested_area":27555,
+            "production":95643,
+            "productivity":3471
         },
         "2019":{
-            "area":21085,
-            "production":59038
+            "planted_area":21085,
+            "harvested_area":21085,
+            "production":59038,
+            "productivity":2800
         },
         "2020":{
-            "area":21085,
-            "production":86448
+            "planted_area":21085,
+            "harvested_area":21085,
+            "production":86448,
+            "productivity":4100
         },
         "2021":{
-            "area":17300,
-            "production":61000
+            "planted_area":17300,
+            "harvested_area":17300,
+            "production":61000,
+            "productivity":3526
         },
         "2022":{
-            "area":17300,
-            "production":30000
+            "planted_area":17300,
+            "harvested_area":17300,
+            "production":30000,
+            "productivity":1734
         }
     },
     "Corbélia":{
         "2008":{
-            "area":"34300",
-            "production":118708
+            "planted_area":34300,
+            "harvested_area":34300,
+            "production":118708,
+            "productivity":3460
         },
         "2009":{
-            "area":34950,
-            "production":94565
+            "planted_area":34950,
+            "harvested_area":34950,
+            "production":94565,
+            "productivity":2705
         },
         "2010":{
-            "area":38000,
-            "production":134522
+            "planted_area":38000,
+            "harvested_area":38000,
+            "production":134522,
+            "productivity":3540
         },
         "2011":{
-            "area":37400,
-            "production":139849
+            "planted_area":37400,
+            "harvested_area":37400,
+            "production":139849,
+            "productivity":3739
         },
         "2012":{
-            "area":34650,
-            "production":87140
+            "planted_area":34650,
+            "harvested_area":34650,
+            "production":87140,
+            "productivity":2515
         },
         "2013":{
-            "area":35845,
-            "production":133197
+            "planted_area":35845,
+            "harvested_area":35845,
+            "production":133197,
+            "productivity":3716
         },
         "2014":{
-            "area":38820,
-            "production":153930
+            "planted_area":38820,
+            "harvested_area":38820,
+            "production":153930,
+            "productivity":3965
         },
         "2015":{
-            "area":38820,
-            "production":153930
+            "planted_area":38820,
+            "harvested_area":38820,
+            "production":153930,
+            "productivity":3965
         },
         "2016":{
-            "area":40580,
-            "production":165720
+            "planted_area":40580,
+            "harvested_area":40580,
+            "production":165720,
+            "productivity":4084
         },
         "2017":{
-            "area":31500,
-            "production":125339
+            "planted_area":31500,
+            "harvested_area":31500,
+            "production":125339,
+            "productivity":3979
         },
         "2018":{
-            "area":32778,
-            "production":114708
+            "planted_area":32778,
+            "harvested_area":32778,
+            "production":114708,
+            "productivity":3500
         },
         "2019":{
-            "area":37450,
-            "production":149800
+            "planted_area":37450,
+            "harvested_area":37450,
+            "production":149800,
+            "productivity":4000
         },
         "2020":{
-            "area":37450,
-            "production":159163
+            "planted_area":37450,
+            "harvested_area":37450,
+            "production":159163,
+            "productivity":4250
         },
         "2021":{
-            "area":33675,
-            "production":120000
+            "planted_area":33675,
+            "harvested_area":33675,
+            "production":120000,
+            "productivity":3563
         },
         "2022":{
-            "area":33675,
-            "production":121937
+            "planted_area":33675,
+            "harvested_area":33675,
+            "production":121937,
+            "productivity":3621
         }
     },
     "Diamante D´Oeste":{
         "2008":{
-            "area":"4400",
-            "production":14181
+            "planted_area":4400,
+            "harvested_area":4400,
+            "production":14181,
+            "productivity":3222
         },
         "2009":{
-            "area":4400,
-            "production":7634
+            "planted_area":4400,
+            "harvested_area":4400,
+            "production":7634,
+            "productivity":1735
         },
         "2010":{
-            "area":4990,
-            "production":14838
+            "planted_area":4990,
+            "harvested_area":4990,
+            "production":14838,
+            "productivity":2973
         },
         "2011":{
-            "area":4000,
-            "production":12000
+            "planted_area":4000,
+            "harvested_area":4000,
+            "production":12000,
+            "productivity":3000
         },
         "2012":{
-            "area":3640,
-            "production":6552
+            "planted_area":3640,
+            "harvested_area":3640,
+            "production":6552,
+            "productivity":1800
         },
         "2013":{
-            "area":4500,
-            "production":15570
+            "planted_area":4500,
+            "harvested_area":4500,
+            "production":15570,
+            "productivity":3460
         },
         "2014":{
-            "area":5475,
-            "production":18856
+            "planted_area":5475,
+            "harvested_area":5475,
+            "production":18856,
+            "productivity":3444
         },
         "2015":{
-            "area":5625,
-            "production":19425
+            "planted_area":5625,
+            "harvested_area":5625,
+            "production":19425,
+            "productivity":3453
         },
         "2016":{
-            "area":5753,
-            "production":19215
+            "planted_area":5753,
+            "harvested_area":5753,
+            "production":19215,
+            "productivity":3340
         },
         "2017":{
-            "area":6100,
-            "production":18666
+            "planted_area":6100,
+            "harvested_area":6100,
+            "production":18666,
+            "productivity":3060
         },
         "2018":{
-            "area":6200,
-            "production":20460
+            "planted_area":6200,
+            "harvested_area":6200,
+            "production":20460,
+            "productivity":3300
         },
         "2019":{
-            "area":3940,
-            "production":13676
+            "planted_area":3940,
+            "harvested_area":3940,
+            "production":13676,
+            "productivity":3471
         },
         "2020":{
-            "area":3915,
-            "production":14559
+            "planted_area":3915,
+            "harvested_area":3915,
+            "production":14559,
+            "productivity":3719
         },
         "2021":{
-            "area":3950,
-            "production":12250
+            "planted_area":3950,
+            "harvested_area":3950,
+            "production":12250,
+            "productivity":3101
         },
         "2022":{
-            "area":4415,
-            "production":4503
+            "planted_area":4415,
+            "harvested_area":4415,
+            "production":4503,
+            "productivity":1020
         }
     },
     "Entre Rios do Oeste":{
         "2008":{
-            "area":"4830",
-            "production":14436
+            "planted_area":4830,
+            "harvested_area":4830,
+            "production":14436,
+            "productivity":2988
         },
         "2009":{
-            "area":4805,
-            "production":10086
+            "planted_area":4805,
+            "harvested_area":4805,
+            "production":10086,
+            "productivity":2099
         },
         "2010":{
-            "area":5320,
-            "production":17538
+            "planted_area":5320,
+            "harvested_area":5320,
+            "production":17538,
+            "productivity":3296
         },
         "2011":{
-            "area":5070,
-            "production":16224
+            "planted_area":5070,
+            "harvested_area":5070,
+            "production":16224,
+            "productivity":3200
         },
         "2012":{
-            "area":4150,
-            "production":5146
+            "planted_area":4150,
+            "harvested_area":4150,
+            "production":5146,
+            "productivity":1240
         },
         "2013":{
-            "area":4510,
-            "production":17564
+            "planted_area":4510,
+            "harvested_area":4510,
+            "production":17564,
+            "productivity":3894
         },
         "2014":{
-            "area":4950,
-            "production":16983
+            "planted_area":4950,
+            "harvested_area":4950,
+            "production":16983,
+            "productivity":3431
         },
         "2015":{
-            "area":5000,
-            "production":16044
+            "planted_area":5000,
+            "harvested_area":5000,
+            "production":16044,
+            "productivity":3209
         },
         "2016":{
-            "area":4900,
-            "production":16105
+            "planted_area":4900,
+            "harvested_area":4900,
+            "production":16105,
+            "productivity":3287
         },
         "2017":{
-            "area":4650,
-            "production":17670
+            "planted_area":4650,
+            "harvested_area":4650,
+            "production":17670,
+            "productivity":3800
         },
         "2018":{
-            "area":5020,
-            "production":18674
+            "planted_area":5020,
+            "harvested_area":5020,
+            "production":18674,
+            "productivity":3720
         },
         "2019":{
-            "area":4950,
-            "production":9405
+            "planted_area":4950,
+            "harvested_area":4950,
+            "production":9405,
+            "productivity":1900
         },
         "2020":{
-            "area":5100,
-            "production":19890
+            "planted_area":5100,
+            "harvested_area":5100,
+            "production":19890,
+            "productivity":3900
         },
         "2021":{
-            "area":5100,
-            "production":19890
+            "planted_area":5100,
+            "harvested_area":5100,
+            "production":19890,
+            "productivity":3900
         },
         "2022":{
-            "area":5230,
-            "production":4288
+            "planted_area":5230,
+            "harvested_area":5230,
+            "production":4288,
+            "productivity":820
         }
     },
     "Formosa do Oeste":{
         "2008":{
-            "area":"12670",
-            "production":38010
+            "planted_area":12670,
+            "harvested_area":12670,
+            "production":38010,
+            "productivity":3000
         },
         "2009":{
-            "area":12670,
-            "production":22806
+            "planted_area":12670,
+            "harvested_area":12670,
+            "production":22806,
+            "productivity":1800
         },
         "2010":{
-            "area":12900,
-            "production":43215
+            "planted_area":12900,
+            "harvested_area":12900,
+            "production":43215,
+            "productivity":3350
         },
         "2011":{
-            "area":13130,
-            "production":43986
+            "planted_area":13130,
+            "harvested_area":13130,
+            "production":43986,
+            "productivity":3350
         },
         "2012":{
-            "area":12850,
-            "production":20555
+            "planted_area":12850,
+            "harvested_area":12850,
+            "production":20555,
+            "productivity":1600
         },
         "2013":{
-            "area":13550,
-            "production":51350
+            "planted_area":13550,
+            "harvested_area":13550,
+            "production":51350,
+            "productivity":3790
         },
         "2014":{
-            "area":13800,
-            "production":53204
+            "planted_area":13800,
+            "harvested_area":13800,
+            "production":53204,
+            "productivity":3855
         },
         "2015":{
-            "area":13850,
-            "production":55305
+            "planted_area":13850,
+            "harvested_area":13850,
+            "production":55305,
+            "productivity":3993
         },
         "2016":{
-            "area":14030,
-            "production":51686
+            "planted_area":14030,
+            "harvested_area":14030,
+            "production":51686,
+            "productivity":3684
         },
         "2017":{
-            "area":13980,
-            "production":60114
+            "planted_area":13980,
+            "harvested_area":13980,
+            "production":60114,
+            "productivity":4300
         },
         "2018":{
-            "area":14000,
-            "production":50148
+            "planted_area":14000,
+            "harvested_area":14000,
+            "production":50148,
+            "productivity":3582
         },
         "2019":{
-            "area":15992,
-            "production":48376
+            "planted_area":15992,
+            "harvested_area":15992,
+            "production":48376,
+            "productivity":3025
         },
         "2020":{
-            "area":15992,
-            "production":51174
+            "planted_area":15992,
+            "harvested_area":15992,
+            "production":51174,
+            "productivity":3200
         },
         "2021":{
-            "area":15950,
-            "production":56543
+            "planted_area":15950,
+            "harvested_area":15950,
+            "production":56543,
+            "productivity":3545
         },
         "2022":{
-            "area":16100,
-            "production":64400
+            "planted_area":16100,
+            "harvested_area":16100,
+            "production":64400,
+            "productivity":4000
         }
     },
     "Foz do Iguaçu":{
         "2008":{
-            "area":"8650",
-            "production":30024
+            "planted_area":8650,
+            "harvested_area":8650,
+            "production":30024,
+            "productivity":3470
         },
         "2009":{
-            "area":9100,
-            "production":31586
+            "planted_area":9100,
+            "harvested_area":9100,
+            "production":31586,
+            "productivity":3470
         },
         "2010":{
-            "area":9200,
-            "production":31000
+            "planted_area":9200,
+            "harvested_area":9200,
+            "production":31000,
+            "productivity":3369
         },
         "2011":{
-            "area":8900,
-            "production":31996
+            "planted_area":8900,
+            "harvested_area":8900,
+            "production":31996,
+            "productivity":3595
         },
         "2012":{
-            "area":9936,
-            "production":15272
+            "planted_area":9936,
+            "harvested_area":9936,
+            "production":15272,
+            "productivity":1537
         },
         "2013":{
-            "area":10136,
-            "production":38953
+            "planted_area":10136,
+            "harvested_area":10136,
+            "production":38953,
+            "productivity":3843
         },
         "2014":{
-            "area":11850,
-            "production":41749
+            "planted_area":11850,
+            "harvested_area":11850,
+            "production":41749,
+            "productivity":3523
         },
         "2015":{
-            "area":19800,
-            "production":56450
+            "planted_area":19800,
+            "harvested_area":19800,
+            "production":56450,
+            "productivity":2851
         },
         "2016":{
-            "area":11600,
-            "production":40125
+            "planted_area":11600,
+            "harvested_area":11600,
+            "production":40125,
+            "productivity":3459
         },
         "2017":{
-            "area":9850,
-            "production":33598
+            "planted_area":9850,
+            "harvested_area":9850,
+            "production":33598,
+            "productivity":3411
         },
         "2018":{
-            "area":10200,
-            "production":30345
+            "planted_area":10200,
+            "harvested_area":10200,
+            "production":30345,
+            "productivity":2975
         },
         "2019":{
-            "area":10390,
-            "production":15585
+            "planted_area":10390,
+            "harvested_area":10390,
+            "production":15585,
+            "productivity":1500
         },
         "2020":{
-            "area":10650,
-            "production":46328
+            "planted_area":10650,
+            "harvested_area":10650,
+            "production":46328,
+            "productivity":4350
         },
         "2021":{
-            "area":10260,
-            "production":35612
+            "planted_area":10260,
+            "harvested_area":10260,
+            "production":35612,
+            "productivity":3471
         },
         "2022":{
-            "area":9450,
-            "production":6265
+            "planted_area":9450,
+            "harvested_area":8950,
+            "production":6265,
+            "productivity":700
         }
     },
     "Francisco Alves":{
         "2008":{
-            "area":"13507",
-            "production":33757
+            "planted_area":13507,
+            "harvested_area":13507,
+            "production":33757,
+            "productivity":2499
         },
         "2009":{
-            "area":13720,
-            "production":16464
+            "planted_area":13720,
+            "harvested_area":13720,
+            "production":16464,
+            "productivity":1200
         },
         "2010":{
-            "area":14921,
-            "production":47529
+            "planted_area":14921,
+            "harvested_area":14921,
+            "production":47529,
+            "productivity":3185
         },
         "2011":{
-            "area":13730,
-            "production":43909
+            "planted_area":13730,
+            "harvested_area":13730,
+            "production":43909,
+            "productivity":3198
         },
         "2012":{
-            "area":14350,
-            "production":19447
+            "planted_area":14350,
+            "harvested_area":14350,
+            "production":19447,
+            "productivity":1355
         },
         "2013":{
-            "area":15455,
-            "production":43737
+            "planted_area":15455,
+            "harvested_area":15424,
+            "production":43737,
+            "productivity":2836
         },
         "2014":{
-            "area":16250,
-            "production":38950
+            "planted_area":16250,
+            "harvested_area":16250,
+            "production":38950,
+            "productivity":2397
         },
         "2015":{
-            "area":16860,
-            "production":51690
+            "planted_area":16860,
+            "harvested_area":16860,
+            "production":51690,
+            "productivity":3066
         },
         "2016":{
-            "area":17080,
-            "production":61320
+            "planted_area":17080,
+            "harvested_area":17080,
+            "production":61320,
+            "productivity":3590
         },
         "2017":{
-            "area":17250,
-            "production":58650
+            "planted_area":17250,
+            "harvested_area":17250,
+            "production":58650,
+            "productivity":3400
         },
         "2018":{
-            "area":18400,
-            "production":66240
+            "planted_area":18400,
+            "harvested_area":18400,
+            "production":66240,
+            "productivity":3600
         },
         "2019":{
-            "area":18600,
-            "production":31620
+            "planted_area":18600,
+            "harvested_area":18600,
+            "production":31620,
+            "productivity":1700
         },
         "2020":{
-            "area":19000,
-            "production":66500
+            "planted_area":19000,
+            "harvested_area":19000,
+            "production":66500,
+            "productivity":3500
         },
         "2021":{
-            "area":19000,
-            "production":62700
+            "planted_area":19000,
+            "harvested_area":19000,
+            "production":62700,
+            "productivity":3300
         },
         "2022":{
-            "area":19000,
-            "production":9120
+            "planted_area":19000,
+            "harvested_area":19000,
+            "production":9120,
+            "productivity":480
         }
     },
     "Guaíra":{
         "2008":{
-            "area":"29500",
-            "production":84391
+            "planted_area":29500,
+            "harvested_area":29500,
+            "production":84391,
+            "productivity":2860
         },
         "2009":{
-            "area":31110,
-            "production":49594
+            "planted_area":31110,
+            "harvested_area":31110,
+            "production":49594,
+            "productivity":1594
         },
         "2010":{
-            "area":32200,
-            "production":100651
+            "planted_area":32200,
+            "harvested_area":32200,
+            "production":100651,
+            "productivity":3125
         },
         "2011":{
-            "area":32000,
-            "production":106850
+            "planted_area":32000,
+            "harvested_area":32000,
+            "production":106850,
+            "productivity":3339
         },
         "2012":{
-            "area":31800,
-            "production":59106
+            "planted_area":31800,
+            "harvested_area":31800,
+            "production":59106,
+            "productivity":1859
         },
         "2013":{
-            "area":32650,
-            "production":110425
+            "planted_area":32650,
+            "harvested_area":32650,
+            "production":110425,
+            "productivity":3382
         },
         "2014":{
-            "area":33500,
-            "production":90228
+            "planted_area":33500,
+            "harvested_area":33500,
+            "production":90228,
+            "productivity":2693
         },
         "2015":{
-            "area":33100,
-            "production":90265
+            "planted_area":33100,
+            "harvested_area":33100,
+            "production":90265,
+            "productivity":2727
         },
         "2016":{
-            "area":33750,
-            "production":110920
+            "planted_area":33750,
+            "harvested_area":33750,
+            "production":110920,
+            "productivity":3287
         },
         "2017":{
-            "area":33330,
-            "production":119988
+            "planted_area":33330,
+            "harvested_area":33330,
+            "production":119988,
+            "productivity":3600
         },
         "2018":{
-            "area":33450,
-            "production":117075
+            "planted_area":33450,
+            "harvested_area":33450,
+            "production":117075,
+            "productivity":3500
         },
         "2019":{
-            "area":33450,
-            "production":76266
+            "planted_area":33450,
+            "harvested_area":33450,
+            "production":76266,
+            "productivity":2280
         },
         "2020":{
-            "area":33790,
-            "production":139891
+            "planted_area":33790,
+            "harvested_area":33790,
+            "production":139891,
+            "productivity":4140
         },
         "2021":{
-            "area":33790,
-            "production":109818
+            "planted_area":33790,
+            "harvested_area":33790,
+            "production":109818,
+            "productivity":3250
         },
         "2022":{
-            "area":33910,
-            "production":26000
+            "planted_area":33910,
+            "harvested_area":33910,
+            "production":26000,
+            "productivity":767
         }
     },
     "Iguatu":{
         "2008":{
-            "area":"5100",
-            "production":16320
+            "planted_area":5100,
+            "harvested_area":5100,
+            "production":16320,
+            "productivity":3200
         },
         "2009":{
-            "area":5150,
-            "production":16995
+            "planted_area":5150,
+            "harvested_area":5150,
+            "production":16995,
+            "productivity":3300
         },
         "2010":{
-            "area":5175,
-            "production":17035
+            "planted_area":5175,
+            "harvested_area":5175,
+            "production":17035,
+            "productivity":3291
         },
         "2011":{
-            "area":5100,
-            "production":18967
+            "planted_area":5100,
+            "harvested_area":5100,
+            "production":18967,
+            "productivity":3719
         },
         "2012":{
-            "area":5160,
-            "production":13474
+            "planted_area":5160,
+            "harvested_area":5160,
+            "production":13474,
+            "productivity":2611
         },
         "2013":{
-            "area":5100,
-            "production":17850
+            "planted_area":5100,
+            "harvested_area":5100,
+            "production":17850,
+            "productivity":3500
         },
         "2014":{
-            "area":5280,
-            "production":19381
+            "planted_area":5280,
+            "harvested_area":5280,
+            "production":19381,
+            "productivity":3671
         },
         "2015":{
-            "area":5280,
-            "production":19375
+            "planted_area":5280,
+            "harvested_area":5280,
+            "production":19375,
+            "productivity":3670
         },
         "2016":{
-            "area":5880,
-            "production":23538
+            "planted_area":5880,
+            "harvested_area":5880,
+            "production":23538,
+            "productivity":4003
         },
         "2017":{
-            "area":3600,
-            "production":14040
+            "planted_area":3600,
+            "harvested_area":3600,
+            "production":14040,
+            "productivity":3900
         },
         "2018":{
-            "area":3585,
-            "production":12906
+            "planted_area":3585,
+            "harvested_area":3585,
+            "production":12906,
+            "productivity":3600
         },
         "2019":{
-            "area":3600,
-            "production":13140
+            "planted_area":3600,
+            "harvested_area":3600,
+            "production":13140,
+            "productivity":3650
         },
         "2020":{
-            "area":5390,
-            "production":21560
+            "planted_area":5390,
+            "harvested_area":5390,
+            "production":21560,
+            "productivity":4000
         },
         "2021":{
-            "area":3571,
-            "production":12000
+            "planted_area":3571,
+            "harvested_area":3571,
+            "production":12000,
+            "productivity":3360
         },
         "2022":{
-            "area":3571,
-            "production":12670
+            "planted_area":3571,
+            "harvested_area":3571,
+            "production":12670,
+            "productivity":3548
         }
     },
     "Iracema do Oeste":{
         "2008":{
-            "area":"6500",
-            "production":20150
+            "planted_area":6500,
+            "harvested_area":6500,
+            "production":20150,
+            "productivity":3100
         },
         "2009":{
-            "area":6400,
-            "production":12800
+            "planted_area":6400,
+            "harvested_area":6400,
+            "production":12800,
+            "productivity":2000
         },
         "2010":{
-            "area":6430,
-            "production":21219
+            "planted_area":6430,
+            "harvested_area":6430,
+            "production":21219,
+            "productivity":3300
         },
         "2011":{
-            "area":6462,
-            "production":21625
+            "planted_area":6462,
+            "harvested_area":6462,
+            "production":21625,
+            "productivity":3346
         },
         "2012":{
-            "area":6710,
-            "production":11387
+            "planted_area":6710,
+            "harvested_area":6710,
+            "production":11387,
+            "productivity":1697
         },
         "2013":{
-            "area":6840,
-            "production":25243
+            "planted_area":6840,
+            "harvested_area":6840,
+            "production":25243,
+            "productivity":3690
         },
         "2014":{
-            "area":6893,
-            "production":24904
+            "planted_area":6893,
+            "harvested_area":6893,
+            "production":24904,
+            "productivity":3613
         },
         "2015":{
-            "area":6739,
-            "production":26370
+            "planted_area":6739,
+            "harvested_area":6739,
+            "production":26370,
+            "productivity":3913
         },
         "2016":{
-            "area":6890,
-            "production":23057
+            "planted_area":6890,
+            "harvested_area":6890,
+            "production":23057,
+            "productivity":3346
         },
         "2017":{
-            "area":6950,
-            "production":29190
+            "planted_area":6950,
+            "harvested_area":6950,
+            "production":29190,
+            "productivity":4200
         },
         "2018":{
-            "area":7000,
-            "production":29400
+            "planted_area":7000,
+            "harvested_area":7000,
+            "production":29400,
+            "productivity":4200
         },
         "2019":{
-            "area":7060,
-            "production":20121
+            "planted_area":7060,
+            "harvested_area":7060,
+            "production":20121,
+            "productivity":2850
         },
         "2020":{
-            "area":6399,
-            "production":21373
+            "planted_area":6399,
+            "harvested_area":6399,
+            "production":21373,
+            "productivity":3340
         },
         "2021":{
-            "area":6420,
-            "production":19902
+            "planted_area":6420,
+            "harvested_area":6420,
+            "production":19902,
+            "productivity":3100
         },
         "2022":{
-            "area":6477,
-            "production":3536
+            "planted_area":6477,
+            "harvested_area":6477,
+            "production":3536,
+            "productivity":546
         }
     },
     "Itaipulândia":{
         "2008":{
-            "area":"8100",
-            "production":27110
+            "planted_area":8100,
+            "harvested_area":8100,
+            "production":27110,
+            "productivity":3346
         },
         "2009":{
-            "area":8650,
-            "production":6172
+            "planted_area":8650,
+            "harvested_area":8650,
+            "production":6172,
+            "productivity":713
         },
         "2010":{
-            "area":10175,
-            "production":31424
+            "planted_area":10175,
+            "harvested_area":10175,
+            "production":31424,
+            "productivity":3088
         },
         "2011":{
-            "area":8875,
-            "production":28497
+            "planted_area":8875,
+            "harvested_area":8875,
+            "production":28497,
+            "productivity":3211
         },
         "2012":{
-            "area":8653,
-            "production":15528
+            "planted_area":8653,
+            "harvested_area":8653,
+            "production":15528,
+            "productivity":1795
         },
         "2013":{
-            "area":8960,
-            "production":30464
+            "planted_area":8960,
+            "harvested_area":8960,
+            "production":30464,
+            "productivity":3400
         },
         "2014":{
-            "area":10700,
-            "production":29697
+            "planted_area":10700,
+            "harvested_area":10700,
+            "production":29697,
+            "productivity":2775
         },
         "2015":{
-            "area":11430,
-            "production":31414
+            "planted_area":11430,
+            "harvested_area":11430,
+            "production":31414,
+            "productivity":2748
         },
         "2016":{
-            "area":11300,
-            "production":38391
+            "planted_area":11300,
+            "harvested_area":11300,
+            "production":38391,
+            "productivity":3397
         },
         "2017":{
-            "area":9950,
-            "production":30845
+            "planted_area":9950,
+            "harvested_area":9950,
+            "production":30845,
+            "productivity":3100
         },
         "2018":{
-            "area":9950,
-            "production":37810
+            "planted_area":9950,
+            "harvested_area":9950,
+            "production":37810,
+            "productivity":3800
         },
         "2019":{
-            "area":9000,
-            "production":14473
+            "planted_area":9000,
+            "harvested_area":9000,
+            "production":14473,
+            "productivity":1608
         },
         "2020":{
-            "area":9500,
-            "production":25650
+            "planted_area":9500,
+            "harvested_area":9500,
+            "production":25650,
+            "productivity":2700
         },
         "2021":{
-            "area":9840,
-            "production":34155
+            "planted_area":9840,
+            "harvested_area":9840,
+            "production":34155,
+            "productivity":3471
         },
         "2022":{
-            "area":10850,
-            "production":5371
+            "planted_area":10850,
+            "harvested_area":10850,
+            "production":5371,
+            "productivity":495
         }
     },
     "Jesuítas":{
         "2008":{
-            "area":"11700",
-            "production":38025
+            "planted_area":11700,
+            "harvested_area":11700,
+            "production":38025,
+            "productivity":3250
         },
         "2009":{
-            "area":11500,
-            "production":23000
+            "planted_area":11500,
+            "harvested_area":11500,
+            "production":23000,
+            "productivity":2000
         },
         "2010":{
-            "area":12450,
-            "production":46045
+            "planted_area":12450,
+            "harvested_area":12450,
+            "production":46045,
+            "productivity":3698
         },
         "2011":{
-            "area":11500,
-            "production":42550
+            "planted_area":11500,
+            "harvested_area":11500,
+            "production":42550,
+            "productivity":3700
         },
         "2012":{
-            "area":11500,
-            "production":23000
+            "planted_area":11500,
+            "harvested_area":11500,
+            "production":23000,
+            "productivity":2000
         },
         "2013":{
-            "area":11500,
-            "production":45425
+            "planted_area":11500,
+            "harvested_area":11500,
+            "production":45425,
+            "productivity":3950
         },
         "2014":{
-            "area":12210,
-            "production":43266
+            "planted_area":12210,
+            "harvested_area":12210,
+            "production":43266,
+            "productivity":3543
         },
         "2015":{
-            "area":12220,
-            "production":48834
+            "planted_area":12220,
+            "harvested_area":12220,
+            "production":48834,
+            "productivity":3996
         },
         "2016":{
-            "area":12370,
-            "production":41401
+            "planted_area":12370,
+            "harvested_area":12370,
+            "production":41401,
+            "productivity":3347
         },
         "2017":{
-            "area":12850,
-            "production":53970
+            "planted_area":12850,
+            "harvested_area":12850,
+            "production":53970,
+            "productivity":4200
         },
         "2018":{
-            "area":12850,
-            "production":51400
+            "planted_area":12850,
+            "harvested_area":12850,
+            "production":51400,
+            "productivity":4000
         },
         "2019":{
-            "area":13100,
-            "production":41108
+            "planted_area":13100,
+            "harvested_area":13100,
+            "production":41108,
+            "productivity":3138
         },
         "2020":{
-            "area":13740,
-            "production":47513
+            "planted_area":13740,
+            "harvested_area":13740,
+            "production":47513,
+            "productivity":3458
         },
         "2021":{
-            "area":14440,
-            "production":44764
+            "planted_area":14440,
+            "harvested_area":14440,
+            "production":44764,
+            "productivity":3100
         },
         "2022":{
-            "area":14525,
-            "production":13319
+            "planted_area":14525,
+            "harvested_area":14525,
+            "production":13319,
+            "productivity":917
         }
     },
     "Lindoeste":{
         "2008":{
-            "area":"5825",
-            "production":18736
+            "planted_area":5825,
+            "harvested_area":5825,
+            "production":18736,
+            "productivity":3216
         },
         "2009":{
-            "area":6300,
-            "production":20475
+            "planted_area":6300,
+            "harvested_area":6300,
+            "production":20475,
+            "productivity":3250
         },
         "2010":{
-            "area":6400,
-            "production":20310
+            "planted_area":6400,
+            "harvested_area":6400,
+            "production":20310,
+            "productivity":3173
         },
         "2011":{
-            "area":6300,
-            "production":20160
+            "planted_area":6300,
+            "harvested_area":6300,
+            "production":20160,
+            "productivity":3200
         },
         "2012":{
-            "area":6260,
-            "production":16658
+            "planted_area":6260,
+            "harvested_area":6260,
+            "production":16658,
+            "productivity":2661
         },
         "2013":{
-            "area":6500,
-            "production":22152
+            "planted_area":6500,
+            "harvested_area":6500,
+            "production":22152,
+            "productivity":3408
         },
         "2014":{
-            "area":12550,
-            "production":43925
+            "planted_area":12550,
+            "harvested_area":12550,
+            "production":43925,
+            "productivity":3500
         },
         "2015":{
-            "area":12550,
-            "production":43925
+            "planted_area":12550,
+            "harvested_area":12550,
+            "production":43925,
+            "productivity":3500
         },
         "2016":{
-            "area":13012,
-            "production":42134
+            "planted_area":13012,
+            "harvested_area":13012,
+            "production":42134,
+            "productivity":3238
         },
         "2017":{
-            "area":6000,
-            "production":22140
+            "planted_area":6000,
+            "harvested_area":6000,
+            "production":22140,
+            "productivity":3690
         },
         "2018":{
-            "area":7333,
-            "production":26362
+            "planted_area":7333,
+            "harvested_area":7333,
+            "production":26362,
+            "productivity":3595
         },
         "2019":{
-            "area":9900,
-            "production":29700
+            "planted_area":9900,
+            "harvested_area":9900,
+            "production":29700,
+            "productivity":3000
         },
         "2020":{
-            "area":8000,
-            "production":31200
+            "planted_area":8000,
+            "harvested_area":8000,
+            "production":31200,
+            "productivity":3900
         },
         "2021":{
-            "area":7166,
-            "production":24000
+            "planted_area":7166,
+            "harvested_area":7166,
+            "production":24000,
+            "productivity":3349
         },
         "2022":{
-            "area":7166,
-            "production":20000
+            "planted_area":7166,
+            "harvested_area":7166,
+            "production":20000,
+            "productivity":2791
         }
     },
     "Marechal Cândido Rondon":{
         "2008":{
-            "area":"26200",
-            "production":84840
+            "planted_area":26200,
+            "harvested_area":26200,
+            "production":84840,
+            "productivity":3238
         },
         "2009":{
-            "area":26200,
-            "production":44500
+            "planted_area":26200,
+            "harvested_area":26200,
+            "production":44500,
+            "productivity":1698
         },
         "2010":{
-            "area":27700,
-            "production":87240
+            "planted_area":27700,
+            "harvested_area":27700,
+            "production":87240,
+            "productivity":3149
         },
         "2011":{
-            "area":27500,
-            "production":90750
+            "planted_area":27500,
+            "harvested_area":27500,
+            "production":90750,
+            "productivity":3300
         },
         "2012":{
-            "area":26100,
-            "production":35558
+            "planted_area":26100,
+            "harvested_area":26100,
+            "production":35558,
+            "productivity":1362
         },
         "2013":{
-            "area":26150,
-            "production":91255
+            "planted_area":26150,
+            "harvested_area":26150,
+            "production":91255,
+            "productivity":3490
         },
         "2014":{
-            "area":28950,
-            "production":91764
+            "planted_area":28950,
+            "harvested_area":28950,
+            "production":91764,
+            "productivity":3170
         },
         "2015":{
-            "area":30200,
-            "production":89082
+            "planted_area":30200,
+            "harvested_area":30200,
+            "production":89082,
+            "productivity":2950
         },
         "2016":{
-            "area":30500,
-            "production":98490
+            "planted_area":30500,
+            "harvested_area":30500,
+            "production":98490,
+            "productivity":3229
         },
         "2017":{
-            "area":30300,
-            "production":114170
+            "planted_area":30300,
+            "harvested_area":30300,
+            "production":114170,
+            "productivity":3768
         },
         "2018":{
-            "area":31500,
-            "production":114000
+            "planted_area":31500,
+            "harvested_area":31500,
+            "production":114000,
+            "productivity":3619
         },
         "2019":{
-            "area":31650,
-            "production":54913
+            "planted_area":31650,
+            "harvested_area":31650,
+            "production":54913,
+            "productivity":1735
         },
         "2020":{
-            "area":32050,
-            "production":119226
+            "planted_area":32050,
+            "harvested_area":32050,
+            "production":119226,
+            "productivity":3720
         },
         "2021":{
-            "area":32050,
-            "production":105765
+            "planted_area":32050,
+            "harvested_area":32050,
+            "production":105765,
+            "productivity":3300
         },
         "2022":{
-            "area":33000,
-            "production":21000
+            "planted_area":33000,
+            "harvested_area":33000,
+            "production":21000,
+            "productivity":636
         }
     },
     "Maripá":{
         "2008":{
-            "area":"20100",
-            "production":62170
+            "planted_area":20100,
+            "harvested_area":20100,
+            "production":62170,
+            "productivity":3093
         },
         "2009":{
-            "area":20400,
-            "production":26400
+            "planted_area":20400,
+            "harvested_area":20400,
+            "production":26400,
+            "productivity":1294
         },
         "2010":{
-            "area":22300,
-            "production":70860
+            "planted_area":22300,
+            "harvested_area":22300,
+            "production":70860,
+            "productivity":3177
         },
         "2011":{
-            "area":21000,
-            "production":69300
+            "planted_area":21000,
+            "harvested_area":21000,
+            "production":69300,
+            "productivity":3300
         },
         "2012":{
-            "area":21600,
-            "production":22126
+            "planted_area":21600,
+            "harvested_area":21600,
+            "production":22126,
+            "productivity":1024
         },
         "2013":{
-            "area":22250,
-            "production":82843
+            "planted_area":22250,
+            "harvested_area":22250,
+            "production":82843,
+            "productivity":3723
         },
         "2014":{
-            "area":22700,
-            "production":84455
+            "planted_area":22700,
+            "harvested_area":22700,
+            "production":84455,
+            "productivity":3720
         },
         "2015":{
-            "area":23050,
-            "production":75358
+            "planted_area":23050,
+            "harvested_area":23050,
+            "production":75358,
+            "productivity":3269
         },
         "2016":{
-            "area":22980,
-            "production":95566
+            "planted_area":22980,
+            "harvested_area":22980,
+            "production":95566,
+            "productivity":4159
         },
         "2017":{
-            "area":22380,
-            "production":78330
+            "planted_area":22380,
+            "harvested_area":22380,
+            "production":78330,
+            "productivity":3500
         },
         "2018":{
-            "area":22630,
-            "production":85994
+            "planted_area":22630,
+            "harvested_area":22630,
+            "production":85994,
+            "productivity":3800
         },
         "2019":{
-            "area":22580,
-            "production":51934
+            "planted_area":22580,
+            "harvested_area":22580,
+            "production":51934,
+            "productivity":2300
         },
         "2020":{
-            "area":22400,
-            "production":78400
+            "planted_area":22400,
+            "harvested_area":22400,
+            "production":78400,
+            "productivity":3500
         },
         "2021":{
-            "area":22500,
-            "production":72000
+            "planted_area":22500,
+            "harvested_area":22500,
+            "production":72000,
+            "productivity":3200
         },
         "2022":{
-            "area":22150,
-            "production":14150
+            "planted_area":22150,
+            "harvested_area":21750,
+            "production":14150,
+            "productivity":651
         }
     },
     "Matelândia":{
         "2008":{
-            "area":"10045",
-            "production":36112
+            "planted_area":10045,
+            "harvested_area":10045,
+            "production":36112,
+            "productivity":3595
         },
         "2009":{
-            "area":11130,
-            "production":19576
+            "planted_area":11130,
+            "harvested_area":11130,
+            "production":19576,
+            "productivity":1758
         },
         "2010":{
-            "area":12390,
-            "production":39085
+            "planted_area":12390,
+            "harvested_area":12390,
+            "production":39085,
+            "productivity":3154
         },
         "2011":{
-            "area":11240,
-            "production":38080
+            "planted_area":11240,
+            "harvested_area":11240,
+            "production":38080,
+            "productivity":3388
         },
         "2012":{
-            "area":11155,
-            "production":16581
+            "planted_area":11155,
+            "harvested_area":11155,
+            "production":16581,
+            "productivity":1486
         },
         "2013":{
-            "area":12615,
-            "production":43620
+            "planted_area":12615,
+            "harvested_area":12615,
+            "production":43620,
+            "productivity":3458
         },
         "2014":{
-            "area":13230,
-            "production":46100
+            "planted_area":13230,
+            "harvested_area":13230,
+            "production":46100,
+            "productivity":3485
         },
         "2015":{
-            "area":13250,
-            "production":38434
+            "planted_area":13250,
+            "harvested_area":13250,
+            "production":38434,
+            "productivity":2901
         },
         "2016":{
-            "area":12350,
-            "production":41805
+            "planted_area":12350,
+            "harvested_area":12350,
+            "production":41805,
+            "productivity":3385
         },
         "2017":{
-            "area":10970,
-            "production":44878
+            "planted_area":10970,
+            "harvested_area":10970,
+            "production":44878,
+            "productivity":4091
         },
         "2018":{
-            "area":11310,
-            "production":45240
+            "planted_area":11310,
+            "harvested_area":11310,
+            "production":45240,
+            "productivity":4000
         },
         "2019":{
-            "area":12000,
-            "production":28320
+            "planted_area":12000,
+            "harvested_area":12000,
+            "production":28320,
+            "productivity":2360
         },
         "2020":{
-            "area":12000,
-            "production":47604
+            "planted_area":12000,
+            "harvested_area":12000,
+            "production":47604,
+            "productivity":3967
         },
         "2021":{
-            "area":12400,
-            "production":46116
+            "planted_area":12400,
+            "harvested_area":12400,
+            "production":46116,
+            "productivity":3719
         },
         "2022":{
-            "area":12215,
-            "production":12028
+            "planted_area":12215,
+            "harvested_area":12125,
+            "production":12028,
+            "productivity":992
         }
     },
     "Medianeira":{
         "2008":{
-            "area":"12530",
-            "production":43433
+            "planted_area":12530,
+            "harvested_area":12530,
+            "production":43433,
+            "productivity":3466
         },
         "2009":{
-            "area":12900,
-            "production":16021
+            "planted_area":12900,
+            "harvested_area":12900,
+            "production":16021,
+            "productivity":1241
         },
         "2010":{
-            "area":13900,
-            "production":49906
+            "planted_area":13900,
+            "harvested_area":13900,
+            "production":49906,
+            "productivity":3590
         },
         "2011":{
-            "area":13325,
-            "production":49236
+            "planted_area":13325,
+            "harvested_area":13325,
+            "production":49236,
+            "productivity":3695
         },
         "2012":{
-            "area":12950,
-            "production":20899
+            "planted_area":12950,
+            "harvested_area":12950,
+            "production":20899,
+            "productivity":1614
         },
         "2013":{
-            "area":13200,
-            "production":47349
+            "planted_area":13200,
+            "harvested_area":13200,
+            "production":47349,
+            "productivity":3587
         },
         "2014":{
-            "area":13800,
-            "production":50282
+            "planted_area":13800,
+            "harvested_area":13800,
+            "production":50282,
+            "productivity":3644
         },
         "2015":{
-            "area":13930,
-            "production":42403
+            "planted_area":13930,
+            "harvested_area":13930,
+            "production":42403,
+            "productivity":3044
         },
         "2016":{
-            "area":13630,
-            "production":43625
+            "planted_area":13630,
+            "harvested_area":13630,
+            "production":43625,
+            "productivity":3201
         },
         "2017":{
-            "area":13500,
-            "production":50220
+            "planted_area":13500,
+            "harvested_area":13500,
+            "production":50220,
+            "productivity":3720
         },
         "2018":{
-            "area":13500,
-            "production":50220
+            "planted_area":13500,
+            "harvested_area":13500,
+            "production":50220,
+            "productivity":3720
         },
         "2019":{
-            "area":13000,
-            "production":24844
+            "planted_area":13000,
+            "harvested_area":13000,
+            "production":24844,
+            "productivity":1911
         },
         "2020":{
-            "area":12815,
-            "production":54015
+            "planted_area":12815,
+            "harvested_area":12815,
+            "production":54015,
+            "productivity":4215
         },
         "2021":{
-            "area":13700,
-            "production":50950
+            "planted_area":13700,
+            "harvested_area":13700,
+            "production":50950,
+            "productivity":3719
         },
         "2022":{
-            "area":13700,
-            "production":10138
+            "planted_area":13700,
+            "harvested_area":13700,
+            "production":10138,
+            "productivity":740
         }
     },
     "Mercedes":{
         "2008":{
-            "area":"6000",
-            "production":18000
+            "planted_area":6000,
+            "harvested_area":6000,
+            "production":18000,
+            "productivity":3000
         },
         "2009":{
-            "area":7050,
-            "production":14050
+            "planted_area":7050,
+            "harvested_area":7050,
+            "production":14050,
+            "productivity":1992
         },
         "2010":{
-            "area":7400,
-            "production":22520
+            "planted_area":7400,
+            "harvested_area":7400,
+            "production":22520,
+            "productivity":3043
         },
         "2011":{
-            "area":6950,
-            "production":21545
+            "planted_area":6950,
+            "harvested_area":6950,
+            "production":21545,
+            "productivity":3100
         },
         "2012":{
-            "area":6800,
-            "production":10200
+            "planted_area":6800,
+            "harvested_area":6800,
+            "production":10200,
+            "productivity":1500
         },
         "2013":{
-            "area":6700,
-            "production":23600
+            "planted_area":6700,
+            "harvested_area":6700,
+            "production":23600,
+            "productivity":3522
         },
         "2014":{
-            "area":7050,
-            "production":22230
+            "planted_area":7050,
+            "harvested_area":7050,
+            "production":22230,
+            "productivity":3153
         },
         "2015":{
-            "area":7100,
-            "production":21590
+            "planted_area":7100,
+            "harvested_area":7100,
+            "production":21590,
+            "productivity":3041
         },
         "2016":{
-            "area":6980,
-            "production":21558
+            "planted_area":6980,
+            "harvested_area":6980,
+            "production":21558,
+            "productivity":3089
         },
         "2017":{
-            "area":6900,
-            "production":24150
+            "planted_area":6900,
+            "harvested_area":6900,
+            "production":24150,
+            "productivity":3500
         },
         "2018":{
-            "area":6900,
-            "production":25668
+            "planted_area":6900,
+            "harvested_area":6900,
+            "production":25668,
+            "productivity":3720
         },
         "2019":{
-            "area":6800,
-            "production":12641
+            "planted_area":6800,
+            "harvested_area":6800,
+            "production":12641,
+            "productivity":1859
         },
         "2020":{
-            "area":6800,
-            "production":25160
+            "planted_area":6800,
+            "harvested_area":6800,
+            "production":25160,
+            "productivity":3700
         },
         "2021":{
-            "area":6800,
-            "production":20400
+            "planted_area":6800,
+            "harvested_area":6800,
+            "production":20400,
+            "productivity":3000
         },
         "2022":{
-            "area":7100,
-            "production":5110
+            "planted_area":7100,
+            "harvested_area":7100,
+            "production":5110,
+            "productivity":720
         }
     },
     "Missal":{
         "2008":{
-            "area":"15000",
-            "production":52065
+            "planted_area":15000,
+            "harvested_area":15000,
+            "production":52065,
+            "productivity":3471
         },
         "2009":{
-            "area":15320,
-            "production":14457
+            "planted_area":15320,
+            "harvested_area":15320,
+            "production":14457,
+            "productivity":943
         },
         "2010":{
-            "area":15750,
-            "production":53925
+            "planted_area":15750,
+            "harvested_area":15750,
+            "production":53925,
+            "productivity":3423
         },
         "2011":{
-            "area":15394,
-            "production":51447
+            "planted_area":15394,
+            "harvested_area":15394,
+            "production":51447,
+            "productivity":3342
         },
         "2012":{
-            "area":15160,
-            "production":22737
+            "planted_area":15160,
+            "harvested_area":15160,
+            "production":22737,
+            "productivity":1500
         },
         "2013":{
-            "area":15210,
-            "production":54736
+            "planted_area":15210,
+            "harvested_area":15210,
+            "production":54736,
+            "productivity":3599
         },
         "2014":{
-            "area":15600,
-            "production":43380
+            "planted_area":15600,
+            "harvested_area":15600,
+            "production":43380,
+            "productivity":2781
         },
         "2015":{
-            "area":12650,
-            "production":28172
+            "planted_area":12650,
+            "harvested_area":12650,
+            "production":28172,
+            "productivity":2227
         },
         "2016":{
-            "area":12700,
-            "production":42507
+            "planted_area":12700,
+            "harvested_area":12700,
+            "production":42507,
+            "productivity":3347
         },
         "2017":{
-            "area":12780,
-            "production":38340
+            "planted_area":12780,
+            "harvested_area":12780,
+            "production":38340,
+            "productivity":3000
         },
         "2018":{
-            "area":13480,
-            "production":48528
+            "planted_area":13480,
+            "harvested_area":13480,
+            "production":48528,
+            "productivity":3600
         },
         "2019":{
-            "area":13550,
-            "production":20204
+            "planted_area":13550,
+            "harvested_area":13550,
+            "production":20204,
+            "productivity":1491
         },
         "2020":{
-            "area":13400,
-            "production":49835
+            "planted_area":13400,
+            "harvested_area":13400,
+            "production":49835,
+            "productivity":3719
         },
         "2021":{
-            "area":13430,
-            "production":44950
+            "planted_area":13430,
+            "harvested_area":13430,
+            "production":44950,
+            "productivity":3347
         },
         "2022":{
-            "area":13350,
-            "production":8277
+            "planted_area":13350,
+            "harvested_area":13350,
+            "production":8277,
+            "productivity":620
         }
     },
     "Nova Aurora":{
         "2008":{
-            "area":"28150",
-            "production":92031
+            "planted_area":28150,
+            "harvested_area":28150,
+            "production":92031,
+            "productivity":3269
         },
         "2009":{
-            "area":30059,
-            "production":48398
+            "planted_area":30059,
+            "harvested_area":30059,
+            "production":48398,
+            "productivity":1610
         },
         "2010":{
-            "area":26280,
-            "production":87262
+            "planted_area":26280,
+            "harvested_area":26280,
+            "production":87262,
+            "productivity":3320
         },
         "2011":{
-            "area":31100,
-            "production":107570
+            "planted_area":31100,
+            "harvested_area":31100,
+            "production":107570,
+            "productivity":3459
         },
         "2012":{
-            "area":30911,
-            "production":77114
+            "planted_area":30911,
+            "harvested_area":30911,
+            "production":77114,
+            "productivity":2495
         },
         "2013":{
-            "area":30020,
-            "production":107569
+            "planted_area":30020,
+            "harvested_area":30020,
+            "production":107569,
+            "productivity":3583
         },
         "2014":{
-            "area":31675,
-            "production":116630
+            "planted_area":31675,
+            "harvested_area":31675,
+            "production":116630,
+            "productivity":3682
         },
         "2015":{
-            "area":31820,
-            "production":126235
+            "planted_area":31820,
+            "harvested_area":31820,
+            "production":126235,
+            "productivity":3967
         },
         "2016":{
-            "area":32345,
-            "production":115908
+            "planted_area":32345,
+            "harvested_area":32345,
+            "production":115908,
+            "productivity":3583
         },
         "2017":{
-            "area":32190,
-            "production":137838
+            "planted_area":32190,
+            "harvested_area":32190,
+            "production":137838,
+            "productivity":4282
         },
         "2018":{
-            "area":32480,
-            "production":129920
+            "planted_area":32480,
+            "harvested_area":32480,
+            "production":129920,
+            "productivity":4000
         },
         "2019":{
-            "area":33880,
-            "production":90121
+            "planted_area":33880,
+            "harvested_area":33880,
+            "production":90121,
+            "productivity":2660
         },
         "2020":{
-            "area":33950,
-            "production":123748
+            "planted_area":33950,
+            "harvested_area":33950,
+            "production":123748,
+            "productivity":3645
         },
         "2021":{
-            "area":34130,
-            "production":110001
+            "planted_area":34130,
+            "harvested_area":34130,
+            "production":110001,
+            "productivity":3223
         },
         "2022":{
-            "area":34050,
-            "production":40860
+            "planted_area":34050,
+            "harvested_area":34050,
+            "production":40860,
+            "productivity":1200
         }
     },
     "Nova Santa Rosa":{
         "2008":{
-            "area":"12930",
-            "production":40801
+            "planted_area":12930,
+            "harvested_area":12930,
+            "production":40801,
+            "productivity":3155
         },
         "2009":{
-            "area":12800,
-            "production":22400
+            "planted_area":12800,
+            "harvested_area":12800,
+            "production":22400,
+            "productivity":1750
         },
         "2010":{
-            "area":14000,
-            "production":41820
+            "planted_area":14000,
+            "harvested_area":14000,
+            "production":41820,
+            "productivity":2987
         },
         "2011":{
-            "area":13200,
-            "production":43560
+            "planted_area":13200,
+            "harvested_area":13200,
+            "production":43560,
+            "productivity":3300
         },
         "2012":{
-            "area":12611,
-            "production":16685
+            "planted_area":12611,
+            "harvested_area":12611,
+            "production":16685,
+            "productivity":1323
         },
         "2013":{
-            "area":12991,
-            "production":48372
+            "planted_area":12991,
+            "harvested_area":12991,
+            "production":48372,
+            "productivity":3724
         },
         "2014":{
-            "area":13311,
-            "production":53655
+            "planted_area":13311,
+            "harvested_area":13311,
+            "production":53655,
+            "productivity":4031
         },
         "2015":{
-            "area":13860,
-            "production":47830
+            "planted_area":13860,
+            "harvested_area":13860,
+            "production":47830,
+            "productivity":3451
         },
         "2016":{
-            "area":13560,
-            "production":50027
+            "planted_area":13560,
+            "harvested_area":13560,
+            "production":50027,
+            "productivity":3689
         },
         "2017":{
-            "area":13530,
-            "production":46002
+            "planted_area":13530,
+            "harvested_area":13530,
+            "production":46002,
+            "productivity":3400
         },
         "2018":{
-            "area":13840,
-            "production":50516
+            "planted_area":13840,
+            "harvested_area":13840,
+            "production":50516,
+            "productivity":3650
         },
         "2019":{
-            "area":13591,
-            "production":25279
+            "planted_area":13591,
+            "harvested_area":13591,
+            "production":25279,
+            "productivity":1860
         },
         "2020":{
-            "area":13420,
-            "production":52606
+            "planted_area":13420,
+            "harvested_area":13420,
+            "production":52606,
+            "productivity":3920
         },
         "2021":{
-            "area":13420,
-            "production":44286
+            "planted_area":13420,
+            "harvested_area":13420,
+            "production":44286,
+            "productivity":3300
         },
         "2022":{
-            "area":13420,
-            "production":3246
+            "planted_area":13420,
+            "harvested_area":10820,
+            "production":3246,
+            "productivity":300
         }
     },
     "Ouro Verde do Oeste":{
         "2008":{
-            "area":"12650",
-            "production":42295
+            "planted_area":12650,
+            "harvested_area":12650,
+            "production":42295,
+            "productivity":3343
         },
         "2009":{
-            "area":12740,
-            "production":24158
+            "planted_area":12740,
+            "harvested_area":12740,
+            "production":24158,
+            "productivity":1896
         },
         "2010":{
-            "area":12870,
-            "production":43418
+            "planted_area":12870,
+            "harvested_area":12870,
+            "production":43418,
+            "productivity":3373
         },
         "2011":{
-            "area":12850,
-            "production":41120
+            "planted_area":12850,
+            "harvested_area":12850,
+            "production":41120,
+            "productivity":3200
         },
         "2012":{
-            "area":12630,
-            "production":18900
+            "planted_area":12630,
+            "harvested_area":12630,
+            "production":18900,
+            "productivity":1496
         },
         "2013":{
-            "area":12730,
-            "production":42602
+            "planted_area":12730,
+            "harvested_area":12730,
+            "production":42602,
+            "productivity":3347
         },
         "2014":{
-            "area":13300,
-            "production":44350
+            "planted_area":13300,
+            "harvested_area":13300,
+            "production":44350,
+            "productivity":3335
         },
         "2015":{
-            "area":13000,
-            "production":46440
+            "planted_area":13000,
+            "harvested_area":13000,
+            "production":46440,
+            "productivity":3572
         },
         "2016":{
-            "area":12780,
-            "production":42587
+            "planted_area":12780,
+            "harvested_area":12780,
+            "production":42587,
+            "productivity":3332
         },
         "2017":{
-            "area":12400,
-            "production":48360
+            "planted_area":12400,
+            "harvested_area":12400,
+            "production":48360,
+            "productivity":3900
         },
         "2018":{
-            "area":12780,
-            "production":42174
+            "planted_area":12780,
+            "harvested_area":12780,
+            "production":42174,
+            "productivity":3300
         },
         "2019":{
-            "area":12500,
-            "production":31250
+            "planted_area":12500,
+            "harvested_area":12500,
+            "production":31250,
+            "productivity":2500
         },
         "2020":{
-            "area":12700,
-            "production":53340
+            "planted_area":12700,
+            "harvested_area":12700,
+            "production":53340,
+            "productivity":4200
         },
         "2021":{
-            "area":12700,
-            "production":53340
+            "planted_area":12700,
+            "harvested_area":12700,
+            "production":53340,
+            "productivity":4200
         },
         "2022":{
-            "area":12665,
-            "production":10150
+            "planted_area":12665,
+            "harvested_area":12665,
+            "production":10150,
+            "productivity":801
         }
     },
     "Palotina":{
         "2008":{
-            "area":"45700",
-            "production":144700
+            "planted_area":45700,
+            "harvested_area":45700,
+            "production":144700,
+            "productivity":3166
         },
         "2009":{
-            "area":48070,
-            "production":60380
+            "planted_area":48070,
+            "harvested_area":48070,
+            "production":60380,
+            "productivity":1256
         },
         "2010":{
-            "area":52300,
-            "production":173510
+            "planted_area":52300,
+            "harvested_area":52300,
+            "production":173510,
+            "productivity":3317
         },
         "2011":{
-            "area":44300,
-            "production":146190
+            "planted_area":44300,
+            "harvested_area":44300,
+            "production":146190,
+            "productivity":3300
         },
         "2012":{
-            "area":47300,
-            "production":63710
+            "planted_area":47300,
+            "harvested_area":47300,
+            "production":63710,
+            "productivity":1347
         },
         "2013":{
-            "area":50800,
-            "production":165900
+            "planted_area":50800,
+            "harvested_area":50800,
+            "production":165900,
+            "productivity":3266
         },
         "2014":{
-            "area":49000,
-            "production":160200
+            "planted_area":49000,
+            "harvested_area":49000,
+            "production":160200,
+            "productivity":3269
         },
         "2015":{
-            "area":48300,
-            "production":153090
+            "planted_area":48300,
+            "harvested_area":48300,
+            "production":153090,
+            "productivity":3170
         },
         "2016":{
-            "area":47300,
-            "production":167030
+            "planted_area":47300,
+            "harvested_area":47300,
+            "production":167030,
+            "productivity":3531
         },
         "2017":{
-            "area":44800,
-            "production":183680
+            "planted_area":44800,
+            "harvested_area":44800,
+            "production":183680,
+            "productivity":4100
         },
         "2018":{
-            "area":45000,
-            "production":162000
+            "planted_area":45000,
+            "harvested_area":45000,
+            "production":162000,
+            "productivity":3600
         },
         "2019":{
-            "area":45770,
-            "production":108704
+            "planted_area":45770,
+            "harvested_area":45770,
+            "production":108704,
+            "productivity":2375
         },
         "2020":{
-            "area":45770,
-            "production":183080
+            "planted_area":45770,
+            "harvested_area":45770,
+            "production":183080,
+            "productivity":4000
         },
         "2021":{
-            "area":45770,
-            "production":148753
+            "planted_area":45770,
+            "harvested_area":45770,
+            "production":148753,
+            "productivity":3250
         },
         "2022":{
-            "area":45780,
-            "production":14530
+            "planted_area":45780,
+            "harvested_area":41280,
+            "production":14530,
+            "productivity":352
         }
     },
     "Pato Bragado":{
         "2008":{
-            "area":"4200",
-            "production":13440
+            "planted_area":4200,
+            "harvested_area":4200,
+            "production":13440,
+            "productivity":3200
         },
         "2009":{
-            "area":4480,
-            "production":6259
+            "planted_area":4480,
+            "harvested_area":4480,
+            "production":6259,
+            "productivity":1397
         },
         "2010":{
-            "area":4500,
-            "production":15681
+            "planted_area":4500,
+            "harvested_area":4500,
+            "production":15681,
+            "productivity":3484
         },
         "2011":{
-            "area":4500,
-            "production":13500
+            "planted_area":4500,
+            "harvested_area":4500,
+            "production":13500,
+            "productivity":3000
         },
         "2012":{
-            "area":3860,
-            "production":5258
+            "planted_area":3860,
+            "harvested_area":3860,
+            "production":5258,
+            "productivity":1362
         },
         "2013":{
-            "area":4036,
-            "production":13667
+            "planted_area":4036,
+            "harvested_area":4036,
+            "production":13667,
+            "productivity":3386
         },
         "2014":{
-            "area":4485,
-            "production":14340
+            "planted_area":4485,
+            "harvested_area":4485,
+            "production":14340,
+            "productivity":3197
         },
         "2015":{
-            "area":4530,
-            "production":12628
+            "planted_area":4530,
+            "harvested_area":4530,
+            "production":12628,
+            "productivity":2788
         },
         "2016":{
-            "area":4490,
-            "production":15266
+            "planted_area":4490,
+            "harvested_area":4490,
+            "production":15266,
+            "productivity":3400
         },
         "2017":{
-            "area":4290,
-            "production":15101
+            "planted_area":4290,
+            "harvested_area":4290,
+            "production":15101,
+            "productivity":3520
         },
         "2018":{
-            "area":4290,
-            "production":15444
+            "planted_area":4290,
+            "harvested_area":4290,
+            "production":15444,
+            "productivity":3600
         },
         "2019":{
-            "area":4290,
-            "production":8580
+            "planted_area":4290,
+            "harvested_area":4290,
+            "production":8580,
+            "productivity":2000
         },
         "2020":{
-            "area":4390,
-            "production":17261
+            "planted_area":4390,
+            "harvested_area":4390,
+            "production":17261,
+            "productivity":3932
         },
         "2021":{
-            "area":4905,
-            "production":17025
+            "planted_area":4905,
+            "harvested_area":4905,
+            "production":17025,
+            "productivity":3471
         },
         "2022":{
-            "area":4905,
-            "production":3924
+            "planted_area":4905,
+            "harvested_area":4905,
+            "production":3924,
+            "productivity":800
         }
     },
     "Quatro Pontes":{
         "2008":{
-            "area":"8200",
-            "production":28700
+            "planted_area":8200,
+            "harvested_area":8200,
+            "production":28700,
+            "productivity":3500
         },
         "2009":{
-            "area":8210,
-            "production":15183
+            "planted_area":8210,
+            "harvested_area":8210,
+            "production":15183,
+            "productivity":1849
         },
         "2010":{
-            "area":8880,
-            "production":32496
+            "planted_area":8880,
+            "harvested_area":8880,
+            "production":32496,
+            "productivity":3659
         },
         "2011":{
-            "area":10100,
-            "production":34340
+            "planted_area":10100,
+            "harvested_area":10100,
+            "production":34340,
+            "productivity":3400
         },
         "2012":{
-            "area":8400,
-            "production":10416
+            "planted_area":8400,
+            "harvested_area":8400,
+            "production":10416,
+            "productivity":1240
         },
         "2013":{
-            "area":8670,
-            "production":31170
+            "planted_area":8670,
+            "harvested_area":8670,
+            "production":31170,
+            "productivity":3595
         },
         "2014":{
-            "area":9450,
-            "production":33780
+            "planted_area":9450,
+            "harvested_area":9450,
+            "production":33780,
+            "productivity":3575
         },
         "2015":{
-            "area":9700,
-            "production":33720
+            "planted_area":9700,
+            "harvested_area":9700,
+            "production":33720,
+            "productivity":3476
         },
         "2016":{
-            "area":8850,
-            "production":26490
+            "planted_area":8850,
+            "harvested_area":8850,
+            "production":26490,
+            "productivity":2993
         },
         "2017":{
-            "area":8500,
-            "production":34765
+            "planted_area":8500,
+            "harvested_area":8500,
+            "production":34765,
+            "productivity":4090
         },
         "2018":{
-            "area":9200,
-            "production":33120
+            "planted_area":9200,
+            "harvested_area":9200,
+            "production":33120,
+            "productivity":3600
         },
         "2019":{
-            "area":7680,
-            "production":16128
+            "planted_area":7680,
+            "harvested_area":7680,
+            "production":16128,
+            "productivity":2100
         },
         "2020":{
-            "area":7830,
-            "production":29363
+            "planted_area":7830,
+            "harvested_area":7830,
+            "production":29363,
+            "productivity":3750
         },
         "2021":{
-            "area":8000,
-            "production":27200
+            "planted_area":8000,
+            "harvested_area":8000,
+            "production":27200,
+            "productivity":3400
         },
         "2022":{
-            "area":8000,
-            "production":6500
+            "planted_area":8000,
+            "harvested_area":8000,
+            "production":6500,
+            "productivity":813
         }
     },
     "Ramilândia":{
         "2008":{
-            "area":"5150",
-            "production":17876
+            "planted_area":5150,
+            "harvested_area":5150,
+            "production":17876,
+            "productivity":3471
         },
         "2009":{
-            "area":5680,
-            "production":9903
+            "planted_area":5680,
+            "harvested_area":5680,
+            "production":9903,
+            "productivity":1743
         },
         "2010":{
-            "area":6350,
-            "production":20086
+            "planted_area":6350,
+            "harvested_area":6350,
+            "production":20086,
+            "productivity":3163
         },
         "2011":{
-            "area":6517,
-            "production":20764
+            "planted_area":6517,
+            "harvested_area":6517,
+            "production":20764,
+            "productivity":3186
         },
         "2012":{
-            "area":4878,
-            "production":7304
+            "planted_area":4878,
+            "harvested_area":4878,
+            "production":7304,
+            "productivity":1497
         },
         "2013":{
-            "area":5300,
-            "production":16773
+            "planted_area":5300,
+            "harvested_area":5300,
+            "production":16773,
+            "productivity":3165
         },
         "2014":{
-            "area":5347,
-            "production":16766
+            "planted_area":5347,
+            "harvested_area":5347,
+            "production":16766,
+            "productivity":3136
         },
         "2015":{
-            "area":5460,
-            "production":16746
+            "planted_area":5460,
+            "harvested_area":5460,
+            "production":16746,
+            "productivity":3067
         },
         "2016":{
-            "area":5450,
-            "production":16122
+            "planted_area":5450,
+            "harvested_area":5450,
+            "production":16122,
+            "productivity":2958
         },
         "2017":{
-            "area":5000,
-            "production":18000
+            "planted_area":5000,
+            "harvested_area":5000,
+            "production":18000,
+            "productivity":3600
         },
         "2018":{
-            "area":5300,
-            "production":15900
+            "planted_area":5300,
+            "harvested_area":5300,
+            "production":15900,
+            "productivity":3000
         },
         "2019":{
-            "area":3130,
-            "production":8138
+            "planted_area":3130,
+            "harvested_area":3130,
+            "production":8138,
+            "productivity":2600
         },
         "2020":{
-            "area":3490,
-            "production":12979
+            "planted_area":3490,
+            "harvested_area":3490,
+            "production":12979,
+            "productivity":3719
         },
         "2021":{
-            "area":3535,
-            "production":11832
+            "planted_area":3535,
+            "harvested_area":3535,
+            "production":11832,
+            "productivity":3347
         },
         "2022":{
-            "area":4600,
-            "production":3836
+            "planted_area":4600,
+            "harvested_area":4460,
+            "production":3836,
+            "productivity":860
         }
     },
     "Santa Helena":{
         "2008":{
-            "area":"25700",
-            "production":86095
+            "planted_area":25700,
+            "harvested_area":25700,
+            "production":86095,
+            "productivity":3350
         },
         "2009":{
-            "area":26610,
-            "production":34570
+            "planted_area":26610,
+            "harvested_area":26610,
+            "production":34570,
+            "productivity":1299
         },
         "2010":{
-            "area":28450,
-            "production":101340
+            "planted_area":28450,
+            "harvested_area":28450,
+            "production":101340,
+            "productivity":3562
         },
         "2011":{
-            "area":26000,
-            "production":83880
+            "planted_area":26000,
+            "harvested_area":26000,
+            "production":83880,
+            "productivity":3226
         },
         "2012":{
-            "area":25225,
-            "production":34302
+            "planted_area":25225,
+            "harvested_area":25225,
+            "production":34302,
+            "productivity":1360
         },
         "2013":{
-            "area":26070,
-            "production":71630
+            "planted_area":26070,
+            "harvested_area":26070,
+            "production":71630,
+            "productivity":2748
         },
         "2014":{
-            "area":26600,
-            "production":76860
+            "planted_area":26600,
+            "harvested_area":26600,
+            "production":76860,
+            "productivity":2889
         },
         "2015":{
-            "area":27440,
-            "production":81488
+            "planted_area":27440,
+            "harvested_area":27440,
+            "production":81488,
+            "productivity":2970
         },
         "2016":{
-            "area":28060,
-            "production":90160
+            "planted_area":28060,
+            "harvested_area":28060,
+            "production":90160,
+            "productivity":3213
         },
         "2017":{
-            "area":27500,
-            "production":85250
+            "planted_area":27500,
+            "harvested_area":27500,
+            "production":85250,
+            "productivity":3100
         },
         "2018":{
-            "area":27500,
-            "production":87258
+            "planted_area":27500,
+            "harvested_area":27500,
+            "production":87258,
+            "productivity":3173
         },
         "2019":{
-            "area":27500,
-            "production":49500
+            "planted_area":27500,
+            "harvested_area":27500,
+            "production":49500,
+            "productivity":1800
         },
         "2020":{
-            "area":27800,
-            "production":103416
+            "planted_area":27800,
+            "harvested_area":27800,
+            "production":103416,
+            "productivity":3720
         },
         "2021":{
-            "area":27800,
-            "production":91740
+            "planted_area":27800,
+            "harvested_area":27800,
+            "production":91740,
+            "productivity":3300
         },
         "2022":{
-            "area":27900,
-            "production":19700
+            "planted_area":27900,
+            "harvested_area":27300,
+            "production":19700,
+            "productivity":722
         }
     },
     "Santa Lúcia":{
         "2008":{
-            "area":"3280",
-            "production":10824
+            "planted_area":3280,
+            "harvested_area":3280,
+            "production":10824,
+            "productivity":3300
         },
         "2009":{
-            "area":4600,
-            "production":15180
+            "planted_area":4600,
+            "harvested_area":4600,
+            "production":15180,
+            "productivity":3300
         },
         "2010":{
-            "area":4750,
-            "production":15619
+            "planted_area":4750,
+            "harvested_area":4750,
+            "production":15619,
+            "productivity":3288
         },
         "2011":{
-            "area":5500,
-            "production":17763
+            "planted_area":5500,
+            "harvested_area":5500,
+            "production":17763,
+            "productivity":3230
         },
         "2012":{
-            "area":4895,
-            "production":14258
+            "planted_area":4895,
+            "harvested_area":4895,
+            "production":14258,
+            "productivity":2913
         },
         "2013":{
-            "area":5250,
-            "production":17235
+            "planted_area":5250,
+            "harvested_area":5250,
+            "production":17235,
+            "productivity":3283
         },
         "2014":{
-            "area":6600,
-            "production":22584
+            "planted_area":6600,
+            "harvested_area":6600,
+            "production":22584,
+            "productivity":3422
         },
         "2015":{
-            "area":6600,
-            "production":22584
+            "planted_area":6600,
+            "harvested_area":6600,
+            "production":22584,
+            "productivity":3422
         },
         "2016":{
-            "area":6850,
-            "production":24546
+            "planted_area":6850,
+            "harvested_area":6850,
+            "production":24546,
+            "productivity":3583
         },
         "2017":{
-            "area":5100,
-            "production":17850
+            "planted_area":5100,
+            "harvested_area":5100,
+            "production":17850,
+            "productivity":3500
         },
         "2018":{
-            "area":7395,
-            "production":25668
+            "planted_area":7395,
+            "harvested_area":7395,
+            "production":25668,
+            "productivity":3471
         },
         "2019":{
-            "area":7300,
-            "production":29857
+            "planted_area":7300,
+            "harvested_area":7300,
+            "production":29857,
+            "productivity":4090
         },
         "2020":{
-            "area":7300,
-            "production":30295
+            "planted_area":7300,
+            "harvested_area":7300,
+            "production":30295,
+            "productivity":4150
         },
         "2021":{
-            "area":4203,
-            "production":13000
+            "planted_area":4203,
+            "harvested_area":4203,
+            "production":13000,
+            "productivity":3093
         },
         "2022":{
-            "area":4203,
-            "production":14782
+            "planted_area":4203,
+            "harvested_area":4203,
+            "production":14782,
+            "productivity":3517
         }
     },
     "Santa Tereza do Oeste":{
         "2008":{
-            "area":"16400",
-            "production":60004
+            "planted_area":16400,
+            "harvested_area":16400,
+            "production":60004,
+            "productivity":3658
         },
         "2009":{
-            "area":16815,
-            "production":46436
+            "planted_area":16815,
+            "harvested_area":16815,
+            "production":46436,
+            "productivity":2761
         },
         "2010":{
-            "area":21450,
-            "production":70659
+            "planted_area":21450,
+            "harvested_area":21450,
+            "production":70659,
+            "productivity":3294
         },
         "2011":{
-            "area":19675,
-            "production":73171
+            "planted_area":19675,
+            "harvested_area":19675,
+            "production":73171,
+            "productivity":3719
         },
         "2012":{
-            "area":19180,
-            "production":52533
+            "planted_area":19180,
+            "harvested_area":19180,
+            "production":52533,
+            "productivity":2739
         },
         "2013":{
-            "area":19480,
-            "production":69409
+            "planted_area":19480,
+            "harvested_area":19480,
+            "production":69409,
+            "productivity":3563
         },
         "2014":{
-            "area":20470,
-            "production":70325
+            "planted_area":20470,
+            "harvested_area":20470,
+            "production":70325,
+            "productivity":3436
         },
         "2015":{
-            "area":20470,
-            "production":70324
+            "planted_area":20470,
+            "harvested_area":20470,
+            "production":70324,
+            "productivity":3435
         },
         "2016":{
-            "area":21700,
-            "production":81505
+            "planted_area":21700,
+            "harvested_area":21700,
+            "production":81505,
+            "productivity":3756
         },
         "2017":{
-            "area":19000,
-            "production":75373
+            "planted_area":19000,
+            "harvested_area":19000,
+            "production":75373,
+            "productivity":3967
         },
         "2018":{
-            "area":18737,
-            "production":64643
+            "planted_area":18737,
+            "harvested_area":18737,
+            "production":64643,
+            "productivity":3450
         },
         "2019":{
-            "area":16280,
-            "production":52096
+            "planted_area":16280,
+            "harvested_area":16280,
+            "production":52096,
+            "productivity":3200
         },
         "2020":{
-            "area":16360,
-            "production":71166
+            "planted_area":16360,
+            "harvested_area":16360,
+            "production":71166,
+            "productivity":4350
         },
         "2021":{
-            "area":18850,
-            "production":67000
+            "planted_area":18850,
+            "harvested_area":18850,
+            "production":67000,
+            "productivity":3554
         },
         "2022":{
-            "area":18850,
-            "production":64000
+            "planted_area":18850,
+            "harvested_area":18850,
+            "production":64000,
+            "productivity":3395
         }
     },
     "Santa Terezinha de Itaipu":{
         "2008":{
-            "area":"15850",
-            "production":55015
+            "planted_area":15850,
+            "harvested_area":15850,
+            "production":55015,
+            "productivity":3470
         },
         "2009":{
-            "area":15980,
-            "production":55451
+            "planted_area":15980,
+            "harvested_area":15980,
+            "production":55451,
+            "productivity":3470
         },
         "2010":{
-            "area":16000,
-            "production":54400
+            "planted_area":16000,
+            "harvested_area":16000,
+            "production":54400,
+            "productivity":3400
         },
         "2011":{
-            "area":16080,
-            "production":55814
+            "planted_area":16080,
+            "harvested_area":16080,
+            "production":55814,
+            "productivity":3471
         },
         "2012":{
-            "area":16080,
-            "production":32160
+            "planted_area":16080,
+            "harvested_area":16080,
+            "production":32160,
+            "productivity":2000
         },
         "2013":{
-            "area":16100,
-            "production":59876
+            "planted_area":16100,
+            "harvested_area":16100,
+            "production":59876,
+            "productivity":3719
         },
         "2014":{
-            "area":16450,
-            "production":54841
+            "planted_area":16450,
+            "harvested_area":16450,
+            "production":54841,
+            "productivity":3334
         },
         "2015":{
-            "area":16905,
-            "production":55092
+            "planted_area":16905,
+            "harvested_area":16905,
+            "production":55092,
+            "productivity":3259
         },
         "2016":{
-            "area":16510,
-            "production":54947
+            "planted_area":16510,
+            "harvested_area":16510,
+            "production":54947,
+            "productivity":3328
         },
         "2017":{
-            "area":15007,
-            "production":51609
+            "planted_area":15007,
+            "harvested_area":15007,
+            "production":51609,
+            "productivity":3439
         },
         "2018":{
-            "area":15950,
-            "production":53385
+            "planted_area":15950,
+            "harvested_area":15950,
+            "production":53385,
+            "productivity":3347
         },
         "2019":{
-            "area":18280,
-            "production":58496
+            "planted_area":18280,
+            "harvested_area":18280,
+            "production":58496,
+            "productivity":3200
         },
         "2020":{
-            "area":15410,
-            "production":64722
+            "planted_area":15410,
+            "harvested_area":15410,
+            "production":64722,
+            "productivity":4200
         },
         "2021":{
-            "area":16530,
-            "production":57376
+            "planted_area":16530,
+            "harvested_area":16530,
+            "production":57376,
+            "productivity":3471
         },
         "2022":{
-            "area":15900,
-            "production":9660
+            "planted_area":15900,
+            "harvested_area":13800,
+            "production":9660,
+            "productivity":700
         }
     },
     "São José das Palmeiras":{
         "2008":{
-            "area":"2320",
-            "production":5780
+            "planted_area":2320,
+            "harvested_area":2320,
+            "production":5780,
+            "productivity":2491
         },
         "2009":{
-            "area":2320,
-            "production":3940
+            "planted_area":2320,
+            "harvested_area":2320,
+            "production":3940,
+            "productivity":1698
         },
         "2010":{
-            "area":2150,
-            "production":7635
+            "planted_area":2150,
+            "harvested_area":2150,
+            "production":7635,
+            "productivity":3551
         },
         "2011":{
-            "area":2150,
-            "production":7202
+            "planted_area":2150,
+            "harvested_area":2150,
+            "production":7202,
+            "productivity":3350
         },
         "2012":{
-            "area":1730,
-            "production":2822
+            "planted_area":1730,
+            "harvested_area":1730,
+            "production":2822,
+            "productivity":1631
         },
         "2013":{
-            "area":1750,
-            "production":6125
+            "planted_area":1750,
+            "harvested_area":1750,
+            "production":6125,
+            "productivity":3500
         },
         "2014":{
-            "area":1770,
-            "production":5994
+            "planted_area":1770,
+            "harvested_area":1770,
+            "production":5994,
+            "productivity":3386
         },
         "2015":{
-            "area":1860,
-            "production":6600
+            "planted_area":1860,
+            "harvested_area":1860,
+            "production":6600,
+            "productivity":3548
         },
         "2016":{
-            "area":2040,
-            "production":6544
+            "planted_area":2040,
+            "harvested_area":2040,
+            "production":6544,
+            "productivity":3208
         },
         "2017":{
-            "area":2350,
-            "production":8695
+            "planted_area":2350,
+            "harvested_area":2350,
+            "production":8695,
+            "productivity":3700
         },
         "2018":{
-            "area":2350,
-            "production":8225
+            "planted_area":2350,
+            "harvested_area":2350,
+            "production":8225,
+            "productivity":3500
         },
         "2019":{
-            "area":2300,
-            "production":5129
+            "planted_area":2300,
+            "harvested_area":2300,
+            "production":5129,
+            "productivity":2230
         },
         "2020":{
-            "area":2340,
-            "production":9009
+            "planted_area":2340,
+            "harvested_area":2340,
+            "production":9009,
+            "productivity":3850
         },
         "2021":{
-            "area":2340,
-            "production":9009
+            "planted_area":2340,
+            "harvested_area":2340,
+            "production":9009,
+            "productivity":3850
         },
         "2022":{
-            "area":2830,
-            "production":2550
+            "planted_area":2830,
+            "harvested_area":2830,
+            "production":2550,
+            "productivity":901
         }
     },
     "São Miguel do Iguaçu":{
         "2008":{
-            "area":"46600",
-            "production":142308
+            "planted_area":46600,
+            "harvested_area":46600,
+            "production":142308,
+            "productivity":3053
         },
         "2009":{
-            "area":48120,
-            "production":63747
+            "planted_area":48120,
+            "harvested_area":48120,
+            "production":63747,
+            "productivity":1324
         },
         "2010":{
-            "area":48700,
-            "production":170620
+            "planted_area":48700,
+            "harvested_area":48700,
+            "production":170620,
+            "productivity":3503
         },
         "2011":{
-            "area":47245,
-            "production":170924
+            "planted_area":47245,
+            "harvested_area":47245,
+            "production":170924,
+            "productivity":3618
         },
         "2012":{
-            "area":46070,
-            "production":63952
+            "planted_area":46070,
+            "harvested_area":46070,
+            "production":63952,
+            "productivity":1388
         },
         "2013":{
-            "area":46681,
-            "production":167572
+            "planted_area":46681,
+            "harvested_area":46681,
+            "production":167572,
+            "productivity":3590
         },
         "2014":{
-            "area":50130,
-            "production":161752
+            "planted_area":50130,
+            "harvested_area":50130,
+            "production":161752,
+            "productivity":3227
         },
         "2015":{
-            "area":47380,
-            "production":136666
+            "planted_area":47380,
+            "harvested_area":47380,
+            "production":136666,
+            "productivity":2884
         },
         "2016":{
-            "area":47415,
-            "production":162860
+            "planted_area":47415,
+            "harvested_area":47415,
+            "production":162860,
+            "productivity":3435
         },
         "2017":{
-            "area":45636,
-            "production":148591
+            "planted_area":45636,
+            "harvested_area":45636,
+            "production":148591,
+            "productivity":3256
         },
         "2018":{
-            "area":47050,
-            "production":169380
+            "planted_area":47050,
+            "harvested_area":47050,
+            "production":169380,
+            "productivity":3600
         },
         "2019":{
-            "area":46890,
-            "production":67476
+            "planted_area":46890,
+            "harvested_area":46890,
+            "production":67476,
+            "productivity":1439
         },
         "2020":{
-            "area":46700,
-            "production":196794
+            "planted_area":46700,
+            "harvested_area":46700,
+            "production":196794,
+            "productivity":4214
         },
         "2021":{
-            "area":47050,
-            "production":163311
+            "planted_area":47050,
+            "harvested_area":47050,
+            "production":163311,
+            "productivity":3471
         },
         "2022":{
-            "area":47300,
-            "production":36153
+            "planted_area":47300,
+            "harvested_area":46350,
+            "production":36153,
+            "productivity":780
         }
     },
     "São Pedro do Iguaçu":{
         "2008":{
-            "area":"13000",
-            "production":44200
+            "planted_area":13000,
+            "harvested_area":13000,
+            "production":44200,
+            "productivity":3400
         },
         "2009":{
-            "area":13220,
-            "production":35656
+            "planted_area":13220,
+            "harvested_area":13220,
+            "production":35656,
+            "productivity":2697
         },
         "2010":{
-            "area":13700,
-            "production":45130
+            "planted_area":13700,
+            "harvested_area":13700,
+            "production":45130,
+            "productivity":3294
         },
         "2011":{
-            "area":13200,
-            "production":44880
+            "planted_area":13200,
+            "harvested_area":13200,
+            "production":44880,
+            "productivity":3400
         },
         "2012":{
-            "area":12726,
-            "production":22080
+            "planted_area":12726,
+            "harvested_area":12726,
+            "production":22080,
+            "productivity":1735
         },
         "2013":{
-            "area":12830,
-            "production":44845
+            "planted_area":12830,
+            "harvested_area":12830,
+            "production":44845,
+            "productivity":3495
         },
         "2014":{
-            "area":13260,
-            "production":44988
+            "planted_area":13260,
+            "harvested_area":13260,
+            "production":44988,
+            "productivity":3393
         },
         "2015":{
-            "area":13560,
-            "production":46008
+            "planted_area":13560,
+            "harvested_area":13560,
+            "production":46008,
+            "productivity":3393
         },
         "2016":{
-            "area":14080,
-            "production":47060
+            "planted_area":14080,
+            "harvested_area":14080,
+            "production":47060,
+            "productivity":3342
         },
         "2017":{
-            "area":14000,
-            "production":55580
+            "planted_area":14000,
+            "harvested_area":14000,
+            "production":55580,
+            "productivity":3970
         },
         "2018":{
-            "area":14100,
-            "production":43710
+            "planted_area":14100,
+            "harvested_area":14100,
+            "production":43710,
+            "productivity":3100
         },
         "2019":{
-            "area":14100,
-            "production":36660
+            "planted_area":14100,
+            "harvested_area":14100,
+            "production":36660,
+            "productivity":2600
         },
         "2020":{
-            "area":14150,
-            "production":56600
+            "planted_area":14150,
+            "harvested_area":14150,
+            "production":56600,
+            "productivity":4000
         },
         "2021":{
-            "area":14200,
-            "production":48280
+            "planted_area":14200,
+            "harvested_area":14200,
+            "production":48280,
+            "productivity":3400
         },
         "2022":{
-            "area":14100,
-            "production":17600
+            "planted_area":14100,
+            "harvested_area":14100,
+            "production":17600,
+            "productivity":1248
         }
     },
     "Serranópolis do Iguaçu":{
         "2008":{
-            "area":"11505",
-            "production":40754
+            "planted_area":11505,
+            "harvested_area":11505,
+            "production":40754,
+            "productivity":3542
         },
         "2009":{
-            "area":12530,
-            "production":17513
+            "planted_area":12530,
+            "harvested_area":12530,
+            "production":17513,
+            "productivity":1397
         },
         "2010":{
-            "area":13850,
-            "production":46918
+            "planted_area":13850,
+            "harvested_area":13850,
+            "production":46918,
+            "productivity":3387
         },
         "2011":{
-            "area":11450,
-            "production":43418
+            "planted_area":11450,
+            "harvested_area":11450,
+            "production":43418,
+            "productivity":3792
         },
         "2012":{
-            "area":12300,
-            "production":18292
+            "planted_area":12300,
+            "harvested_area":12300,
+            "production":18292,
+            "productivity":1487
         },
         "2013":{
-            "area":12400,
-            "production":48727
+            "planted_area":12400,
+            "harvested_area":12400,
+            "production":48727,
+            "productivity":3930
         },
         "2014":{
-            "area":13430,
-            "production":53941
+            "planted_area":13430,
+            "harvested_area":13430,
+            "production":53941,
+            "productivity":4016
         },
         "2015":{
-            "area":13590,
-            "production":36193
+            "planted_area":13590,
+            "harvested_area":13590,
+            "production":36193,
+            "productivity":2663
         },
         "2016":{
-            "area":12775,
-            "production":45477
+            "planted_area":12775,
+            "harvested_area":12775,
+            "production":45477,
+            "productivity":3560
         },
         "2017":{
-            "area":12625,
-            "production":43821
+            "planted_area":12625,
+            "harvested_area":12625,
+            "production":43821,
+            "productivity":3471
         },
         "2018":{
-            "area":12655,
-            "production":50620
+            "planted_area":12655,
+            "harvested_area":12655,
+            "production":50620,
+            "productivity":4000
         },
         "2019":{
-            "area":15350,
-            "production":30454
+            "planted_area":15350,
+            "harvested_area":15350,
+            "production":30454,
+            "productivity":1984
         },
         "2020":{
-            "area":14780,
-            "production":64116
+            "planted_area":14780,
+            "harvested_area":14780,
+            "production":64116,
+            "productivity":4338
         },
         "2021":{
-            "area":13105,
-            "production":47112
+            "planted_area":13105,
+            "harvested_area":13105,
+            "production":47112,
+            "productivity":3595
         },
         "2022":{
-            "area":11920,
-            "production":11825
+            "planted_area":11920,
+            "harvested_area":11920,
+            "production":11825,
+            "productivity":992
         }
     },
     "Terra Roxa":{
         "2008":{
-            "area":"57500",
-            "production":169250
+            "planted_area":57500,
+            "harvested_area":57500,
+            "production":169250,
+            "productivity":2943
         },
         "2009":{
-            "area":48500,
-            "production":89300
+            "planted_area":48500,
+            "harvested_area":48500,
+            "production":89300,
+            "productivity":1841
         },
         "2010":{
-            "area":50700,
-            "production":156387
+            "planted_area":50700,
+            "harvested_area":50700,
+            "production":156387,
+            "productivity":3084
         },
         "2011":{
-            "area":52300,
-            "production":166960
+            "planted_area":52300,
+            "harvested_area":52300,
+            "production":166960,
+            "productivity":3192
         },
         "2012":{
-            "area":50600,
-            "production":60810
+            "planted_area":50600,
+            "harvested_area":50600,
+            "production":60810,
+            "productivity":1202
         },
         "2013":{
-            "area":51300,
-            "production":167098
+            "planted_area":51300,
+            "harvested_area":51300,
+            "production":167098,
+            "productivity":3257
         },
         "2014":{
-            "area":50800,
-            "production":151583
+            "planted_area":50800,
+            "harvested_area":50800,
+            "production":151583,
+            "productivity":2984
         },
         "2015":{
-            "area":51325,
-            "production":163040
+            "planted_area":51325,
+            "harvested_area":51325,
+            "production":163040,
+            "productivity":3177
         },
         "2016":{
-            "area":51000,
-            "production":177300
+            "planted_area":51000,
+            "harvested_area":51000,
+            "production":177300,
+            "productivity":3476
         },
         "2017":{
-            "area":52325,
-            "production":183138
+            "planted_area":52325,
+            "harvested_area":52325,
+            "production":183138,
+            "productivity":3500
         },
         "2018":{
-            "area":53180,
-            "production":191448
+            "planted_area":53180,
+            "harvested_area":53180,
+            "production":191448,
+            "productivity":3600
         },
         "2019":{
-            "area":53735,
-            "production":99410
+            "planted_area":53735,
+            "harvested_area":53735,
+            "production":99410,
+            "productivity":1850
         },
         "2020":{
-            "area":54000,
-            "production":216000
+            "planted_area":54000,
+            "harvested_area":54000,
+            "production":216000,
+            "productivity":4000
         },
         "2021":{
-            "area":55000,
-            "production":165000
+            "planted_area":55000,
+            "harvested_area":55000,
+            "production":165000,
+            "productivity":3000
         },
         "2022":{
-            "area":55550,
-            "production":21050
+            "planted_area":55550,
+            "harvested_area":50000,
+            "production":21050,
+            "productivity":421
         }
     },
     "Toledo":{
         "2008":{
-            "area":"65300",
-            "production":206634
+            "planted_area":65300,
+            "harvested_area":65300,
+            "production":206634,
+            "productivity":3164
         },
         "2009":{
-            "area":64100,
-            "production":145120
+            "planted_area":64100,
+            "harvested_area":64100,
+            "production":145120,
+            "productivity":2263
         },
         "2010":{
-            "area":67802,
-            "production":230862
+            "planted_area":67802,
+            "harvested_area":67802,
+            "production":230862,
+            "productivity":3404
         },
         "2011":{
-            "area":66000,
-            "production":221100
+            "planted_area":66000,
+            "harvested_area":66000,
+            "production":221100,
+            "productivity":3350
         },
         "2012":{
-            "area":62600,
-            "production":85220
+            "planted_area":62600,
+            "harvested_area":62600,
+            "production":85220,
+            "productivity":1361
         },
         "2013":{
-            "area":64100,
-            "production":229680
+            "planted_area":64100,
+            "harvested_area":64100,
+            "production":229680,
+            "productivity":3583
         },
         "2014":{
-            "area":69000,
-            "production":239800
+            "planted_area":69000,
+            "harvested_area":69000,
+            "production":239800,
+            "productivity":3475
         },
         "2015":{
-            "area":71000,
-            "production":252000
+            "planted_area":71000,
+            "harvested_area":71000,
+            "production":252000,
+            "productivity":3549
         },
         "2016":{
-            "area":71600,
-            "production":236832
+            "planted_area":71600,
+            "harvested_area":71600,
+            "production":236832,
+            "productivity":3308
         },
         "2017":{
-            "area":69400,
-            "production":284540
+            "planted_area":69400,
+            "harvested_area":69400,
+            "production":284540,
+            "productivity":4100
         },
         "2018":{
-            "area":70400,
-            "production":235840
+            "planted_area":70400,
+            "harvested_area":70400,
+            "production":235840,
+            "productivity":3350
         },
         "2019":{
-            "area":70400,
-            "production":147136
+            "planted_area":70400,
+            "harvested_area":70400,
+            "production":147136,
+            "productivity":2090
         },
         "2020":{
-            "area":70400,
-            "production":281600
+            "planted_area":70400,
+            "harvested_area":70400,
+            "production":281600,
+            "productivity":4000
         },
         "2021":{
-            "area":70400,
-            "production":235840
+            "planted_area":70400,
+            "harvested_area":70400,
+            "production":235840,
+            "productivity":3350
         },
         "2022":{
-            "area":69900,
-            "production":55920
+            "planted_area":69900,
+            "harvested_area":69900,
+            "production":55920,
+            "productivity":800
         }
     },
     "Tupãssi":{
         "2008":{
-            "area":"21000",
-            "production":69300
+            "planted_area":21000,
+            "harvested_area":21000,
+            "production":69300,
+            "productivity":3300
         },
         "2009":{
-            "area":21100,
-            "production":44250
+            "planted_area":21100,
+            "harvested_area":21100,
+            "production":44250,
+            "productivity":2097
         },
         "2010":{
-            "area":22100,
-            "production":81110
+            "planted_area":22100,
+            "harvested_area":22100,
+            "production":81110,
+            "productivity":3670
         },
         "2011":{
-            "area":22150,
-            "production":73925
+            "planted_area":22150,
+            "harvested_area":22150,
+            "production":73925,
+            "productivity":3337
         },
         "2012":{
-            "area":22100,
-            "production":48144
+            "planted_area":22100,
+            "harvested_area":22100,
+            "production":48144,
+            "productivity":2178
         },
         "2013":{
-            "area":22050,
-            "production":79275
+            "planted_area":22050,
+            "harvested_area":22050,
+            "production":79275,
+            "productivity":3595
         },
         "2014":{
-            "area":22720,
-            "production":84079
+            "planted_area":22720,
+            "harvested_area":22720,
+            "production":84079,
+            "productivity":3701
         },
         "2015":{
-            "area":23300,
-            "production":91538
+            "planted_area":23300,
+            "harvested_area":23300,
+            "production":91538,
+            "productivity":3929
         },
         "2016":{
-            "area":24300,
-            "production":83850
+            "planted_area":24300,
+            "harvested_area":24300,
+            "production":83850,
+            "productivity":3451
         },
         "2017":{
-            "area":23300,
-            "production":97860
+            "planted_area":23300,
+            "harvested_area":23300,
+            "production":97860,
+            "productivity":4200
         },
         "2018":{
-            "area":23870,
-            "production":88319
+            "planted_area":23870,
+            "harvested_area":23870,
+            "production":88319,
+            "productivity":3700
         },
         "2019":{
-            "area":23010,
-            "production":62127
+            "planted_area":23010,
+            "harvested_area":23010,
+            "production":62127,
+            "productivity":2700
         },
         "2020":{
-            "area":23010,
-            "production":91258
+            "planted_area":23010,
+            "harvested_area":23010,
+            "production":91258,
+            "productivity":3966
         },
         "2021":{
-            "area":22900,
-            "production":73853
+            "planted_area":22900,
+            "harvested_area":22900,
+            "production":73853,
+            "productivity":3225
         },
         "2022":{
-            "area":23190,
-            "production":26877
+            "planted_area":23190,
+            "harvested_area":23070,
+            "production":26877,
+            "productivity":1165
         }
     },
     "Ubiratã":{
         "2008":{
-            "area":"51800",
-            "production":163170
+            "planted_area":51800,
+            "harvested_area":51800,
+            "production":163170,
+            "productivity":3150
         },
         "2009":{
-            "area":51800,
-            "production":143170
+            "planted_area":51800,
+            "harvested_area":51800,
+            "production":143170,
+            "productivity":2763
         },
         "2010":{
-            "area":51200,
-            "production":180740
+            "planted_area":51200,
+            "harvested_area":51200,
+            "production":180740,
+            "productivity":3530
         },
         "2011":{
-            "area":53400,
-            "production":180000
+            "planted_area":53400,
+            "harvested_area":53400,
+            "production":180000,
+            "productivity":3371
         },
         "2012":{
-            "area":51750,
-            "production":134319
+            "planted_area":51750,
+            "harvested_area":51750,
+            "production":134319,
+            "productivity":2596
         },
         "2013":{
-            "area":52600,
-            "production":180346
+            "planted_area":52600,
+            "harvested_area":52600,
+            "production":180346,
+            "productivity":3429
         },
         "2014":{
-            "area":55500,
-            "production":185540
+            "planted_area":55500,
+            "harvested_area":55500,
+            "production":185540,
+            "productivity":3343
         },
         "2015":{
-            "area":65300,
-            "production":212733
+            "planted_area":65300,
+            "harvested_area":65300,
+            "production":212733,
+            "productivity":3258
         },
         "2016":{
-            "area":64360,
-            "production":214466
+            "planted_area":64360,
+            "harvested_area":64360,
+            "production":214466,
+            "productivity":3332
         },
         "2017":{
-            "area":53000,
-            "production":216770
+            "planted_area":53000,
+            "harvested_area":53000,
+            "production":216770,
+            "productivity":4090
         },
         "2018":{
-            "area":53400,
-            "production":181560
+            "planted_area":53400,
+            "harvested_area":53400,
+            "production":181560,
+            "productivity":3400
         },
         "2019":{
-            "area":53500,
-            "production":139100
+            "planted_area":53500,
+            "harvested_area":53500,
+            "production":139100,
+            "productivity":2600
         },
         "2020":{
-            "area":54000,
-            "production":183600
+            "planted_area":54000,
+            "harvested_area":54000,
+            "production":183600,
+            "productivity":3400
         },
         "2021":{
-            "area":54000,
-            "production":183600
+            "planted_area":54000,
+            "harvested_area":54000,
+            "production":183600,
+            "productivity":3400
         },
         "2022":{
-            "area":53500,
-            "production":64200
+            "planted_area":53500,
+            "harvested_area":53500,
+            "production":64200,
+            "productivity":1200
         }
     },
     "Vera Cruz do Oeste":{
         "2008":{
-            "area":"18300",
-            "production":63519
+            "planted_area":18300,
+            "harvested_area":18300,
+            "production":63519,
+            "productivity":3470
         },
         "2009":{
-            "area":18520,
-            "production":37025
+            "planted_area":18520,
+            "harvested_area":18520,
+            "production":37025,
+            "productivity":1999
         },
         "2010":{
-            "area":19500,
-            "production":66017
+            "planted_area":19500,
+            "harvested_area":19500,
+            "production":66017,
+            "productivity":3385
         },
         "2011":{
-            "area":19475,
-            "production":68124
+            "planted_area":19475,
+            "harvested_area":19475,
+            "production":68124,
+            "productivity":3498
         },
         "2012":{
-            "area":17830,
-            "production":28724
+            "planted_area":17830,
+            "harvested_area":17830,
+            "production":28724,
+            "productivity":1611
         },
         "2013":{
-            "area":19590,
-            "production":73325
+            "planted_area":19590,
+            "harvested_area":19590,
+            "production":73325,
+            "productivity":3743
         },
         "2014":{
-            "area":19840,
-            "production":63742
+            "planted_area":19840,
+            "harvested_area":19820,
+            "production":63742,
+            "productivity":3216
         },
         "2015":{
-            "area":20380,
-            "production":69169
+            "planted_area":20380,
+            "harvested_area":20380,
+            "production":69169,
+            "productivity":3394
         },
         "2016":{
-            "area":20285,
-            "production":70998
+            "planted_area":20285,
+            "harvested_area":20285,
+            "production":70998,
+            "productivity":3500
         },
         "2017":{
-            "area":20335,
-            "production":76256
+            "planted_area":20335,
+            "harvested_area":20335,
+            "production":76256,
+            "productivity":3750
         },
         "2018":{
-            "area":20765,
-            "production":79945
+            "planted_area":20765,
+            "harvested_area":20765,
+            "production":79945,
+            "productivity":3850
         },
         "2019":{
-            "area":18795,
-            "production":57889
+            "planted_area":18795,
+            "harvested_area":18795,
+            "production":57889,
+            "productivity":3080
         },
         "2020":{
-            "area":18545,
-            "production":75868
+            "planted_area":18545,
+            "harvested_area":18545,
+            "production":75868,
+            "productivity":4091
         },
         "2021":{
-            "area":19200,
-            "production":71424
+            "planted_area":19200,
+            "harvested_area":19200,
+            "production":71424,
+            "productivity":3720
         },
         "2022":{
-            "area":18790,
-            "production":24521
+            "planted_area":18790,
+            "harvested_area":18790,
+            "production":24521,
+            "productivity":1305
         }
     }
 }
