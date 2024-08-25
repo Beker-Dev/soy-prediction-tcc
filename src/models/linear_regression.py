@@ -8,7 +8,7 @@ import numpy as np
 import pandas as pd
 from sklearn.linear_model import LinearRegression
 from sklearn.model_selection import train_test_split
-from sklearn.metrics import mean_squared_error, r2_score, root_mean_squared_error, mean_absolute_error
+import sklearn.metrics as skl_metrics
 import matplotlib.pyplot as plt
 
 
@@ -20,6 +20,8 @@ class LinearRegressionModel:
         self.mse = None
         self.rmse = None
         self.r2 = None
+        self.y_test = None
+        self.y_pred = None
 
     def plot_correlation(self):
         correlation = self.get_correlation()
@@ -29,7 +31,24 @@ class LinearRegressionModel:
         plt.colorbar()
         plt.xticks(range(len(correlation.columns)), correlation.columns, rotation=45, ha='left')
         plt.yticks(range(len(correlation.columns)), correlation.columns)
-        plt.title('Correlation Matrix', pad=20)
+        plt.title('Correlation', pad=20)
+        plt.show()
+
+    def plot_linear_regression(self):
+        plt.figure(figsize=(10, 6))
+        plt.scatter(self.y_test, self.y_pred, color='blue', label='Predicted vs Real')
+        plt.plot(
+            [self.y_test.min(), self.y_test.max()],
+            [self.y_test.min(),
+             self.y_test.max()],
+            'r--',
+            label='Optimal Fit'
+        )
+        plt.xlabel('Real Productivity')
+        plt.ylabel('Predicted Productivity')
+        plt.title('Linear Regression: Real Productivity vs Predicted Productivity')
+        plt.legend()
+        plt.grid(True)
         plt.show()
 
     def get_correlation(self):
@@ -80,7 +99,10 @@ class LinearRegressionModel:
 
         y_pred = self.model.predict(X_test)
 
-        self.mae = round(mean_absolute_error(y_test, y_pred), 2)
-        self.mse = round(mean_squared_error(y_test, y_pred), 2)
-        self.rmse = round(root_mean_squared_error(y_test, y_pred), 2)
-        self.r2 = round(r2_score(y_test, y_pred), 2)
+        self.mae = round(skl_metrics.mean_absolute_error(y_test, y_pred), 2)
+        self.mse = round(skl_metrics.mean_squared_error(y_test, y_pred), 2)
+        self.rmse = round(skl_metrics.root_mean_squared_error(y_test, y_pred), 2)
+        self.r2 = round(skl_metrics.r2_score(y_test, y_pred), 2)
+
+        self.y_test = y_test
+        self.y_pred = y_pred

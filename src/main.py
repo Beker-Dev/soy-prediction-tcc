@@ -42,7 +42,8 @@ from src.models.linear_regression import LinearRegressionModel
 linear_regression_model = LinearRegressionModel()
 linear_regression_model.train_model()
 linear_regression_model.plot_correlation()
-predicted_productivity = linear_regression_model.predict(1.66, 4750)
+linear_regression_model.plot_linear_regression()
+predicted_productivity = linear_regression_model.predict(3.39, 5200)
 print(
     f'mae={linear_regression_model.mae}',
     f'mse={linear_regression_model.mse}',
@@ -51,4 +52,3 @@ print(
     f'productivity (kg/ha)={predicted_productivity}',
     sep='\n'
 )
-

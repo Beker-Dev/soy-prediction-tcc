@@ -9,6 +9,7 @@ from collections import defaultdict
 from copy import deepcopy
 
 import pandas as pd
+import numpy as np
 import requests
 
 
@@ -98,7 +99,7 @@ class NasaPower:
                         processed_min_values = {}
 
                     for date, values in daily_values.items():
-                        avg_value = round(sum(values) / len(values), 2)
+                        avg_value = np.median(values)  #round(sum(values) / len(values), 2)
                         processed_daily_values[date] = avg_value
 
                         if param_name == Parameters.T2M.name:
