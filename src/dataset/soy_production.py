@@ -61,7 +61,7 @@ class SoyProduction:
                 row_value = row[str(year)]
 
                 city_data[year] = {
-                    key.value: int(row_value)
+                    key.name: int(row_value)
                 }
 
             for year, c_data in city_data.items():
@@ -83,7 +83,7 @@ class SoyProduction:
 
     def _treat_empty_values(self, df_cell: dict) -> dict:
         possible_empty_values = [None, np.nan, 'nan', '-']
-        df_keys = [e.value for e in SoyProductionEnum]
+        df_keys = [e.name for e in SoyProductionEnum]
 
         if isinstance(df_cell, dict):
             for key in df_keys:

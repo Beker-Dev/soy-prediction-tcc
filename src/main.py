@@ -40,8 +40,15 @@ from src.models.linear_regression import LinearRegressionModel
 
 # [7] - Linear Regression Model
 linear_regression_model = LinearRegressionModel()
-mse, r2 = linear_regression_model.train_model()
-model_correlation = linear_regression_model.get_correlation()
-predicted_productivity = linear_regression_model.predict(3.4, 5200)
-print(model_correlation)
-print(f'mse={mse} / r2={r2} / productivity (kg/ha)={predicted_productivity}', sep='\n')
+linear_regression_model.train_model()
+linear_regression_model.plot_correlation()
+predicted_productivity = linear_regression_model.predict(1.66, 4750)
+print(
+    f'mae={linear_regression_model.mae}',
+    f'mse={linear_regression_model.mse}',
+    f'rmse={linear_regression_model.rmse}',
+    f'r2={linear_regression_model.r2}',
+    f'productivity (kg/ha)={predicted_productivity}',
+    sep='\n'
+)
+

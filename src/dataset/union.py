@@ -39,10 +39,10 @@ class DatasetUnion:
                 processed_data[city]["coordinates"] = details["geometry"]["coordinates"]
                 city_year_data = {
                     "parameters": {},
-                    SoyProductionEnum.PLANTED_AREA.value: None,
-                    SoyProductionEnum.HARVESTED_AREA.value: None,
-                    SoyProductionEnum.PRODUCTION.value: None,
-                    SoyProductionEnum.PRODUCTIVITY.value: None,
+                    SoyProductionEnum.PLANTED_AREA.name: None,
+                    SoyProductionEnum.HARVESTED_AREA.name: None,
+                    SoyProductionEnum.PRODUCTION.name: None,
+                    SoyProductionEnum.PRODUCTIVITY.name: None,
                 }
                 properties = details["properties"]
                 parameters = properties["parameter"]
