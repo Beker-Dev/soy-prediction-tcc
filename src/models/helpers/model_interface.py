@@ -20,5 +20,6 @@ class ModelInterface(ABC):
         self.y_test = None
         self.y_pred = None
 
+    @abstractmethod
     def train_model(self, test_size: float, seed: int):
         pass
