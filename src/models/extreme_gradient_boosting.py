@@ -3,7 +3,6 @@ from src.models.helpers.model_mixin import ModelMixin
 
 from sklearn.model_selection import train_test_split
 from sklearn.ensemble import GradientBoostingRegressor
-from sklearn.datasets import make_regression
 
 
 class ExtremeGradientBoostingModel(ModelInterface, ModelMixin):
