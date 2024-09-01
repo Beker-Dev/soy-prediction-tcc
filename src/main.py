@@ -2,6 +2,8 @@ from src.dataset.soy_production import SoyProduction
 from src.dataset.nasa_power import NasaPower
 from src.dataset.union import DatasetUnion
 from src.models.linear_regression import LinearRegressionModel
+from src.models.random_forest import RandomForestModel
+from src.models.extreme_gradient_boosting import ExtremeGradientBoostingModel
 
 
 # -----------------------------------------------------------------------
@@ -43,12 +45,43 @@ linear_regression_model = LinearRegressionModel()
 linear_regression_model.train_model()
 linear_regression_model.plot_correlation()
 linear_regression_model.plot_linear_regression()
-predicted_productivity = linear_regression_model.predict(3.39, 5200)
+lr_predicted_productivity = linear_regression_model.predict(3.39, 5200)
 print(
     f'mae={linear_regression_model.mae}',
     f'mse={linear_regression_model.mse}',
     f'rmse={linear_regression_model.rmse}',
     f'r2={linear_regression_model.r2}',
-    f'productivity (kg/ha)={predicted_productivity}',
-    sep='\n'
+    f'productivity (kg/ha)={lr_predicted_productivity}',
+    sep='\n',
+    end='\n'+'-'*40+'\n'
+)
+
+# [8] - Random Forest Model
+random_forest_model = RandomForestModel()
+random_forest_model.train_model()
+random_forest_model.plot_correlation()
+rf_predicted_productivity = random_forest_model.predict(3.39, 5200)
+print(
+    f'mae={random_forest_model.mae}',
+    f'mse={random_forest_model.mse}',
+    f'rmse={random_forest_model.rmse}',
+    f'r2={random_forest_model.r2}',
+    f'productivity (kg/ha)={rf_predicted_productivity}',
+    sep='\n',
+    end='\n'+'-'*40+'\n'
+)
+
+# [9] - Extreme Gradient Boosting Model
+extreme_gradient_boosting_model = ExtremeGradientBoostingModel()
+extreme_gradient_boosting_model.train_model()
+extreme_gradient_boosting_model.plot_correlation()
+exb_predicted_productivity = extreme_gradient_boosting_model.predict(3.39, 5200)
+print(
+    f'mae={extreme_gradient_boosting_model.mae}',
+    f'mse={extreme_gradient_boosting_model.mse}',
+    f'rmse={extreme_gradient_boosting_model.rmse}',
+    f'r2={extreme_gradient_boosting_model.r2}',
+    f'productivity (kg/ha)={exb_predicted_productivity}',
+    sep='\n',
+    end='\n'+'-'*40+'\n'
 )

@@ -1,19 +1,20 @@
-from sklearn.datasets import make_regression
-from sklearn.ensemble import GradientBoostingRegressor
+from src.models.helpers.model_interface import ModelInterface
+from src.models.helpers.model_mixin import ModelMixin
+
 from sklearn.model_selection import train_test_split
+from sklearn.ensemble import GradientBoostingRegressor
+from sklearn.datasets import make_regression
 
 
-class ExtremeGradientBoostingModel:
+class ExtremeGradientBoostingModel(ModelInterface, ModelMixin):
     def __init__(self):
-        pass
+        super().__init__(model_instance=GradientBoostingRegressor())
 
-    @staticmethod
-    def run_example():
-        # https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.GradientBoostingRegressor.html
-        x, y = make_regression(random_state=0)
-        x_train, x_test, y_train, y_test = train_test_split(
-            x, y, random_state=0)
-        reg = GradientBoostingRegressor(random_state=0)
-        reg.fit(x_train, y_train)
-        reg.predict(x_test[1:2])
-        print(reg.score(x_test, y_test))
+    def train_model(self, test_size: float = 0.2, seed: int = 49) -> None:
+        self.df = self._get_dataframe()
+        X, y = self._get_model_train_variables()
+        X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=test_size, random_state=seed)
+        self.model.fit(X_train, y_train)
+        y_pred = self.model.predict(X_test)
+        self._set_model_metrics(y_test, y_pred)
+        self._set_model_variables(y_test, y_pred)
