@@ -41,15 +41,23 @@ from src.models.extreme_gradient_boosting import ExtremeGradientBoostingModel
 # DatasetUnion.prepare_dataset_to_models()
 
 # model variables (use them on the models below)
-ETO = 3.39
-PLANTED_AREA = 5200
+model_parameters = {
+    "eto": 3.39,
+    "rh2m": 79.56,
+    "ws2m": 0.96,
+    "t2m": 22.99,
+    "t2m_max": 29.57,
+    "t2m_min": 18.53,
+    "allsky_sfc_sw_dwn": 0.17,
+    "planted_area": 5200
+}
 
 # [7] - Linear Regression Model
 linear_regression_model = LinearRegressionModel()
 linear_regression_model.train_model()
 linear_regression_model.plot_correlation()
 linear_regression_model.plot_linear_regression()
-lr_predicted_productivity = linear_regression_model.predict(ETO, PLANTED_AREA)
+lr_predicted_productivity = linear_regression_model.predict(**model_parameters)
 print(
     f'{linear_regression_model.train_data}',
     f'{linear_regression_model.test_data}',
@@ -62,7 +70,7 @@ print(
 random_forest_model = RandomForestModel()
 random_forest_model.train_model()
 random_forest_model.plot_correlation()
-rf_predicted_productivity = random_forest_model.predict(ETO, PLANTED_AREA)
+rf_predicted_productivity = random_forest_model.predict(**model_parameters)
 print(
     f'{random_forest_model.train_data}',
     f'{random_forest_model.test_data}',
@@ -75,7 +83,7 @@ print(
 extreme_gradient_boosting_model = ExtremeGradientBoostingModel()
 extreme_gradient_boosting_model.train_model()
 extreme_gradient_boosting_model.plot_correlation()
-exb_predicted_productivity = extreme_gradient_boosting_model.predict(ETO, PLANTED_AREA)
+exb_predicted_productivity = extreme_gradient_boosting_model.predict(**model_parameters)
 print(
     f'{extreme_gradient_boosting_model.train_data}',
     f'{extreme_gradient_boosting_model.test_data}',

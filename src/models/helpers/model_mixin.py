@@ -57,6 +57,12 @@ class ModelMixin:
     def _get_model_train_variables(self) -> tuple:
         X = self.df[[
             Parameters.ETO.name,
+            Parameters.RH2M.name,
+            Parameters.WS2M.name,
+            Parameters.T2M.name,
+            Parameters.T2M_MAX.name,
+            Parameters.T2M_MIN.name,
+            Parameters.ALLSKY_SFC_SW_DWN.name,
             SoyProductionEnum.PLANTED_AREA.name,
         ]]
         y = self.df[SoyProductionEnum.PRODUCTIVITY.name]
@@ -65,9 +71,25 @@ class ModelMixin:
     def get_correlation(self):
         return self.df.corr()
 
-    def predict(self, eto: float, planted_area: int) -> float:
+    def predict(
+            self,
+            eto: float,
+            rh2m: float,
+            ws2m: float,
+            t2m: float,
+            t2m_max: float,
+            t2m_min: float,
+            allsky_sfc_sw_dwn: float,
+            planted_area: int
+    ) -> float:
         new_data = pd.DataFrame({
             Parameters.ETO.name: [eto],
+            Parameters.RH2M.name: [rh2m],
+            Parameters.WS2M.name: [ws2m],
+            Parameters.T2M.name: [t2m],
+            Parameters.T2M_MAX.name: [t2m_max],
+            Parameters.T2M_MIN.name: [t2m_min],
+            Parameters.ALLSKY_SFC_SW_DWN.name: [allsky_sfc_sw_dwn],
             SoyProductionEnum.PLANTED_AREA.name: [planted_area]
         })
         prediction = self.model.predict(new_data)
