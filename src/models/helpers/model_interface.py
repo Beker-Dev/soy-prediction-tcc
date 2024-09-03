@@ -13,10 +13,8 @@ class ModelInterface(ABC):
     ):
         self.model = model_instance
         self.df = None
-        self.mae = None
-        self.mse = None
-        self.rmse = None
-        self.r2 = None
+        self.train_data = None
+        self.test_data = None
         self.y_test = None
         self.y_pred = None
 

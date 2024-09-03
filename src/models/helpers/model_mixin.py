@@ -36,11 +36,19 @@ class ModelMixin:
 
         return pd.DataFrame(rows)
 
-    def _set_model_metrics(self, y_test, y_pred):
-        self.mae = round(skl_metrics.mean_absolute_error(y_test, y_pred), 2)
-        self.mse = round(skl_metrics.mean_squared_error(y_test, y_pred), 2)
-        self.rmse = round(skl_metrics.root_mean_squared_error(y_test, y_pred), 2)
-        self.r2 = round(skl_metrics.r2_score(y_test, y_pred), 2)
+    def _set_model_metrics(self, y_train, y_train_pred, y_test, y_test_pred):
+        self.train_data = {
+            "mae": round(skl_metrics.mean_absolute_error(y_train, y_train_pred), 2),
+            "mse": round(skl_metrics.mean_squared_error(y_train, y_train_pred), 2),
+            "rmse": round(skl_metrics.root_mean_squared_error(y_train, y_train_pred), 2),
+            "r2": round(skl_metrics.r2_score(y_train, y_train_pred), 2)
+        }
+        self.test_data = {
+            "mae": round(skl_metrics.mean_absolute_error(y_test, y_test_pred), 2),
+            "mse": round(skl_metrics.mean_squared_error(y_test, y_test_pred), 2),
+            "rmse": round(skl_metrics.root_mean_squared_error(y_test, y_test_pred), 2),
+            "r2": round(skl_metrics.r2_score(y_test, y_test_pred), 2)
+        }
 
     def _set_model_variables(self, y_test, y_pred):
         self.y_test = y_test
