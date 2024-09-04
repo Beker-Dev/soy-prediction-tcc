@@ -17,6 +17,7 @@ class ModelInterface(ABC):
         self.test_data = None
         self.y_test = None
         self.y_pred = None
+        self.predicted_data = None
 
     @abstractmethod
     def train_model(self, test_size: float, seed: int):

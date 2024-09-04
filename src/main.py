@@ -57,37 +57,19 @@ linear_regression_model = LinearRegressionModel()
 linear_regression_model.train_model()
 # linear_regression_model.plot_correlation()
 # linear_regression_model.plot_linear_regression()
-lr_predicted_productivity = linear_regression_model.predict(**model_parameters)
-print(
-    f'train={linear_regression_model.train_data}',
-    f'test={linear_regression_model.test_data}',
-    f'productivity (kg/ha)={lr_predicted_productivity}',
-    sep='\n',
-    end='\n'+'-'*120+'\n'
-)
+linear_regression_model.predict(**model_parameters)
+linear_regression_model.print_model_metrics()
 
 # [8] - Random Forest Model
 random_forest_model = RandomForestModel()
 random_forest_model.train_model()
 # random_forest_model.plot_correlation()
-rf_predicted_productivity = random_forest_model.predict(**model_parameters)
-print(
-    f'train={random_forest_model.train_data}',
-    f'test={random_forest_model.test_data}',
-    f'productivity (kg/ha)={rf_predicted_productivity}',
-    sep='\n',
-    end='\n'+'-'*120+'\n'
-)
+random_forest_model.predict(**model_parameters)
+random_forest_model.print_model_metrics()
 
 # [9] - Extreme Gradient Boosting Model
 extreme_gradient_boosting_model = ExtremeGradientBoostingModel()
 extreme_gradient_boosting_model.train_model()
 # extreme_gradient_boosting_model.plot_correlation()
-exb_predicted_productivity = extreme_gradient_boosting_model.predict(**model_parameters)
-print(
-    f'train={extreme_gradient_boosting_model.train_data}',
-    f'test={extreme_gradient_boosting_model.test_data}',
-    f'productivity (kg/ha)={exb_predicted_productivity}',
-    sep='\n',
-    end='\n'+'-'*120+'\n'
-)
+extreme_gradient_boosting_model.predict(**model_parameters)
+extreme_gradient_boosting_model.print_model_metrics()

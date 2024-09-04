@@ -93,7 +93,8 @@ class ModelMixin:
             SoyProductionEnum.PLANTED_AREA.name: [planted_area]
         })
         prediction = self.model.predict(new_data)
-        return round(prediction[0], 2)
+        self.predicted_data = round(prediction[0], 2)
+        return self.predicted_data
 
     def plot_correlation(self, plot_type='coolwarm'):
         correlation = self.get_correlation()
@@ -106,3 +107,12 @@ class ModelMixin:
         plt.title('Correlation', pad=20)
         plt.show()
 
+    def print_model_metrics(self):
+        print(
+            f'model={self.__class__.__name__}',
+            f'train_data=(rmse={self.train_data["rmse"]}, r2={self.train_data["r2"]})',
+            f'test_data=(rmse={self.test_data["rmse"]}, r2={self.test_data["r2"]})',
+            f'productivity (kg/ha)={self.predicted_data}',
+            sep='\n',
+            end='\n' + '-' * 40 + '\n'
+        )
