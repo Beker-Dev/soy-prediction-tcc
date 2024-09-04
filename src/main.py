@@ -60,7 +60,7 @@ city = "Foz do Iguaçu"
 # linear_regression_model.plot_linear_regression()
 # linear_regression_model.predict(**model_parameters)
 # linear_regression_model.print_model_metrics()
-# linear_regression_model.plot_comparison_bars_by_city(year)
+# linear_regression_model.plot_comparison_bars_by_year(year)
 # linear_regression_model.plot_comparison_bars_by_city(city)
 
 # [8] - Random Forest Model
@@ -69,14 +69,14 @@ city = "Foz do Iguaçu"
 # random_forest_model.plot_correlation()
 # random_forest_model.predict(**model_parameters)
 # random_forest_model.print_model_metrics()
-# random_forest_model.plot_comparison_bars_by_city(year)
+# random_forest_model.plot_comparison_bars_by_year(year)
 # random_forest_model.plot_comparison_bars_by_city(city)
 
 # [9] - Extreme Gradient Boosting Model
-# extreme_gradient_boosting_model = ExtremeGradientBoostingModel()
-# extreme_gradient_boosting_model.train_model()
+extreme_gradient_boosting_model = ExtremeGradientBoostingModel()
+extreme_gradient_boosting_model.train_model()
 # extreme_gradient_boosting_model.plot_correlation()
 # extreme_gradient_boosting_model.predict(**model_parameters)
 # extreme_gradient_boosting_model.print_model_metrics()
-# extreme_gradient_boosting_model.plot_comparison_bars_by_city(year)
-# extreme_gradient_boosting_model.plot_comparison_bars_by_city(city)
+extreme_gradient_boosting_model.plot_comparison_bars_by_year(year)
+extreme_gradient_boosting_model.plot_comparison_bars_by_city(city)
