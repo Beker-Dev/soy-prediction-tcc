@@ -10,6 +10,7 @@ class RandomForestModel(ModelInterface, ModelMixin):
         super().__init__(model_instance=RandomForestRegressor())
 
     def train_model(self, test_size: float = 0.2, seed: int = 49) -> None:
+        self.model.random_state = seed
         self.df = self._get_dataframe()
         X, y = self._get_model_train_variables()
         X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=test_size, random_state=seed)
