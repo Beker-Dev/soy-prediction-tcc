@@ -4,6 +4,7 @@ from src.dataset.enums.soy_production import SoyProductionEnum
 
 import matplotlib.pyplot as plt
 import pandas as pd
+import numpy as np
 import sklearn.metrics as skl_metrics
 
 
@@ -116,3 +117,75 @@ class ModelMixin:
             sep='\n',
             end='\n' + '-' * 40 + '\n'
         )
+
+    def _get_plot_comparison_data(self) -> pd.DataFrame:
+        data_dict = DatasetUnion.get_complete_dataframe().to_dict()
+        records = []
+        for city, years in data_dict.items():
+            for year, details in years.items():
+                if year.isdigit():
+                    parameters = details.get('parameters')
+                    model_parameters = {
+                        "eto": parameters[Parameters.ETO.name],
+                        "rh2m": parameters[Parameters.RH2M.name],
+                        "ws2m": parameters[Parameters.WS2M.name],
+                        "t2m": parameters[Parameters.T2M.name],
+                        "t2m_max": parameters[Parameters.T2M_MAX.name],
+                        "t2m_min": parameters[Parameters.T2M_MIN.name],
+                        "allsky_sfc_sw_dwn": parameters[Parameters.ALLSKY_SFC_SW_DWN.name],
+                        "planted_area": details[SoyProductionEnum.PLANTED_AREA.name]
+                    }
+                    record = {
+                        'city': city,
+                        'year': int(year),
+                        'real_productivity': details[SoyProductionEnum.PRODUCTIVITY.name],
+                        'predicted_productivity': self.predict(**model_parameters)
+                    }
+                    records.append(record)
+        return pd.DataFrame(records)
+
+    def plot_comparison_bars_by_year(self, target_year: int):
+        data = self._get_plot_comparison_data()
+
+        model_name = self.__class__.__name__
+        year_data = data[data['year'] == target_year]
+        cities = year_data['city'].values
+        real_values = year_data['real_productivity'].values
+        predicted_values = year_data['predicted_productivity'].values
+        x = np.arange(len(cities))
+        width = 0.35
+
+        plt.figure(figsize=(12, 6))
+        plt.bar(x - width / 2, real_values, width, label='Real Productivity', color="blue")
+        plt.bar(x + width / 2, predicted_values, width, label='Predicted Productivity', color="green")
+
+        plt.xlabel('City')
+        plt.ylabel('Productivity')
+        plt.title(f'Productivity comparison for year {target_year} - [{model_name}]')
+        plt.xticks(x, cities, rotation=45, ha='right')
+        plt.legend()
+        plt.tight_layout()
+        plt.show()
+
+    def plot_comparison_bars_by_city(self, target_city: str):
+        data = self._get_plot_comparison_data()
+
+        model_name = self.__class__.__name__
+        city_data = data[data['city'] == target_city]
+        years = city_data['year'].values
+        real_values = city_data['real_productivity'].values
+        predicted_values = city_data['predicted_productivity'].values
+        x = np.arange(len(years))
+        width = 0.35
+
+        plt.figure(figsize=(12, 6))
+        plt.bar(x - width / 2, real_values, width, label='Real Productivity', color="blue")
+        plt.bar(x + width / 2, predicted_values, width, label='Predicted Productivity', color="green")
+
+        plt.xlabel('Year')
+        plt.ylabel('Productivity')
+        plt.title(f'Productivity comparison for city {target_city} - [{model_name}]')
+        plt.xticks(x, years, rotation=45, ha='right')
+        plt.legend()
+        plt.tight_layout()
+        plt.show()
