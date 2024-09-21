@@ -54,7 +54,7 @@ class DatasetUnion:
                     for _, value in parameter.items():
                         year_values.append(value)
 
-                    avg_value = np.median(year_values)  #round(sum(year_values) / len(year_values), 2)
+                    avg_value = round(sum(year_values) / len(year_values), 2)
                     city_year_data["parameters"][param_name] = avg_value
 
                 for soy_p_name, soy_p_value in soy_production.items():

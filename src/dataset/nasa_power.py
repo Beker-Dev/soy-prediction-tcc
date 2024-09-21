@@ -99,7 +99,7 @@ class NasaPower:
                         processed_min_values = {}
 
                     for date, values in daily_values.items():
-                        avg_value = np.median(values)  #round(sum(values) / len(values), 2)
+                        avg_value = round(sum(values) / len(values), 2)
                         processed_daily_values[date] = avg_value
 
                         if param_name == Parameters.T2M.name:
@@ -153,8 +153,9 @@ class NasaPower:
                             temp_max=data[city][year]["properties"]["parameter"][Parameters.T2M_MAX.name][date],
                             temp_avg=data[city][year]["properties"]["parameter"][Parameters.T2M.name][date],
                             wind_speed=data[city][year]["properties"]["parameter"][Parameters.WS2M.name][date],
-                            humidity=1,#data[city][year]["properties"]["parameter"][Parameters.RH2M.name][date],
-                            radiation=data[city][year]["properties"]["parameter"][Parameters.ALLSKY_SFC_SW_DWN.name][date]
+                            humidity=data[city][year]["properties"]["parameter"][Parameters.RH2M.name][date],
+                            radiation=data[city][year]["properties"]["parameter"][Parameters.ALLSKY_SFC_SW_DWN.name][
+                                date]
                         )
                     data[city][year]["properties"]["parameter"][Parameters.ETO.name] = processed_data
 
