@@ -48,7 +48,7 @@ model_parameters = {
     "t2m_max": 29.57,
     "t2m_min": 18.53,
     "allsky_sfc_sw_dwn": 0.17,
-    "planted_area": 5200
+    # "planted_area": 5200
 }
 year = 2020
 city = "Foz do Iguaçu"
@@ -85,4 +85,4 @@ extreme_gradient_boosting_model.print_model_metrics()
 # extreme_gradient_boosting_model.plot_model_parameters_boxplot()
 # extreme_gradient_boosting_model.plot_correlation()
 # extreme_gradient_boosting_model.plot_comparison_bars_by_year(year)
-# extreme_gradient_boosting_model.plot_comparison_bars_by_city(city)
+extreme_gradient_boosting_model.plot_comparison_bars_by_city(city)

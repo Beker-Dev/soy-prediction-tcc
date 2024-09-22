@@ -64,7 +64,7 @@ class ModelMixin:
             Parameters.T2M_MAX.name,
             Parameters.T2M_MIN.name,
             Parameters.ALLSKY_SFC_SW_DWN.name,
-            SoyProductionEnum.PLANTED_AREA.name,
+            # SoyProductionEnum.PLANTED_AREA.name,
         ]]
         y = self.df[SoyProductionEnum.PRODUCTIVITY.name]
         return X, y
@@ -81,7 +81,7 @@ class ModelMixin:
             t2m_max: float,
             t2m_min: float,
             allsky_sfc_sw_dwn: float,
-            planted_area: int
+            # planted_area: int
     ) -> float:
         new_data = pd.DataFrame({
             Parameters.ETO.name: [eto],
@@ -91,7 +91,7 @@ class ModelMixin:
             Parameters.T2M_MAX.name: [t2m_max],
             Parameters.T2M_MIN.name: [t2m_min],
             Parameters.ALLSKY_SFC_SW_DWN.name: [allsky_sfc_sw_dwn],
-            SoyProductionEnum.PLANTED_AREA.name: [planted_area]
+            # SoyProductionEnum.PLANTED_AREA.name: [planted_area]
         })
         prediction = self.model.predict(new_data)
         self.predicted_data = round(prediction[0], 2)
@@ -133,7 +133,7 @@ class ModelMixin:
                         "t2m_max": parameters[Parameters.T2M_MAX.name],
                         "t2m_min": parameters[Parameters.T2M_MIN.name],
                         "allsky_sfc_sw_dwn": parameters[Parameters.ALLSKY_SFC_SW_DWN.name],
-                        "planted_area": details[SoyProductionEnum.PLANTED_AREA.name]
+                        # "planted_area": details[SoyProductionEnum.PLANTED_AREA.name]
                     }
                     record = {
                         'city': city,
