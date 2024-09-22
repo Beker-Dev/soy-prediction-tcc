@@ -111,8 +111,8 @@ class ModelMixin:
     def print_model_metrics(self):
         print(
             f'model={self.__class__.__name__}',
-            f'train_data=(rmse={self.train_data["rmse"]}, r2={self.train_data["r2"]})',
-            f'test_data=(rmse={self.test_data["rmse"]}, r2={self.test_data["r2"]})',
+            f'train_data=(mae={self.train_data["mae"]}, mse={self.train_data["mse"]}, rmse={self.train_data["rmse"]}, r2={self.train_data["r2"]})',
+            f'test_data=(mae={self.test_data["mae"]}, mse={self.test_data["mse"]}, rmse={self.test_data["rmse"]}, r2={self.test_data["r2"]})',
             f'productivity (kg/ha)={self.predicted_data}',
             sep='\n',
             end='\n' + '-' * 40 + '\n'
