@@ -80,24 +80,12 @@ class NasaPower:
             data = json.load(file)
 
         processed_data = {}
-        outlier_counts = {
-            Parameters.T2M.name: 0,
-            Parameters.RH2M.name: 0,
-            Parameters.WS2M.name: 0,
-            Parameters.ALLSKY_SFC_SW_DWN.name: 0
-        }
-        total_counts = {
-            Parameters.T2M.name: 0,
-            Parameters.RH2M.name: 0,
-            Parameters.WS2M.name: 0,
-            Parameters.ALLSKY_SFC_SW_DWN.name: 0
-        }
 
         for city, years in data.items():
             processed_data[city] = {}
             for year, details in years.items():
                 # Remove data from 2023 and 2024 to avoid inaccuracies
-                if year in [2023, 2024]:
+                if int(year) in [2023, 2024]:
                     continue
 
                 processed_data[city][year] = {
@@ -127,9 +115,7 @@ class NasaPower:
                         # -----------------------------------------------------------------
                         # Detect and treat outliers
                         outliers = NasaPower._handle_outliers(values)
-                        total_counts[param_name] += len(values)
                         if outliers:
-                            outlier_counts[param_name] += len(outliers)
                             median_value = round(np.median(values), 2)
                             values = [median_value if v in outliers else v for v in values]
                         # -----------------------------------------------------------------
@@ -151,8 +137,6 @@ class NasaPower:
                         processed_data[city][year]["properties"]["parameter"][Parameters.T2M_MIN.name] = (
                             processed_min_values
                         )
-
-        print('counter', outlier_counts)
 
         with open(save_file, 'w', encoding='utf-8') as file:
             json.dump(processed_data, file, indent=4, ensure_ascii=False)
