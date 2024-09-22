@@ -24,7 +24,7 @@ from src.models.extreme_gradient_boosting import ExtremeGradientBoostingModel
 # NasaPower.save_agrometeorological_data()
 
 # [2] - It handles nasa power dataset, by replacing hourly data to daily data with its average and adding max, min temp
-# NasaPower.clean_data()
+NasaPower.clean_data()
 
 # [3] - It saves evapotranspiration data to NasaPower .json file
 # NasaPower.set_eto()
@@ -56,6 +56,8 @@ city = "Foz do Iguaçu"
 # [7] - Linear Regression Model
 # linear_regression_model = LinearRegressionModel()
 # linear_regression_model.train_model()
+# print('lr', linear_regression_model.train_data)
+# linear_regression_model.plot_model_parameters_boxplot()
 # linear_regression_model.plot_correlation()
 # linear_regression_model.plot_linear_regression()
 # linear_regression_model.predict(**model_parameters)
@@ -66,6 +68,8 @@ city = "Foz do Iguaçu"
 # [8] - Random Forest Model
 # random_forest_model = RandomForestModel()
 # random_forest_model.train_model()
+# print('random-forest', random_forest_model.train_data)
+# random_forest_model.plot_model_parameters_boxplot()
 # random_forest_model.plot_correlation()
 # random_forest_model.predict(**model_parameters)
 # random_forest_model.print_model_metrics()
@@ -73,10 +77,12 @@ city = "Foz do Iguaçu"
 # random_forest_model.plot_comparison_bars_by_city(city)
 
 # [9] - Extreme Gradient Boosting Model
-extreme_gradient_boosting_model = ExtremeGradientBoostingModel()
-extreme_gradient_boosting_model.train_model()
+# extreme_gradient_boosting_model = ExtremeGradientBoostingModel()
+# extreme_gradient_boosting_model.train_model()
+# print('xgboost', extreme_gradient_boosting_model.train_data)
+# extreme_gradient_boosting_model.plot_model_parameters_boxplot()
 # extreme_gradient_boosting_model.plot_correlation()
 # extreme_gradient_boosting_model.predict(**model_parameters)
 # extreme_gradient_boosting_model.print_model_metrics()
-extreme_gradient_boosting_model.plot_comparison_bars_by_year(year)
-extreme_gradient_boosting_model.plot_comparison_bars_by_city(city)
+# extreme_gradient_boosting_model.plot_comparison_bars_by_year(year)
+# extreme_gradient_boosting_model.plot_comparison_bars_by_city(city)

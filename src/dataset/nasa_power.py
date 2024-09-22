@@ -63,6 +63,15 @@ class NasaPower:
             json.dump(results, file, indent=4)
 
     @staticmethod
+    def _handle_outliers(values):
+        q1 = np.percentile(values, 25)
+        q3 = np.percentile(values, 75)
+        iqr = q3 - q1
+        lower_bound = q1 - 1.5 * iqr
+        upper_bound = q3 + 1.5 * iqr
+        return [value for value in values if value < lower_bound or value > upper_bound]
+
+    @staticmethod
     def clean_data(
             read_file: str = "assets/agromet_data_2008_2024.json",
             save_file: str = "assets/agromet_data_2008_2024_processed.json"
@@ -71,10 +80,26 @@ class NasaPower:
             data = json.load(file)
 
         processed_data = {}
+        outlier_counts = {
+            Parameters.T2M.name: 0,
+            Parameters.RH2M.name: 0,
+            Parameters.WS2M.name: 0,
+            Parameters.ALLSKY_SFC_SW_DWN.name: 0
+        }
+        total_counts = {
+            Parameters.T2M.name: 0,
+            Parameters.RH2M.name: 0,
+            Parameters.WS2M.name: 0,
+            Parameters.ALLSKY_SFC_SW_DWN.name: 0
+        }
 
         for city, years in data.items():
             processed_data[city] = {}
             for year, details in years.items():
+                # Remove data from 2023 and 2024 to avoid inaccuracies
+                if year in [2023, 2024]:
+                    continue
+
                 processed_data[city][year] = {
                     "type": details.get("type"),
                     "geometry": details.get("geometry"),
@@ -99,6 +124,16 @@ class NasaPower:
                         processed_min_values = {}
 
                     for date, values in daily_values.items():
+                        # -----------------------------------------------------------------
+                        # Detect and treat outliers
+                        outliers = NasaPower._handle_outliers(values)
+                        total_counts[param_name] += len(values)
+                        if outliers:
+                            outlier_counts[param_name] += len(outliers)
+                            median_value = round(np.median(values), 2)
+                            values = [median_value if v in outliers else v for v in values]
+                        # -----------------------------------------------------------------
+
                         avg_value = round(sum(values) / len(values), 2)
                         processed_daily_values[date] = avg_value
 
@@ -117,8 +152,7 @@ class NasaPower:
                             processed_min_values
                         )
 
-        # It removes 2024 data from dataset to avoid keep inaccurate data
-        NasaPower._remove_data_by_year(processed_data, [2023, 2024])
+        print('counter', outlier_counts)
 
         with open(save_file, 'w', encoding='utf-8') as file:
             json.dump(processed_data, file, indent=4, ensure_ascii=False)

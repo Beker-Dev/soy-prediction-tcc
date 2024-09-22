@@ -189,3 +189,37 @@ class ModelMixin:
         plt.legend()
         plt.tight_layout()
         plt.show()
+
+    def plot_model_parameters_boxplot(self):
+        data_dict = DatasetUnion.get_complete_dataframe().to_dict()
+
+        parameters = [
+            # Parameters.ETO.name,
+            # Parameters.T2M_MAX.name,
+            # Parameters.T2M_MIN.name,
+            Parameters.T2M.name,
+            Parameters.RH2M.name,
+            Parameters.WS2M.name,
+            Parameters.ALLSKY_SFC_SW_DWN.name,
+        ]
+
+        parameter_data = {param: [] for param in parameters}
+
+        for city, years in data_dict.items():
+            for year, details in years.items():
+                if year.isdigit():
+                    parameters_in_year = details.get('parameters')
+                    if parameters_in_year:
+                        for param in parameters:
+                            if param in parameters_in_year:
+                                parameter_data[param].append(parameters_in_year[param])
+
+        for param in parameters:
+            plt.figure(figsize=(8, 6))
+            plt.boxplot(parameter_data[param], patch_artist=True)
+
+            plt.xlabel('Data Points')
+            plt.ylabel('Values')
+            plt.title(f'Boxplot of {param}')
+            plt.tight_layout()
+            plt.show()
