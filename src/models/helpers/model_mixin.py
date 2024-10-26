@@ -178,9 +178,15 @@ class ModelMixin:
         x = np.arange(len(years))
         width = 0.35
 
+        accuracy = 100 - (np.abs(real_values - predicted_values) / real_values * 100)
+
         plt.figure(figsize=(12, 6))
         plt.bar(x - width / 2, real_values, width, label='Real Productivity', color="blue")
         plt.bar(x + width / 2, predicted_values, width, label='Predicted Productivity', color="green")
+
+        for i in range(len(years)):
+            y_position = max(real_values[i], predicted_values[i]) + 50
+            plt.text(x[i], y_position, f'{accuracy[i]:.2f}%', ha='center')
 
         plt.xlabel('Year')
         plt.ylabel('Productivity')

@@ -51,7 +51,7 @@ model_parameters = {
     # "planted_area": 5200
 }
 year = 2020
-city = "Foz do Iguaçu"
+city = "Corbélia"
 
 # [7] - Linear Regression Model
 linear_regression_model = LinearRegressionModel()
@@ -63,7 +63,7 @@ linear_regression_model.print_model_metrics()
 # linear_regression_model.plot_correlation()
 # linear_regression_model.plot_linear_regression()
 # linear_regression_model.plot_comparison_bars_by_year(year)
-# linear_regression_model.plot_comparison_bars_by_city(city)
+linear_regression_model.plot_comparison_bars_by_city(city)
 
 # [8] - Random Forest Model
 random_forest_model = RandomForestModel()
@@ -74,7 +74,7 @@ random_forest_model.print_model_metrics()
 # random_forest_model.plot_model_parameters_boxplot()
 # random_forest_model.plot_correlation()
 # random_forest_model.plot_comparison_bars_by_year(year)
-# random_forest_model.plot_comparison_bars_by_city(city)
+random_forest_model.plot_comparison_bars_by_city(city)
 
 # [9] - Extreme Gradient Boosting Model
 extreme_gradient_boosting_model = ExtremeGradientBoostingModel()
