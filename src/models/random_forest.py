@@ -40,9 +40,13 @@ class RandomForestModel(ModelInterface, ModelMixin):
             plt.figure(figsize=(10, 6))
             plt.barh(feature_importances_df['feature'], feature_importances_df['importance'])
             plt.xlabel("Feature Importance")
-            plt.ylabel("Feature")
             plt.title("Feature Importances - Random Forest")
             plt.gca().invert_yaxis()
+            plt.subplots_adjust(left=0.2)
+
+            for index, value in enumerate(feature_importances_df['importance']):
+                plt.text(value, index, f"{value:.1%}", va='center', ha='right', color='white', fontweight='bold')
+
             plt.show()
         else:
             print(feature_importances_df)
