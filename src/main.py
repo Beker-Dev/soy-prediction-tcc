@@ -54,23 +54,24 @@ year = 2020
 city = "Corbélia"
 
 # [7] - Linear Regression Model
-linear_regression_model = LinearRegressionModel()
-linear_regression_model.train_model()
-linear_regression_model.predict(**model_parameters)
-linear_regression_model.print_model_metrics()
+# linear_regression_model = LinearRegressionModel()
+# linear_regression_model.train_model()
+# linear_regression_model.predict(**model_parameters)
+# linear_regression_model.print_model_metrics()
 # print('lr', linear_regression_model.train_data)
 # linear_regression_model.plot_model_parameters_boxplot()
-linear_regression_model.plot_correlation()
+# linear_regression_model.plot_correlation()
 # linear_regression_model.plot_linear_regression()
 # linear_regression_model.plot_comparison_bars_by_year(year)
 # linear_regression_model.plot_comparison_bars_by_city(city)
 
 # [8] - Random Forest Model
-# random_forest_model = RandomForestModel()
-# random_forest_model.train_model()
-# random_forest_model.predict(**model_parameters)
-# random_forest_model.print_model_metrics()
+random_forest_model = RandomForestModel()
+random_forest_model.train_model()
+random_forest_model.predict(**model_parameters)
+random_forest_model.print_model_metrics()
 # print('random-forest', random_forest_model.train_data)
+random_forest_model.plot_feature_importances()
 # random_forest_model.plot_model_parameters_boxplot()
 # random_forest_model.plot_correlation()
 # random_forest_model.plot_comparison_bars_by_year(year)
