@@ -106,6 +106,12 @@ class ModelMixin:
         plt.xticks(range(len(correlation.columns)), correlation.columns, rotation=45, ha='left')
         plt.yticks(range(len(correlation.columns)), correlation.columns)
         plt.title('Correlation', pad=20)
+
+        for i in range(len(correlation.columns)):
+            for j in range(len(correlation.columns)):
+                value = correlation.iloc[i, j]
+                plt.text(j, i, f"{value:.2f}", ha='center', va='center', color="black")
+
         plt.show()
 
     def print_model_metrics(self):
